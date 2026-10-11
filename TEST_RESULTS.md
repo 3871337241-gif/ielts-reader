@@ -22,5 +22,15 @@
 | 备份导出 | 实际下载 JSON 文件（1704 字节），重新导入后生词 1 个、错题 2 个与答题记录恢复 |
 | 375 / 320 像素宽题目布局 | 均无横向溢出，14 个答案控件完整 |
 | 自动测试 | 5/5 通过；内容引用、词形、答案与证据检查通过 |
+| 正式 Pages 地址 | HTTPS 正常加载，890 个可点击词元；浏览器未观察到错误日志 |
+| 正式站查词与收藏 | relevant、flourished 显示对应词卡；收藏刷新后仍为 1 个 |
+| 正式站评分与错题 | 14/14；填 shell / a lake 后 12/14、错题 2 个；刷新保留 |
+| 正式站证据跳转 | 第 34 题定位 sentence-E4；返回原题成功 |
+| 正式站 390×844 | 文档宽度 390、词卡高 438.875；外部关闭与刷新均保持 scrollY 7358 |
+| GitHub CI 与 Pages 发布 | PR 两项检查通过，main 检查通过，Pages build / deploy 成功 |
 
-网页采用标准 SpeechSynthesis API 和文件下载/导入 API。没有真实 iPhone 硬件，不将尺寸模拟等同于真实 iPhone Safari 验收。生产 Pages 访问与 CI 状态在发布后补记。
+正式网站：https://3871337241-gif.github.io/ielts-reader/
+
+发布记录：[Pages 部署](https://github.com/3871337241-gif/ielts-reader/actions/runs/38106511663)，[main 检查](https://github.com/3871337241-gif/ielts-reader/actions/runs/38106402229)，[已合并 PR](https://github.com/3871337241-gif/ielts-reader/pull/1)。
+
+网页采用标准 SpeechSynthesis API 和文件下载/导入 API。没有真实 iPhone 硬件，不将尺寸模拟等同于真实 iPhone Safari 验收。英国英语音频输出仍须在用户设备听验，学习记录支持备份迁移但不会自动跨设备同步。无法可靠确认的词根拆解明确留空说明，未编造。
