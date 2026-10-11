@@ -1,0 +1,76 @@
+{
+  "articles": 204,
+  "forms": 16095,
+  "dictionaryCovered": 15124,
+  "errors": [],
+  "books": [
+    {
+      "book": 4,
+      "count": 12
+    },
+    {
+      "book": 5,
+      "count": 12
+    },
+    {
+      "book": 6,
+      "count": 12
+    },
+    {
+      "book": 7,
+      "count": 12
+    },
+    {
+      "book": 8,
+      "count": 12
+    },
+    {
+      "book": 9,
+      "count": 12
+    },
+    {
+      "book": 10,
+      "count": 12
+    },
+    {
+      "book": 11,
+      "count": 12
+    },
+    {
+      "book": 12,
+      "count": 12
+    },
+    {
+      "book": 13,
+      "count": 12
+    },
+    {
+      "book": 14,
+      "count": 12
+    },
+    {
+      "book": 15,
+      "count": 12
+    },
+    {
+      "book": 16,
+      "count": 12
+    },
+    {
+      "book": 17,
+      "count": 12
+    },
+    {
+      "book": 18,
+      "count": 12
+    },
+    {
+      "book": 19,
+      "count": 12
+    },
+    {
+      "book": 20,
+      "count": 12
+    }
+  ]
+}
