@@ -12,3 +12,5 @@ test('explicit unknown dictionary entries survive collection backups without inv
 test('Latin accents stay in one clickable token and use the base dictionary form',()=>{const text='kākāpō, Galápagos and Lumière';assert.deepEqual(tokens(text).map(t=>[t.text,t.form]),[['kākāpō','kakapo'],['Galápagos','galapagos'],['and','and'],['Lumière','lumiere']]);tokens(text).forEach(t=>assert.equal(text.slice(t.start,t.start+t.text.length),t.text))});
 
 test('constructor is a valid vocabulary word, while underscore object keys are rejected',()=>{const s=emptyState();s.bookmarks.constructor={...entry,note:{...entry.note,lemma:'constructor'}};assert.equal(validateState(s,ids).bookmarks.constructor.note.lemma,'constructor');s.bookmarks.__bad={...entry};assert.throws(()=>validateState(s,ids))});
+
+test('non-decomposing Latin names keep the entire collection across reloads',()=>{const s=emptyState();s.bookmarks.relevant=entry;s.bookmarks['pilø']={...entry,form:'Pilø',note:{...entry.note,lemma:'pilø',verified:false}};const r=validateState(JSON.parse(JSON.stringify(s)),ids);assert.equal(r.bookmarks['pilø'].form,'Pilø');assert.equal(r.bookmarks.relevant.mastered,true)});
