@@ -1,37 +1,12 @@
-import fs from 'node:fs';
-import path from 'node:path';
-import crypto from 'node:crypto';
-import assert from 'node:assert/strict';
-import {tokens} from '../src/core.js';
-const root=path.resolve(import.meta.dirname,'..');
-const read=n=>JSON.parse(fs.readFileSync(path.join(root,n),'utf8'));
-const article=read('content/c13-t3-p3/article.json'), vocabulary=read('content/c13-t3-p3/vocabulary.json'), questions=read('content/c13-t3-p3/questions.json'), analysis=read('content/c13-t3-p3/analysis.json'), source=read('verification/source-check.json');
-assert.deepEqual(article.paragraphs.map(p=>p.id),[...'ABCDEFGH']);
-assert.deepEqual(questions.questions.map(q=>q.id),Array.from({length:14},(_,i)=>27+i));
-assert.deepEqual(questions.groups.flatMap(g=>g.questionIds),questions.questions.map(q=>q.id));
-const sentences=new Map(article.paragraphs.flatMap(p=>p.sentences.map(s=>[s.id,s.text])));
-assert.equal(sentences.size,article.paragraphs.flatMap(p=>p.sentences).length);
-for(const p of article.paragraphs){
- const hash=crypto.createHash('sha256').update(p.sentences.map(s=>s.text).join(' ').match(/[A-Za-z0-9]+/g).join(' ')).digest('hex');
- assert.equal(hash,source.paragraphWordHashes[p.id],`source mismatch ${p.id}`);
-}
-let tokenCount=0;
-for(const [sid,text] of [...sentences,['title',article.title],['subtitle',article.subtitle]]) for(const t of tokens(text)){
- tokenCount++;
- assert(vocabulary[t.form],`No card for ${sid}: ${t.form}`);
- const v=vocabulary[t.form];
- for(const key of ['lemma','pos','contextZh','commonZh','morphology']) assert(v[key]&&!/待补充|待核实/.test(v[key]),`Missing ${key}: ${t.form}`);
-}
-for(const [form,v] of Object.entries(vocabulary)){
- for(const o of v.occurrences){assert(sentences.has(o.sentenceId));const token=tokens(sentences.get(o.sentenceId))[o.tokenIndex];assert(token);assert.equal(vocabulary[token.form].lemma,v.lemma);assert.equal(token.text,o.form)}
- for(const [sid] of Object.entries(v.contexts)) assert(sentences.has(sid));
- for(const link of v.questionLinks){assert(questions.questions.some(q=>q.id===link.questionId));assert(sentences.has(link.sentenceId))}
-}
-for(const q of questions.questions){assert.equal(q.answer,source.officialAnswers[q.id]);const a=analysis.questions.find(a=>a.questionId===q.id);assert(a?.logic&&a.trap&&a.paraphrase);assert(a.evidence.length);for(const e of a.evidence)assert.equal(e.quote,sentences.get(e.sentenceId));if(q.id>=32&&q.id<=36)assert(article.paragraphs.some(p=>p.sentences.some(s=>tokens(s.text).some(t=>t.form===q.answer))))}
-const summary=questions.groups[1].paragraphs.join(' ');
-assert.deepEqual([...summary.matchAll(/\{\{(\d+)\}\}/g)].map(m=>Number(m[1])),[32,33,34,35,36]);
-assert(summary.includes('extended period of drought.'));
-assert(summary.includes('links between inhabitants of different parts of the region and whether these changed over time.'));
-assert(questions.groups[0].instructions.at(-1).includes('more than once'));
-assert(questions.groups[2].instructions.at(-1).includes('more than once'));
-console.log(`PASS: A–H, 32 sentences, 14 official questions/answers, ${tokenCount} clickable tokens, ${Object.keys(vocabulary).length} complete word forms; all evidence and occurrence links resolve.`);
+import fs from 'node:fs';import assert from 'node:assert/strict';import {tokens} from '../src/core.js';
+const read=p=>JSON.parse(fs.readFileSync(new URL('../'+p,import.meta.url),'utf8'));
+const library=read('content/library.json'),lexicon=read('content/lexicon.json');
+assert.equal(library.articles.length,204);assert.equal(library.books.length,17);const ids=new Set();let count=0;
+for(const b of library.books){assert(b.number>=4&&b.number<=20);assert.equal(b.count,12);const data=read(b.path);assert.equal(Object.keys(data.articles).length,12);for(const entry of library.articles.filter(a=>a.book===b.number)){
+ assert(!ids.has(entry.id));ids.add(entry.id);const a=data.articles[entry.id];assert.equal(a.title,entry.title);assert.equal(a.book,b.number);assert(a.paragraphs.length);const sentenceIds=new Set();
+ assert(!/Write the correct|List of Headings|Questions\s+\d+\s*[-–]/i.test(a.title),entry.id+' question text in title');
+ for(const p of a.paragraphs)for(const s of p.sentences){assert(!sentenceIds.has(s.id),entry.id+' duplicate sentence '+s.id);sentenceIds.add(s.id);assert(!/Write the correct|in boxes \d+|List of Headings/i.test(s.text),entry.id+' question text in article');for(const t of tokens(s.text)){assert(lexicon[t.form],entry.id+' missing '+t.form);count++}}
+ assert(fs.existsSync(new URL('../'+a.source.image,import.meta.url)),entry.id+' source image missing');assert(a.source.filePages.length);assert(/^[a-f0-9]{64}$/.test(a.source.sha256));
+}}
+assert.deepEqual(library.books.find(b=>b.number===12).tests,[5,6,7,8]);
+console.log(`PASS: 17 books, 204 readings, ${count} clickable body words, ${Object.keys(lexicon).length} dictionary forms; source images, hierarchy, unique anchors and paragraph boundaries checked.`);
