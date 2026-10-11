@@ -1,29 +1,14 @@
-import {test} from 'node:test';
-import assert from 'node:assert/strict';
-import {tokens,grade,emptyState,validateState} from '../src/core.js';
-const qs=[{id:27,answer:'C'},{id:32,answer:'shells'},{id:33,answer:'lake'},{id:34,answer:'rainfall'}];
-test('scoring trims whitespace and ignores case, but rejects extra words and wrong plural',()=>{
- assert.equal(grade(qs,{27:' c ',32:'SHELLS',33:'lake',34:' Rainfall '}).score,4);
- assert.equal(grade(qs,{27:'C or H',32:'shell',33:'a lake',34:'rain'}).score,0);
- assert.equal(grade(qs,{}).score,0);
-});
-test('tokenization preserves possessives and hyphenated terms; indices are stable',()=>{
- const text='Singh’s glacier-fed rivers: well-argued speculation.';
- const ts=tokens(text);assert.deepEqual(ts.map(t=>t.form),['singh’s','glacier-fed','rivers','well-argued','speculation']);
- ts.forEach((t,i)=>{assert.equal(text.slice(t.start,t.start+t.text.length),t.text);assert.equal(t.index,i)});
-});
-const vocab={relevant:{lemma:'relevant'},flourished:{lemma:'flourish'}};
-const sentences=new Set(['A1','H2']);
-test('learning backup roundtrip retains bookmarks, answers, attempts and reading anchor',()=>{
- const s=emptyState();s.bookmarks.relevant={form:'relevant',mastered:true,reviewed:2,nextReview:123};s.answers[32]='shells';s.attempts=[{answers:{32:'shells'},timestamp:'2026-10-11'}];s.mistakes[27]={count:2,answer:'A',resolved:false};s.progress={sentenceId:'H2',offset:-112,percent:80};s.tab='vocab';
- const r=validateState(JSON.parse(JSON.stringify(s)),vocab,sentences);assert.equal(r.bookmarks.relevant.mastered,true);assert.equal(r.answers[32],'shells');assert.equal(r.attempts[0].answers[32],'shells');assert.equal(r.mistakes[27].count,2);assert.deepEqual(r.progress,s.progress);assert.equal(r.tab,'vocab');
-});
-test('import rejects wrong article, invalid words and malformed bookmarks',()=>{
- assert.throws(()=>validateState({version:2,articleId:'other'},vocab,sentences));
- const s=emptyState();s.bookmarks.bad={form:'bad'};assert.throws(()=>validateState(s,vocab,sentences));
- s.bookmarks=[];assert.throws(()=>validateState(s,vocab,sentences));
-});
-test('import sanitizes unknown fields, unsafe counts and invalid progress anchors',()=>{
- const s=emptyState();s.progress={sentenceId:'Z99',offset:Infinity};s.fontSize=1000;s.tab='bad';s.answers={32:'x'.repeat(200),99:'extra'};s.injected='<script>';
- const r=validateState(s,vocab,sentences);assert.equal(r.progress,null);assert.equal(r.fontSize,20);assert.equal(r.tab,'read');assert.equal(r.answers[32].length,100);assert.equal(r.answers[99],undefined);assert.equal(r.injected,undefined);
-});
+import {test} from 'node:test';import assert from 'node:assert/strict';
+import {tokens,emptyState,validateState,migrateLegacy} from '../src/core.js';
+const ids=new Set(['c13-t3-p3','c17-t1-p1']);
+const entry={form:'relevant',note:{lemma:'relevant',pos:'形容词',commonZh:'相关的',contextZh:'相关的',morphology:'未核实'},mastered:true,reviewed:2,nextReview:100,contexts:[{articleId:'c13-t3-p3',sentenceId:'H2',text:'the relevant governmental bodies'}]};
+test('tokenization preserves exact ranges, possessives and compounds',()=>{const text='Singh’s glacier-fed rivers, in 2012.';const ts=tokens(text);assert.deepEqual(ts.map(t=>t.form),['singh’s','glacier-fed','rivers','in']);ts.forEach(t=>assert.equal(text.slice(t.start,t.start+t.text.length),t.text))});
+test('backup preserves a global collection and independent article positions',()=>{const s=emptyState();s.bookmarks.relevant=entry;s.readings={'c13-t3-p3':{completed:false,progress:{sentenceId:'H2',offset:-90,percent:88}},'c17-t1-p1':{completed:true,progress:{sentenceId:'P2_1',offset:10,percent:100}}};s.selectedArticleId='c17-t1-p1';const r=validateState(JSON.parse(JSON.stringify(s)),ids);assert.equal(r.bookmarks.relevant.mastered,true);assert.equal(r.readings['c13-t3-p3'].progress.percent,88);assert.equal(r.readings['c17-t1-p1'].completed,true);assert.equal(r.selectedArticleId,s.selectedArticleId)});
+test('legacy migration keeps vocabulary mastery and the verified sentence anchor',()=>{const old={version:2,articleId:'c13-t3-p3',bookmarks:{relevant:{form:'relevant',mastered:true,reviewed:3}},progress:{sentenceId:'H2',offset:-100,percent:92},answers:{32:'shells'}};const vocab={relevant:{lemma:'relevant',pos:'形容词',commonZh:'相关的',contextZh:'相关的',morphology:'未核实',occurrences:[{sentenceId:'H2'}]}};const r=migrateLegacy(old,vocab,ids);assert.equal(r.bookmarks.relevant.reviewed,3);assert.equal(r.bookmarks.relevant.mastered,true);assert.equal(r.readings['c13-t3-p3'].progress.sentenceId,'H2');assert.deepEqual(old.answers,{32:'shells'});assert.equal(r.answers,undefined)});
+test('reject malformed or unsupported imports',()=>{assert.throws(()=>validateState({version:99},ids));const s=emptyState();s.bookmarks=[];assert.throws(()=>validateState(s,ids));s.bookmarks={x:{}};assert.throws(()=>validateState(s,ids))});
+test('untrusted import values and missing article references are sanitized',()=>{const s=emptyState();s.bookmarks.relevant={...entry,reviewed:-5,contexts:[...entry.contexts,{articleId:'bad',sentenceId:'x'}]};s.selectedArticleId='bad';s.readings={bad:{completed:true},'c13-t3-p3':{progress:{sentenceId:'H2',offset:Infinity,percent:1000}}};s.fontSize=900;s.tab='quiz';const r=validateState(s,ids);assert.equal(r.bookmarks.relevant.reviewed,0);assert.equal(r.bookmarks.relevant.contexts.length,1);assert.equal(r.selectedArticleId,null);assert.equal(r.readings.bad,undefined);assert.equal(r.readings['c13-t3-p3'].progress.offset,0);assert.equal(r.readings['c13-t3-p3'].progress.percent,100);assert.equal(r.fontSize,20);assert.equal(r.tab,'library')});
+test('explicit unknown dictionary entries survive collection backups without invented meaning',()=>{const s=emptyState();s.bookmarks.unknown={...entry,note:{lemma:'unknown',commonZh:'词库未收录，请核对',verified:false}};const r=validateState(s,ids);assert.equal(r.bookmarks.unknown.note.verified,false);assert.equal(r.bookmarks.unknown.note.contextZh,'')});
+
+test('Latin accents stay in one clickable token and use the base dictionary form',()=>{const text='kākāpō, Galápagos and Lumière';assert.deepEqual(tokens(text).map(t=>[t.text,t.form]),[['kākāpō','kakapo'],['Galápagos','galapagos'],['and','and'],['Lumière','lumiere']]);tokens(text).forEach(t=>assert.equal(text.slice(t.start,t.start+t.text.length),t.text))});
+
+test('constructor is a valid vocabulary word, while underscore object keys are rejected',()=>{const s=emptyState();s.bookmarks.constructor={...entry,note:{...entry.note,lemma:'constructor'}};assert.equal(validateState(s,ids).bookmarks.constructor.note.lemma,'constructor');s.bookmarks.__bad={...entry};assert.throws(()=>validateState(s,ids))});
