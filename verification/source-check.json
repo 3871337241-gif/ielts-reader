@@ -1,0 +1,50 @@
+{
+  "pdfSha256": "f6bbbbf97633bc8dfd71f11b68b8fff4da607cbe2408cfebdbe54cf05c6b18cf",
+  "paragraphWordHashes": {
+    "A": "8b720cb5d0a62de06017ada75c5c6643053d9637acfefffafc06f8da60c38ff5",
+    "B": "742b1c91bb5d8cca2b9bf333589e1703ba6162013413976adee0701dfa10799e",
+    "C": "590fe4e586fdc65db4101a69539d33715fb588f84807c564bf954aa0fe436567",
+    "D": "b68c01f02730dad31df3e3d73b339627ae02e79abbd7c8ea573348b2935e5914",
+    "E": "a8d7df9e20967f6959809e32950ae0e05a87e76967403aed6e56d982b3e443c6",
+    "F": "7833d749be0f55131fbb110cb0108e178194177283b970dd1b439f5d7ed46f57",
+    "G": "609f21118b08057a3a58853d5c1a8022ee125d1da7ebaeae31a130191a8bf8e0",
+    "H": "015be37171faa999e83e2b6c43afef4c80f7848f143ec30da11805f47e083595"
+  },
+  "officialAnswers": {
+    "27": "C",
+    "28": "H",
+    "29": "A",
+    "30": "B",
+    "31": "D",
+    "32": "shells",
+    "33": "lake",
+    "34": "rainfall",
+    "35": "grains",
+    "36": "pottery",
+    "37": "B",
+    "38": "A",
+    "39": "D",
+    "40": "A"
+  },
+  "printedPages": {
+    "article": [
+      68,
+      69
+    ],
+    "questions": [
+      70,
+      71,
+      72
+    ],
+    "answers": 123
+  },
+  "visualChecked": true,
+  "corrections": [
+    "补回 B 段开头的引号",
+    "C、E 段直引号改为印刷版弯引号",
+    "补回 C 段 said 前空格",
+    "按印刷版复原连接号",
+    "Singh’s 复原弯撇号",
+    "补齐完整摘要、全部说明与研究者列表"
+  ]
+}
