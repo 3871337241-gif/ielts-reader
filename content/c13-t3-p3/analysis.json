@@ -1,0 +1,216 @@
+{
+  "questions": [
+    {
+      "questionId": 27,
+      "evidence": [
+        {
+          "sentenceId": "C1",
+          "quote": "Some have claimed that major glacier-fed rivers changed their course, dramatically affecting the water supply and agriculture; or that the cities could not cope with an increasing population, they exhausted their resource base, the trading economy broke down or they succumbed to invasion and conflict; and yet others that climate change caused an environmental change that affected food and water provision."
+        }
+      ],
+      "paraphrase": "proposed explanations → Some have claimed / others",
+      "logic": "C 段逐一提出河流改道、人口压力、资源耗尽、贸易崩溃、入侵及气候变化等解释。题目找的是“提出的解释”，并不要求这些解释已经被证明。",
+      "trap": "E 段虽有气候证据，但不是列举多种解释的段落。"
+    },
+    {
+      "questionId": 28,
+      "evidence": [
+        {
+          "sentenceId": "H2",
+          "quote": "‘By investigating responses to environmental pressures and threats, we can learn from the past to engage with the public, and the relevant governmental and administrative bodies, to be more proactive in issues such as the management and administration of water supply, the balance of urban and rural development, and the importance of preserving cultural heritage in the future.’"
+        }
+      ],
+      "paraphrase": "present-day application → engage with the public / be more proactive",
+      "logic": "Petrie 提出把历史研究用于公众沟通、水资源管理与城乡发展等现实议题，正是考古发现的当代应用。",
+      "trap": "题目强调应用，不能仅选择介绍研究方法的 E 段。"
+    },
+    {
+      "questionId": 29,
+      "evidence": [
+        {
+          "sentenceId": "A3",
+          "quote": "But their lack of self-imagery – at a time when the Egyptians were carving and painting representations of themselves all over their temples – is only part of the mystery."
+        }
+      ],
+      "paraphrase": "difference / same period → lack of self-imagery / at a time when the Egyptians",
+      "logic": "哈拉帕几乎不留下自我形象，而同时期埃及人在神庙雕刻、描绘自己。这一对比同时满足 difference 和 same period。",
+      "trap": "F 段比较的是各文明的衰落时间，不是同一时期的文化差别。"
+    },
+    {
+      "questionId": 30,
+      "evidence": [
+        {
+          "sentenceId": "B2",
+          "quote": "‘As populations increased, cities were built that had great baths, craft workshops, palaces and halls laid out in distinct sectors."
+        },
+        {
+          "sentenceId": "B3",
+          "quote": "Houses were arranged in blocks, with wide main streets and narrow alleyways, and many had their own wells and drainage systems."
+        }
+      ],
+      "paraphrase": "urban design → distinct sectors / blocks / streets / drainage systems",
+      "logic": "B 段介绍功能分区、街区、宽主街、窄巷、水井和排水系统，属于城市布局特征。",
+      "trap": "A 段的 megacities 只是城市规模，缺少布局细节。"
+    },
+    {
+      "questionId": 31,
+      "evidence": [
+        {
+          "sentenceId": "D2",
+          "quote": "When they carried out a survey of how the larger area was settled in relation to sources of water, they found inaccuracies in the published geographic locations of ancient settlements ranging from several hundred metres to many kilometres."
+        },
+        {
+          "sentenceId": "D3",
+          "quote": "They realised that any attempts to use the existing data were likely to be fundamentally flawed."
+        }
+      ],
+      "paraphrase": "errors → inaccuracies / fundamentally flawed",
+      "logic": "新团队发现已发表的古聚落地理位置偏差从几百米到数千米，说明前人记录存在错误。",
+      "trap": "D 段末尾的 198 个新遗址是另一个发现；真正对应 errors 的是位置不准确。"
+    },
+    {
+      "questionId": 32,
+      "evidence": [
+        {
+          "sentenceId": "E2",
+          "quote": "The researchers gathered shells of Melanoides tuberculata snails from the sediments of an ancient lake and used geochemical analysis as a means of tracing the climate history of the region."
+        }
+      ],
+      "paraphrase": "collecting → gathered; of snails → shells of … snails",
+      "logic": "研究者收集的是蜗牛的壳。空格后有 of snails，因此填原文的复数名词 shells，且只能填一个词。",
+      "trap": "snails 是壳的所属对象，不能填入 shells 的位置；shell 单数不符合官方答案。"
+    },
+    {
+      "questionId": 33,
+      "evidence": [
+        {
+          "sentenceId": "E2",
+          "quote": "The researchers gathered shells of Melanoides tuberculata snails from the sediments of an ancient lake and used geochemical analysis as a means of tracing the climate history of the region."
+        },
+        {
+          "sentenceId": "E4",
+          "quote": "‘But we have observed that there was an abrupt change about 4,100 years ago, when the amount of evaporation from the lake exceeded the rainfall – indicative of a drought.’"
+        }
+      ],
+      "paraphrase": "water levels in a … → an ancient lake / evaporation from the lake",
+      "logic": "材料来自古湖沉积物，随后比较湖的蒸发量与降雨量，因此该水体是 lake。a 后填单数名词。",
+      "trap": "sediments 是材料所在层，不是水位发生变化的水体。"
+    },
+    {
+      "questionId": 34,
+      "evidence": [
+        {
+          "sentenceId": "E4",
+          "quote": "‘But we have observed that there was an abrupt change about 4,100 years ago, when the amount of evaporation from the lake exceeded the rainfall – indicative of a drought.’"
+        }
+      ],
+      "paraphrase": "less … than evaporation → evaporation … exceeded the rainfall",
+      "logic": "原文说蒸发量超过降雨量，题干把比较方向反过来：降雨量小于蒸发量。填 rainfall。",
+      "trap": "drought 是这种不平衡表明的结果，不是与 evaporation 比较的量。"
+    },
+    {
+      "questionId": 35,
+      "evidence": [
+        {
+          "sentenceId": "G2",
+          "quote": "They are analysing grains cultivated at the time, and trying to work out whether they were grown under extreme conditions of water stress, and whether they were adjusting the combinations of crops they were growing for different weather systems."
+        }
+      ],
+      "paraphrase": "adapted agricultural practices → adjusting the combinations of crops",
+      "logic": "团队分析当时种植的谷物，检查缺水条件及作物组合是否调整，所以被研究的材料是 grains。",
+      "trap": "crops 出现在研究的目的中；原文直接跟在 analysing 后的是 grains。"
+    },
+    {
+      "questionId": 36,
+      "evidence": [
+        {
+          "sentenceId": "G3",
+          "quote": "They are also looking at whether the types of pottery used, and other aspects of their material culture, were distinctive to specific regions or were more similar across larger areas."
+        },
+        {
+          "sentenceId": "G4",
+          "quote": "This gives us insight into the types of interactive networks that the population was involved in, and whether those changed."
+        }
+      ],
+      "paraphrase": "objects → pottery; links → interactive networks",
+      "logic": "团队检查陶器等物质文化，以了解各地区互动网络是否变化，填 pottery。pottery 是不可数名词。",
+      "trap": "networks 对应研究目标，空格要求的是实际检查的物品。"
+    },
+    {
+      "questionId": 37,
+      "evidence": [
+        {
+          "sentenceId": "F3",
+          "quote": "‘Considering the vast area of the Harappan Civilisation with its variable weather systems,’ explains Singh, ‘it is essential that we obtain more climate data from areas close to the two great cities at Mohenjodaro and Harappa and also from the Indian Punjab.’"
+        }
+      ],
+      "paraphrase": "further information / vital → more climate data / essential",
+      "logic": "引语明确由 Singh 解释，并称获取更多气候数据 essential（至关重要），对应 B Ravindanath Singh。",
+      "trap": "不能因 E 段涉及气候数据就选 Dixit；此题须找说话者。"
+    },
+    {
+      "questionId": 38,
+      "evidence": [
+        {
+          "sentenceId": "H1",
+          "quote": "Petrie believes that archaeologists are in a unique position to investigate how past societies responded to environmental and climatic change."
+        },
+        {
+          "sentenceId": "H2",
+          "quote": "‘By investigating responses to environmental pressures and threats, we can learn from the past to engage with the public, and the relevant governmental and administrative bodies, to be more proactive in issues such as the management and administration of water supply, the balance of urban and rural development, and the importance of preserving cultural heritage in the future.’"
+        }
+      ],
+      "paraphrase": "previous patterns of behaviour → past societies responded; long-term benefits → in the future",
+      "logic": "H 段以 Petrie believes 开头，提出研究过去社会的应对方式，改善未来水资源与文化遗产管理。对应 A Cameron Petrie。",
+      "trap": "选项允许重复；40 题也选 A 不构成排除理由。"
+    },
+    {
+      "questionId": 39,
+      "evidence": [
+        {
+          "sentenceId": "E5",
+          "quote": "Hodell adds: ‘We estimate that the weakening of the Indian summer monsoon climate lasted about 200 years before recovering to the previous conditions, which we still see today.’"
+        }
+      ],
+      "paraphrase": "rough calculations → estimate; approximate length → about 200 years",
+      "logic": "Hodell adds 后明确估计季风减弱持续约 200 年，兼顾“估算”和“持续时长”两个线索。对应 D David Hodell。",
+      "trap": "Dixit 提到 4,100 年前，这是事件发生时间，不是干旱持续时间。"
+    },
+    {
+      "questionId": 40,
+      "evidence": [
+        {
+          "sentenceId": "B1",
+          "quote": "‘There is plenty of archaeological evidence to tell us about the rise of the Harappan Civilisation, but relatively little about its fall,’ explains archaeologist Dr Cameron Petrie of the University of Cambridge."
+        },
+        {
+          "sentenceId": "C3",
+          "quote": "But the fact is, until now, we have had little solid evidence from the area for most of the key elements,’ said Petrie."
+        }
+      ],
+      "paraphrase": "information … lacking → relatively little about its fall / little solid evidence",
+      "logic": "B 段明确标注 Petrie 的话：兴起证据很多，衰落证据相对少；C 段也指出缺乏扎实证据。对应 A Cameron Petrie。",
+      "trap": "注意 rise 与 fall 的对比，缺乏的是衰落的信息。"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "C1",
+      "main": "Some have claimed …; or …; and yet others …",
+      "parts": [
+        "主干：Some have claimed that …（有些人提出……）。",
+        "that 从句列举河流、人口、资源、贸易及入侵等解释；and yet others 省略 have claimed。",
+        "读法：先按分号分三块，再识别各块的主语与动词；不要把所有解释当作确定事实。"
+      ]
+    },
+    {
+      "id": "H2",
+      "main": "we can learn from the past … to be more proactive …",
+      "parts": [
+        "By investigating … 是方式状语；主干为 we can learn from the past。",
+        "to engage … 与 to be more proactive … 说明学习过去的应用目的。",
+        "such as 后列举水资源、城乡发展和文化遗产三个领域。"
+      ]
+    }
+  ]
+}
