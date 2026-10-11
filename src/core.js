@@ -1,41 +1,40 @@
-export const ARTICLE_ID = 'c13-t3-p3';
-export const STORAGE_KEY = 'ielts-reader-study-v2';
-export const WORD_RE = /[A-Za-z]+(?:[-’'][A-Za-z]+)*/g;
-export const formKey = word => word.toLowerCase().replaceAll("'", '’');
-export function tokens(text) {
-  return [...text.matchAll(WORD_RE)].map((m, index) => ({text:m[0], form:formKey(m[0]), index, start:m.index}));
+export const STORAGE_KEY='ielts-reader-library-v3';
+export const LEGACY_KEY='ielts-reader-study-v2';
+export const WORD_RE=/\p{Script=Latin}+(?:[-’']\p{Script=Latin}+)*/gu;
+export const formKey=word=>word.toLowerCase().replaceAll("'",'’').normalize('NFKD').replace(/\p{M}/gu,'');
+export const tokens=text=>[...text.matchAll(WORD_RE)].map((m,index)=>({text:m[0],form:formKey(m[0]),index,start:m.index}));
+export const emptyState=()=>({version:3,bookmarks:{},readings:{},selectedArticleId:null,tab:'library',libraryBook:null,libraryTest:null,fontSize:20,showAll:false});
+const str=(x,max=2000)=>typeof x==='string'?x.slice(0,max):'';
+const safeKey=x=>typeof x==='string'&&x===x.toLowerCase()&&/^\p{Script=Latin}+(?:[-’]\p{Script=Latin}+)*$/u.test(x);
+const count=x=>Number.isSafeInteger(x)?Math.max(0,Math.min(x,1000000)):0;
+export function validateState(input,articleIds){
+ if(!input||input.version!==3||Array.isArray(input)||typeof input!=='object')throw Error('不是有效的阅读书库备份');
+ const s=emptyState();
+ if(!input.bookmarks||typeof input.bookmarks!=='object'||Array.isArray(input.bookmarks))throw Error('生词记录格式错误');
+ for(const [lemma,b] of Object.entries(input.bookmarks)){
+  if(!safeKey(lemma)||!b||typeof b!=='object'||!b.note)throw Error('备份包含无效生词');
+  const n=b.note;
+  s.bookmarks[lemma]={form:str(b.form,120),mastered:b.mastered===true,reviewed:count(b.reviewed),nextReview:Number.isFinite(b.nextReview)?Math.max(0,b.nextReview):0,savedAt:str(b.savedAt,50),note:{lemma,pos:str(n.pos,200),commonZh:str(n.commonZh),contextZh:str(n.contextZh),morphology:str(n.morphology),definition:str(n.definition),basic:n.basic===true,verified:n.verified===true},contexts:[]};
+  if(Array.isArray(b.contexts))for(const c of b.contexts.slice(-12))if(c&&articleIds.has(c.articleId))s.bookmarks[lemma].contexts.push({articleId:c.articleId,sentenceId:str(c.sentenceId,80),text:str(c.text,5000),form:str(c.form,120),contextZh:str(c.contextZh)});
+ }
+ if(input.readings&&typeof input.readings==='object')for(const [id,r] of Object.entries(input.readings))if(articleIds.has(id)&&r&&typeof r==='object'){
+  s.readings[id]={completed:r.completed===true,progress:null};
+  const p=r.progress;if(p&&typeof p.sentenceId==='string')s.readings[id].progress={sentenceId:str(p.sentenceId,80),offset:Number.isFinite(p.offset)?Math.max(-1000,Math.min(p.offset,20000)):0,percent:Number.isFinite(p.percent)?Math.max(0,Math.min(p.percent,100)):0};
+ }
+ s.selectedArticleId=articleIds.has(input.selectedArticleId)?input.selectedArticleId:null;
+ s.tab=['library','read','vocab'].includes(input.tab)?input.tab:'library';
+ s.libraryBook=Number.isInteger(input.libraryBook)&&input.libraryBook>=4&&input.libraryBook<=20?input.libraryBook:null;
+ s.libraryTest=Number.isInteger(input.libraryTest)&&input.libraryTest>=1&&input.libraryTest<=8?input.libraryTest:null;
+ s.fontSize=[18,20,22,24].includes(input.fontSize)?input.fontSize:20;s.showAll=input.showAll===true;
+ return s;
 }
-export function grade(questions, answers) {
-  const results = questions.map(q => {
-    const answer = typeof answers[q.id] === 'string' ? answers[q.id].trim() : '';
-    return {id:q.id, answer, correct:answer.toLowerCase() === q.answer.toLowerCase()};
-  });
-  return {score:results.filter(r=>r.correct).length, total:questions.length, results};
-}
-export function emptyState() {
-  return {version:2, articleId:ARTICLE_ID, bookmarks:{}, answers:{}, attempts:[], mistakes:{}, progress:null, tab:'read', showAll:false, annotation:false, fontSize:20, completed:false};
-}
-export function validateState(input, vocabulary, sentenceIds) {
-  if (!input || input.version !== 2 || input.articleId !== ARTICLE_ID || typeof input !== 'object' || Array.isArray(input)) throw new Error('不是本篇阅读器的有效学习备份');
-  const state = emptyState();
-  const validLemmas = new Set(Object.values(vocabulary).map(v=>v.lemma));
-  if (!input.bookmarks || Array.isArray(input.bookmarks) || typeof input.bookmarks !== 'object') throw new Error('生词记录格式错误');
-  for (const [word, entry] of Object.entries(input.bookmarks)) {
-    if (!validLemmas.has(word) || !entry || typeof entry !== 'object') throw new Error('备份包含无效生词');
-    state.bookmarks[word] = {form:Object.hasOwn(vocabulary,entry.form)?entry.form:Object.keys(vocabulary).find(w=>vocabulary[w].lemma===word), mastered:entry.mastered===true, reviewed:Number.isSafeInteger(entry.reviewed)?Math.max(0,entry.reviewed):0, savedAt:typeof entry.savedAt==='string'?entry.savedAt.slice(0,50):'', nextReview:Number.isFinite(entry.nextReview)?entry.nextReview:0};
-  }
-  const readAnswers = obj => {
-    const out = {};
-    if (!obj || typeof obj !== 'object' || Array.isArray(obj)) return out;
-    for (let n=27;n<=40;n++) if (typeof obj[n]==='string') out[n]=obj[n].slice(0,100);
-    return out;
-  };
-  state.answers=readAnswers(input.answers);
-  if (Array.isArray(input.attempts)) state.attempts=input.attempts.slice(-20).filter(a=>a&&typeof a==='object').map(a=>({answers:readAnswers(a.answers), timestamp:typeof a.timestamp==='string'?a.timestamp.slice(0,50):''}));
-  if(input.mistakes&&typeof input.mistakes==='object') for(let n=27;n<=40;n++) if(input.mistakes[n]&&Number.isSafeInteger(input.mistakes[n].count)) state.mistakes[n]={count:Math.max(1,input.mistakes[n].count),answer:typeof input.mistakes[n].answer==='string'?input.mistakes[n].answer.slice(0,100):'',resolved:input.mistakes[n].resolved===true};
-  if(input.progress&&sentenceIds.has(input.progress.sentenceId)) state.progress={sentenceId:input.progress.sentenceId,offset:Number.isFinite(input.progress.offset)?Math.max(-1000,Math.min(10000,input.progress.offset)):0,percent:Number.isFinite(input.progress.percent)?Math.max(0,Math.min(100,input.progress.percent)):0};
-  state.tab=['read','quiz','vocab','wrong'].includes(input.tab)?input.tab:'read';
-  state.showAll=input.showAll===true; state.annotation=input.annotation===true;
-  state.completed=input.completed===true; state.fontSize=[18,20,22,24].includes(input.fontSize)?input.fontSize:20;
-  return state;
+export function migrateLegacy(old,vocabulary,articleIds){
+ const s=emptyState();if(!old||old.version!==2||old.articleId!=='c13-t3-p3'||!articleIds.has(old.articleId))return s;
+ s.selectedArticleId=old.articleId;s.fontSize=[18,20,22,24].includes(old.fontSize)?old.fontSize:20;s.showAll=old.showAll===true;
+ s.readings[old.articleId]={completed:old.completed===true,progress:old.progress};
+ for(const [lemma,b] of Object.entries(old.bookmarks||{})){
+  const v=vocabulary[b.form];if(!safeKey(lemma)||!v)continue;
+  s.bookmarks[lemma]={...b,note:{lemma:v.lemma,pos:v.pos,commonZh:v.commonZh,contextZh:v.contextZh,morphology:v.morphology,definition:'',basic:v.basic,verified:true},contexts:[{articleId:old.articleId,sentenceId:v.occurrences?.[0]?.sentenceId||'H2',text:'',form:b.form,contextZh:v.contextZh}]};
+ }
+ return validateState(s,articleIds);
 }

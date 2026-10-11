@@ -3,3 +3,4 @@ node_modules/
 verification/pdf-page-*.txt
 verification/screenshots/
 *.pdf
+tmp/

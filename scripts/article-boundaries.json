@@ -1,0 +1,516 @@
+{
+  "c4-t2-p1": {
+    "titleLines": 1,
+    "bodyStart": 2
+  },
+  "c4-t2-p3": {
+    "titleLines": 2,
+    "bodyStart": 4
+  },
+  "c4-t3-p1": {
+    "titleLines": 2,
+    "bodyStart": 2
+  },
+  "c4-t3-p2": {
+    "titleLines": 3,
+    "bodyStart": 5
+  },
+  "c4-t4-p1": {
+    "titleLines": 1,
+    "bodyStart": 2
+  },
+  "c4-t4-p3": {
+    "titleLines": 1,
+    "bodyStart": 1
+  },
+  "c5-t2-p1": {
+    "titleLines": 1,
+    "bodyStart": 2
+  },
+  "c5-t2-p2": {
+    "titleLines": 1,
+    "bodyStart": 2
+  },
+  "c5-t3-p1": {
+    "titleLines": 1,
+    "bodyStart": 4
+  },
+  "c5-t3-p3": {
+    "titleLines": 1,
+    "bodyStart": 3
+  },
+  "c6-t1-p2": {
+    "titleLines": 3,
+    "bodyStart": 5
+  },
+  "c6-t1-p3": {
+    "titleLines": 2,
+    "bodyStart": 5
+  },
+  "c6-t3-p2": {
+    "titleLines": 2,
+    "bodyStart": 2
+  },
+  "c6-t3-p3": {
+    "titleLines": 1,
+    "bodyStart": 3
+  },
+  "c6-t4-p1": {
+    "titleLines": 1,
+    "bodyStart": 4
+  },
+  "c6-t4-p3": {
+    "titleLines": 0,
+    "bodyStart": 0
+  },
+  "c7-t2-p3": {
+    "titleLines": 1,
+    "bodyStart": 1
+  },
+  "c7-t4-p1": {
+    "titleLines": 1,
+    "bodyStart": 4
+  },
+  "c7-t4-p2": {
+    "titleLines": 1,
+    "bodyStart": 1
+  },
+  "c8-t1-p1": {
+    "titleLines": 2,
+    "bodyStart": 3
+  },
+  "c8-t2-p3": {
+    "titleLines": 2,
+    "bodyStart": 2
+  },
+  "c9-t1-p1": {
+    "titleLines": 1,
+    "bodyStart": 2
+  },
+  "c9-t1-p2": {
+    "titleLines": 1,
+    "bodyStart": 2
+  },
+  "c9-t2-p2": {
+    "titleLines": 1,
+    "bodyStart": 6
+  },
+  "c9-t3-p2": {
+    "titleLines": 1,
+    "bodyStart": 5
+  },
+  "c9-t3-p3": {
+    "titleLines": 1,
+    "bodyStart": 6
+  },
+  "c10-t1-p1": {
+    "titleLines": 1,
+    "bodyStart": 1
+  },
+  "c10-t1-p2": {
+    "titleLines": 2,
+    "bodyStart": 4
+  },
+  "c10-t1-p3": {
+    "titleLines": 1,
+    "bodyStart": 2
+  },
+  "c10-t2-p2": {
+    "titleLines": 1,
+    "bodyStart": 1
+  },
+  "c10-t3-p2": {
+    "titleLines": 1,
+    "bodyStart": 3
+  },
+  "c10-t3-p3": {
+    "titleLines": 1,
+    "bodyStart": 3
+  },
+  "c10-t4-p1": {
+    "titleLines": 1,
+    "bodyStart": 3,
+    "paragraphStarts": [
+      {
+        "page": 81,
+        "starts": "Wildfires are becoming an increasing"
+      },
+      {
+        "page": 81,
+        "starts": "Megafires, also called 'siege fires',"
+      },
+      {
+        "page": 81,
+        "starts": "One explanation for the trend to"
+      },
+      {
+        "page": 81,
+        "starts": "Three other factors contribute to the"
+      },
+      {
+        "page": 81,
+        "starts": "'We are increasingly building our"
+      },
+      {
+        "page": 81,
+        "starts": "In California, where population"
+      },
+      {
+        "page": 82,
+        "starts": "That said, many experts give"
+      },
+      {
+        "page": 82,
+        "starts": "State promises to provide more"
+      },
+      {
+        "page": 82,
+        "starts": "Besides providing money to upgrade"
+      },
+      {
+        "page": 82,
+        "starts": "In recent years, the Southern"
+      }
+    ]
+  },
+  "c10-t4-p2": {
+    "titleLines": 1,
+    "bodyStart": 4
+  },
+  "c11-t1-p2": {
+    "titleLines": 1,
+    "bodyStart": 2
+  },
+  "c11-t1-p3": {
+    "titleLines": 1,
+    "bodyStart": 3
+  },
+  "c11-t2-p1": {
+    "titleLines": 1,
+    "bodyStart": 2
+  },
+  "c11-t3-p1": {
+    "titleLines": 1,
+    "bodyStart": 3
+  },
+  "c12-t6-p1": {
+    "titleLines": 1,
+    "bodyStart": 2
+  },
+  "c12-t6-p2": {
+    "titleLines": 1,
+    "bodyStart": 3
+  },
+  "c12-t7-p1": {
+    "titleLines": 1,
+    "bodyStart": 3
+  },
+  "c12-t7-p3": {
+    "titleLines": 1,
+    "bodyStart": 2
+  },
+  "c12-t8-p2": {
+    "titleLines": 1,
+    "bodyStart": 2
+  },
+  "c13-t1-p2": {
+    "titleLines": 1,
+    "bodyStart": 3
+  },
+  "c13-t1-p3": {
+    "titleLines": 1,
+    "bodyStart": 2
+  },
+  "c13-t2-p2": {
+    "titleLines": 1,
+    "bodyStart": 2
+  },
+  "c13-t2-p3": {
+    "titleLines": 1,
+    "bodyStart": 2
+  },
+  "c13-t4-p2": {
+    "titleLines": 1,
+    "bodyStart": 3
+  },
+  "c14-t1-p2": {
+    "titleLines": 2,
+    "bodyStart": 4
+  },
+  "c14-t2-p1": {
+    "titleLines": 1,
+    "bodyStart": 3
+  },
+  "c14-t2-p2": {
+    "titleLines": 1,
+    "bodyStart": 4
+  },
+  "c14-t3-p1": {
+    "titleLines": 1,
+    "bodyStart": 1
+  },
+  "c14-t3-p2": {
+    "titleLines": 1,
+    "bodyStart": 3
+  },
+  "c14-t4-p1": {
+    "titleLines": 1,
+    "bodyStart": 1
+  },
+  "c14-t4-p2": {
+    "titleLines": 1,
+    "bodyStart": 2
+  },
+  "c15-t1-p2": {
+    "titleLines": 1,
+    "bodyStart": 1
+  },
+  "c15-t2-p3": {
+    "titleLines": 1,
+    "bodyStart": 2
+  },
+  "c15-t3-p1": {
+    "titleLines": 1,
+    "bodyStart": 3
+  },
+  "c15-t4-p1": {
+    "titleLines": 1,
+    "bodyStart": 3
+  },
+  "c16-t2-p2": {
+    "titleLines": 1,
+    "bodyStart": 2
+  },
+  "c16-t3-p3": {
+    "titleLines": 2,
+    "bodyStart": 6
+  },
+  "c16-t4-p2": {
+    "titleLines": 1,
+    "bodyStart": 2
+  },
+  "c17-t1-p3": {
+    "titleLines": 1,
+    "bodyStart": 3
+  },
+  "c17-t2-p2": {
+    "titleLines": 1,
+    "bodyStart": 1
+  },
+  "c17-t2-p3": {
+    "titleLines": 1,
+    "bodyStart": 2
+  },
+  "c17-t3-p3": {
+    "titleLines": 2,
+    "bodyStart": 4
+  },
+  "c17-t4-p1": {
+    "titleLines": 1,
+    "bodyStart": 2
+  },
+  "c18-t1-p2": {
+    "titleLines": 1,
+    "bodyStart": 3
+  },
+  "c18-t1-p3": {
+    "titleLines": 1,
+    "bodyStart": 3
+  },
+  "c18-t2-p2": {
+    "titleLines": 1,
+    "bodyStart": 4
+  },
+  "c18-t2-p3": {
+    "titleLines": 1,
+    "bodyStart": 2
+  },
+  "c18-t3-p1": {
+    "titleLines": 1,
+    "bodyStart": 3
+  },
+  "c18-t3-p2": {
+    "titleLines": 1,
+    "bodyStart": 2
+  },
+  "c18-t4-p3": {
+    "titleLines": 2,
+    "bodyStart": 4
+  },
+  "c19-t1-p2": {
+    "titleLines": 1,
+    "bodyStart": 3
+  },
+  "c19-t1-p3": {
+    "titleLines": 1,
+    "bodyStart": 3
+  },
+  "c19-t3-p3": {
+    "titleLines": 1,
+    "bodyStart": 3
+  },
+  "c19-t4-p2": {
+    "titleLines": 1,
+    "bodyStart": 3
+  },
+  "c19-t4-p3": {
+    "titleLines": 1,
+    "bodyStart": 2
+  },
+  "c20-t1-p1": {
+    "titleLines": 1,
+    "bodyStart": 3
+  },
+  "c20-t1-p2": {
+    "titleLines": 1,
+    "bodyStart": 2
+  },
+  "c20-t1-p3": {
+    "titleLines": 1,
+    "bodyStart": 1
+  },
+  "c20-t2-p2": {
+    "titleLines": 1,
+    "bodyStart": 3
+  },
+  "c20-t3-p1": {
+    "titleLines": 1,
+    "bodyStart": 2
+  },
+  "c20-t3-p2": {
+    "titleLines": 1,
+    "bodyStart": 1
+  },
+  "c20-t3-p3": {
+    "titleLines": 1,
+    "bodyStart": 2
+  },
+  "c20-t4-p2": {
+    "titleLines": 1,
+    "bodyStart": 1
+  },
+  "c20-t4-p3": {
+    "titleLines": 1,
+    "bodyStart": 3
+  },
+  "c4-t1-p1": {
+    "paragraphStarts": [
+      {
+        "page": 19,
+        "starts": "Adults and children are frequently confronted with"
+      },
+      {
+        "page": 19,
+        "starts": "Many studies have shown that children harbour misconceptions about 'pure', cur-"
+      },
+      {
+        "page": 19,
+        "starts": "Despite the extensive coverage in the popular media of the destruction of rainforests,"
+      },
+      {
+        "page": 19,
+        "starts": "The study surveys children's scientific knowledge and attitudes to rainforests."
+      },
+      {
+        "page": 20,
+        "starts": "Responses to question three concerned the importance of rainforests. The domi-"
+      },
+      {
+        "page": 20,
+        "starts": "Similarly, but at a lower level, more girls (13%) than boys (5%) said that rainforests"
+      },
+      {
+        "page": 20,
+        "starts": "The fourth question concerned the causes of the destruction of rainforests. Perhaps"
+      },
+      {
+        "page": 20,
+        "starts": "One misconception, expressed by some 10% of the pupils, was that acid rain is"
+      },
+      {
+        "page": 20,
+        "starts": "In answer to the final question about the importance of rainforest conservation, the"
+      },
+      {
+        "page": 20,
+        "starts": "The results of this study suggest that certain ideas predominate in the thinking of"
+      },
+      {
+        "page": 20,
+        "starts": "Pupils did not volunteer ideas that suggested that they appreciated the complexity of"
+      }
+    ]
+  },
+  "c9-t1-p3": {
+    "paragraphStarts": [
+      {
+        "page": 17,
+        "starts": "If you go back far enough, everything lived"
+      },
+      {
+        "page": 17,
+        "starts": "Moving from water to land involved"
+      },
+      {
+        "page": 17,
+        "starts": "There is evidence that all modern"
+      },
+      {
+        "page": 17,
+        "starts": "Walter Joyce and Jacques Gauthier,"
+      },
+      {
+        "page": 18,
+        "starts": "You might think, therefore, that modern"
+      },
+      {
+        "page": 18,
+        "starts": "Tortoises therefore represent a"
+      }
+    ]
+  },
+  "c9-t4-p1": {
+    "paragraphStarts": [
+      {
+        "page": 79,
+        "starts": "Marie Curie is probably the most famous woman"
+      },
+      {
+        "page": 79,
+        "starts": "From childhood, Marie was remarkable for her"
+      },
+      {
+        "page": 79,
+        "starts": "In 1891 this promise was fulfilled and Marie went to Paris and began to study at the"
+      },
+      {
+        "page": 79,
+        "starts": "Their marriage in 1895 marked the start of a partnership that was soon to achieve results of"
+      },
+      {
+        "page": 80,
+        "starts": "The births of Marie's two daughters, Irène and Eve, in 1897 and 1904 failed to interrupt"
+      },
+      {
+        "page": 80,
+        "starts": "The sudden death of her husband in 1906 was a bitter blow to Marie Curie, but was also a"
+      },
+      {
+        "page": 80,
+        "starts": "During World War I, Marie Curie, with the help of her daughter Irène, devoted herself to the"
+      },
+      {
+        "page": 80,
+        "starts": "In 1921, accompanied by her two daughters, Marie Curie made a triumphant journey to the"
+      },
+      {
+        "page": 80,
+        "starts": "One of Marie Curie's outstanding achievements was to have understood the need to"
+      },
+      {
+        "page": 80,
+        "starts": "Her contribution to physics had been immense, not only in her own work, the importance"
+      }
+    ]
+  }
+}

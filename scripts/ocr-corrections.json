@@ -1,0 +1,49 @@
+{
+  "source": "按本地 PDF 页面视觉核对，仅修复明确的 OCR 漏行与图片误识别文字。",
+  "pages": {
+    "14:83": {
+      "insert": [
+        {
+          "after": "Pheidole dentata, a native ant",
+          "text": "that it doesn’t seem to show any signs of aging. Old worker ants can do everything just as well as the youngsters, and their brains appear just as sharp. ‘We get a picture that these ants really don’t",
+          "x": 0.104,
+          "y": 0.31,
+          "width": 0.8,
+          "height": 0.034
+        }
+      ]
+    },
+    "4:72": {
+      "insert": [
+        {
+          "after": "A Volcanoes are the ultimate",
+          "text": "the top few kilometres off a mountain, scatter fine ash practically all over the globe and hurl rock fragments into the stratosphere to darken the skies a continent away.",
+          "x": 0.14,
+          "y": 0.443,
+          "width": 0.75,
+          "height": 0.034
+        }
+      ],
+      "replace": [
+        {
+          "starts": "urges of monic processes",
+          "text": "surges of molten lava - is only a tiny part of a global story. Vulcanism, the name given to volcanic processes, really has shaped the world. Eruptions have rifted con-"
+        }
+      ]
+    },
+    "6:23": {
+      "remove": [
+        "La",
+        "vade"
+      ]
+    },
+    "11:73": {
+      "replace": [
+        {
+          "starts": "G Aphysician wrote",
+          "text": "G A physician wrote, 'The discipline of analytical thought processes [in mathematics]"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1659 @@
+{
+  "date": "2026-10-11",
+  "environment": "Local WebKit browser",
+  "viewport": [
+    375,
+    812
+  ],
+  "readings": [
+    {
+      "id": "c4-t1-p1",
+      "expectedWords": 816,
+      "paragraphs": 11,
+      "viewport": 375,
+      "width": 375,
+      "words": 816,
+      "pass": true
+    },
+    {
+      "id": "c5-t1-p1",
+      "expectedWords": 798,
+      "paragraphs": 9,
+      "viewport": 375,
+      "width": 375,
+      "words": 798,
+      "pass": true
+    },
+    {
+      "id": "c6-t1-p1",
+      "expectedWords": 871,
+      "paragraphs": 6,
+      "viewport": 375,
+      "width": 375,
+      "words": 871,
+      "pass": true
+    },
+    {
+      "id": "c7-t1-p1",
+      "expectedWords": 866,
+      "paragraphs": 5,
+      "viewport": 375,
+      "width": 375,
+      "words": 866,
+      "pass": true
+    },
+    {
+      "id": "c8-t1-p1",
+      "expectedWords": 892,
+      "paragraphs": 8,
+      "viewport": 375,
+      "width": 375,
+      "words": 892,
+      "pass": true
+    },
+    {
+      "id": "c9-t1-p1",
+      "expectedWords": 833,
+      "paragraphs": 8,
+      "viewport": 375,
+      "width": 375,
+      "words": 833,
+      "pass": true
+    },
+    {
+      "id": "c10-t1-p1",
+      "expectedWords": 852,
+      "paragraphs": 19,
+      "viewport": 375,
+      "width": 375,
+      "words": 852,
+      "pass": true
+    },
+    {
+      "id": "c11-t1-p1",
+      "expectedWords": 764,
+      "paragraphs": 7,
+      "viewport": 375,
+      "width": 375,
+      "words": 764,
+      "pass": true
+    },
+    {
+      "id": "c12-t5-p1",
+      "expectedWords": 737,
+      "paragraphs": 6,
+      "viewport": 375,
+      "width": 375,
+      "words": 737,
+      "pass": true
+    },
+    {
+      "id": "c13-t1-p1",
+      "expectedWords": 824,
+      "paragraphs": 6,
+      "viewport": 375,
+      "width": 375,
+      "words": 824,
+      "pass": true
+    },
+    {
+      "id": "c14-t1-p1",
+      "expectedWords": 883,
+      "paragraphs": 18,
+      "viewport": 375,
+      "width": 375,
+      "words": 883,
+      "pass": true
+    },
+    {
+      "id": "c15-t1-p1",
+      "expectedWords": 858,
+      "paragraphs": 6,
+      "viewport": 375,
+      "width": 375,
+      "words": 858,
+      "pass": true
+    },
+    {
+      "id": "c16-t1-p1",
+      "expectedWords": 808,
+      "paragraphs": 15,
+      "viewport": 375,
+      "width": 375,
+      "words": 808,
+      "pass": true
+    },
+    {
+      "id": "c17-t1-p1",
+      "expectedWords": 882,
+      "paragraphs": 8,
+      "viewport": 375,
+      "width": 375,
+      "words": 882,
+      "pass": true
+    },
+    {
+      "id": "c18-t1-p1",
+      "expectedWords": 747,
+      "paragraphs": 7,
+      "viewport": 375,
+      "width": 375,
+      "words": 747,
+      "pass": true
+    },
+    {
+      "id": "c19-t1-p1",
+      "expectedWords": 896,
+      "paragraphs": 10,
+      "viewport": 375,
+      "width": 375,
+      "words": 896,
+      "pass": true
+    },
+    {
+      "id": "c20-t1-p1",
+      "expectedWords": 825,
+      "paragraphs": 9,
+      "viewport": 375,
+      "width": 375,
+      "words": 825,
+      "pass": true
+    },
+    {
+      "id": "c4-t1-p2",
+      "expectedWords": 689,
+      "viewport": 375,
+      "width": 375,
+      "words": 689,
+      "pass": true
+    },
+    {
+      "id": "c4-t1-p3",
+      "expectedWords": 811,
+      "viewport": 375,
+      "width": 375,
+      "words": 811,
+      "pass": true
+    },
+    {
+      "id": "c4-t2-p1",
+      "expectedWords": 856,
+      "viewport": 375,
+      "width": 375,
+      "words": 856,
+      "pass": true
+    },
+    {
+      "id": "c4-t2-p2",
+      "expectedWords": 680,
+      "viewport": 375,
+      "width": 375,
+      "words": 680,
+      "pass": true
+    },
+    {
+      "id": "c4-t2-p3",
+      "expectedWords": 1000,
+      "viewport": 375,
+      "width": 375,
+      "words": 1000,
+      "pass": true
+    },
+    {
+      "id": "c4-t3-p1",
+      "expectedWords": 875,
+      "viewport": 375,
+      "width": 375,
+      "words": 875,
+      "pass": true
+    },
+    {
+      "id": "c4-t3-p2",
+      "expectedWords": 964,
+      "viewport": 375,
+      "width": 375,
+      "words": 964,
+      "pass": true
+    },
+    {
+      "id": "c4-t3-p3",
+      "expectedWords": 892,
+      "viewport": 375,
+      "width": 375,
+      "words": 892,
+      "pass": true
+    },
+    {
+      "id": "c4-t4-p1",
+      "expectedWords": 861,
+      "viewport": 375,
+      "width": 375,
+      "words": 861,
+      "pass": true
+    },
+    {
+      "id": "c4-t4-p2",
+      "expectedWords": 909,
+      "viewport": 375,
+      "width": 375,
+      "words": 909,
+      "pass": true
+    },
+    {
+      "id": "c4-t4-p3",
+      "expectedWords": 829,
+      "viewport": 375,
+      "width": 375,
+      "words": 829,
+      "pass": true
+    },
+    {
+      "id": "c5-t1-p2",
+      "expectedWords": 927,
+      "viewport": 375,
+      "width": 375,
+      "words": 927,
+      "pass": true
+    },
+    {
+      "id": "c5-t1-p3",
+      "expectedWords": 887,
+      "viewport": 375,
+      "width": 375,
+      "words": 887,
+      "pass": true
+    },
+    {
+      "id": "c5-t2-p1",
+      "expectedWords": 860,
+      "viewport": 375,
+      "width": 375,
+      "words": 860,
+      "pass": true
+    },
+    {
+      "id": "c5-t2-p2",
+      "expectedWords": 877,
+      "viewport": 375,
+      "width": 375,
+      "words": 877,
+      "pass": true
+    },
+    {
+      "id": "c5-t2-p3",
+      "expectedWords": 911,
+      "viewport": 375,
+      "width": 375,
+      "words": 911,
+      "pass": true
+    },
+    {
+      "id": "c5-t3-p1",
+      "expectedWords": 930,
+      "viewport": 375,
+      "width": 375,
+      "words": 930,
+      "pass": true
+    },
+    {
+      "id": "c5-t3-p2",
+      "expectedWords": 850,
+      "viewport": 375,
+      "width": 375,
+      "words": 850,
+      "pass": true
+    },
+    {
+      "id": "c5-t3-p3",
+      "expectedWords": 884,
+      "viewport": 375,
+      "width": 375,
+      "words": 884,
+      "pass": true
+    },
+    {
+      "id": "c5-t4-p1",
+      "expectedWords": 948,
+      "viewport": 375,
+      "width": 375,
+      "words": 948,
+      "pass": true
+    },
+    {
+      "id": "c5-t4-p2",
+      "expectedWords": 899,
+      "viewport": 375,
+      "width": 375,
+      "words": 899,
+      "pass": true
+    },
+    {
+      "id": "c5-t4-p3",
+      "expectedWords": 752,
+      "viewport": 375,
+      "width": 375,
+      "words": 752,
+      "pass": true
+    },
+    {
+      "id": "c6-t1-p2",
+      "expectedWords": 846,
+      "viewport": 375,
+      "width": 375,
+      "words": 846,
+      "pass": true
+    },
+    {
+      "id": "c6-t1-p3",
+      "expectedWords": 899,
+      "viewport": 375,
+      "width": 375,
+      "words": 899,
+      "pass": true
+    },
+    {
+      "id": "c6-t2-p1",
+      "expectedWords": 943,
+      "viewport": 375,
+      "width": 375,
+      "words": 943,
+      "pass": true
+    },
+    {
+      "id": "c6-t2-p2",
+      "expectedWords": 789,
+      "viewport": 375,
+      "width": 375,
+      "words": 789,
+      "pass": true
+    },
+    {
+      "id": "c6-t2-p3",
+      "expectedWords": 891,
+      "viewport": 375,
+      "width": 375,
+      "words": 891,
+      "pass": true
+    },
+    {
+      "id": "c6-t3-p1",
+      "expectedWords": 768,
+      "viewport": 375,
+      "width": 375,
+      "words": 768,
+      "pass": true
+    },
+    {
+      "id": "c6-t3-p2",
+      "expectedWords": 916,
+      "viewport": 375,
+      "width": 375,
+      "words": 916,
+      "pass": true
+    },
+    {
+      "id": "c6-t3-p3",
+      "expectedWords": 837,
+      "viewport": 375,
+      "width": 375,
+      "words": 837,
+      "pass": true
+    },
+    {
+      "id": "c6-t4-p1",
+      "expectedWords": 690,
+      "viewport": 375,
+      "width": 375,
+      "words": 690,
+      "pass": true
+    },
+    {
+      "id": "c6-t4-p2",
+      "expectedWords": 714,
+      "viewport": 375,
+      "width": 375,
+      "words": 714,
+      "pass": true
+    },
+    {
+      "id": "c6-t4-p3",
+      "expectedWords": 777,
+      "viewport": 375,
+      "width": 375,
+      "words": 777,
+      "pass": true
+    },
+    {
+      "id": "c7-t1-p2",
+      "expectedWords": 809,
+      "viewport": 375,
+      "width": 375,
+      "words": 809,
+      "pass": true
+    },
+    {
+      "id": "c7-t1-p3",
+      "expectedWords": 925,
+      "viewport": 375,
+      "width": 375,
+      "words": 925,
+      "pass": true
+    },
+    {
+      "id": "c7-t2-p1",
+      "expectedWords": 1010,
+      "viewport": 375,
+      "width": 375,
+      "words": 1010,
+      "pass": true
+    },
+    {
+      "id": "c7-t2-p2",
+      "expectedWords": 881,
+      "viewport": 375,
+      "width": 375,
+      "words": 881,
+      "pass": true
+    },
+    {
+      "id": "c7-t2-p3",
+      "expectedWords": 1164,
+      "viewport": 375,
+      "width": 375,
+      "words": 1164,
+      "pass": true
+    },
+    {
+      "id": "c7-t3-p1",
+      "expectedWords": 901,
+      "viewport": 375,
+      "width": 375,
+      "words": 901,
+      "pass": true
+    },
+    {
+      "id": "c7-t3-p2",
+      "expectedWords": 820,
+      "viewport": 375,
+      "width": 375,
+      "words": 820,
+      "pass": true
+    },
+    {
+      "id": "c7-t3-p3",
+      "expectedWords": 944,
+      "viewport": 375,
+      "width": 375,
+      "words": 944,
+      "pass": true
+    },
+    {
+      "id": "c7-t4-p1",
+      "expectedWords": 842,
+      "viewport": 375,
+      "width": 375,
+      "words": 842,
+      "pass": true
+    },
+    {
+      "id": "c7-t4-p2",
+      "expectedWords": 895,
+      "viewport": 375,
+      "width": 375,
+      "words": 895,
+      "pass": true
+    },
+    {
+      "id": "c7-t4-p3",
+      "expectedWords": 733,
+      "viewport": 375,
+      "width": 375,
+      "words": 733,
+      "pass": true
+    },
+    {
+      "id": "c8-t1-p2",
+      "expectedWords": 876,
+      "viewport": 375,
+      "width": 375,
+      "words": 876,
+      "pass": true
+    },
+    {
+      "id": "c8-t1-p3",
+      "expectedWords": 888,
+      "viewport": 375,
+      "width": 375,
+      "words": 888,
+      "pass": true
+    },
+    {
+      "id": "c8-t2-p1",
+      "expectedWords": 770,
+      "viewport": 375,
+      "width": 375,
+      "words": 770,
+      "pass": true
+    },
+    {
+      "id": "c8-t2-p2",
+      "expectedWords": 874,
+      "viewport": 375,
+      "width": 375,
+      "words": 874,
+      "pass": true
+    },
+    {
+      "id": "c8-t2-p3",
+      "expectedWords": 746,
+      "viewport": 375,
+      "width": 375,
+      "words": 746,
+      "pass": true
+    },
+    {
+      "id": "c8-t3-p1",
+      "expectedWords": 879,
+      "viewport": 375,
+      "width": 375,
+      "words": 879,
+      "pass": true
+    },
+    {
+      "id": "c8-t3-p2",
+      "expectedWords": 1006,
+      "viewport": 375,
+      "width": 375,
+      "words": 1006,
+      "pass": true
+    },
+    {
+      "id": "c8-t3-p3",
+      "expectedWords": 825,
+      "viewport": 375,
+      "width": 375,
+      "words": 825,
+      "pass": true
+    },
+    {
+      "id": "c8-t4-p1",
+      "expectedWords": 862,
+      "viewport": 375,
+      "width": 375,
+      "words": 862,
+      "pass": true
+    },
+    {
+      "id": "c8-t4-p2",
+      "expectedWords": 745,
+      "viewport": 375,
+      "width": 375,
+      "words": 745,
+      "pass": true
+    },
+    {
+      "id": "c8-t4-p3",
+      "expectedWords": 775,
+      "viewport": 375,
+      "width": 375,
+      "words": 775,
+      "pass": true
+    },
+    {
+      "id": "c9-t1-p2",
+      "expectedWords": 1104,
+      "viewport": 375,
+      "width": 375,
+      "words": 1104,
+      "pass": true
+    },
+    {
+      "id": "c9-t1-p3",
+      "expectedWords": 779,
+      "viewport": 375,
+      "width": 375,
+      "words": 779,
+      "pass": true
+    },
+    {
+      "id": "c9-t2-p1",
+      "expectedWords": 911,
+      "viewport": 375,
+      "width": 375,
+      "words": 911,
+      "pass": true
+    },
+    {
+      "id": "c9-t2-p2",
+      "expectedWords": 848,
+      "viewport": 375,
+      "width": 375,
+      "words": 848,
+      "pass": true
+    },
+    {
+      "id": "c9-t2-p3",
+      "expectedWords": 895,
+      "viewport": 375,
+      "width": 375,
+      "words": 895,
+      "pass": true
+    },
+    {
+      "id": "c9-t3-p1",
+      "expectedWords": 608,
+      "viewport": 375,
+      "width": 375,
+      "words": 608,
+      "pass": true
+    },
+    {
+      "id": "c9-t3-p2",
+      "expectedWords": 708,
+      "viewport": 375,
+      "width": 375,
+      "words": 708,
+      "pass": true
+    },
+    {
+      "id": "c9-t3-p3",
+      "expectedWords": 794,
+      "viewport": 375,
+      "width": 375,
+      "words": 794,
+      "pass": true
+    },
+    {
+      "id": "c9-t4-p1",
+      "expectedWords": 908,
+      "viewport": 375,
+      "width": 375,
+      "words": 908,
+      "pass": true
+    },
+    {
+      "id": "c9-t4-p2",
+      "expectedWords": 875,
+      "viewport": 375,
+      "width": 375,
+      "words": 875,
+      "pass": true
+    },
+    {
+      "id": "c9-t4-p3",
+      "expectedWords": 897,
+      "viewport": 375,
+      "width": 375,
+      "words": 897,
+      "pass": true
+    },
+    {
+      "id": "c10-t1-p2",
+      "expectedWords": 836,
+      "viewport": 375,
+      "width": 375,
+      "words": 836,
+      "pass": true
+    },
+    {
+      "id": "c10-t1-p3",
+      "expectedWords": 942,
+      "viewport": 375,
+      "width": 375,
+      "words": 942,
+      "pass": true
+    },
+    {
+      "id": "c10-t2-p1",
+      "expectedWords": 900,
+      "viewport": 375,
+      "width": 375,
+      "words": 900,
+      "pass": true
+    },
+    {
+      "id": "c10-t2-p2",
+      "expectedWords": 819,
+      "viewport": 375,
+      "width": 375,
+      "words": 819,
+      "pass": true
+    },
+    {
+      "id": "c10-t2-p3",
+      "expectedWords": 940,
+      "viewport": 375,
+      "width": 375,
+      "words": 940,
+      "pass": true
+    },
+    {
+      "id": "c10-t3-p1",
+      "expectedWords": 767,
+      "viewport": 375,
+      "width": 375,
+      "words": 767,
+      "pass": true
+    },
+    {
+      "id": "c10-t3-p2",
+      "expectedWords": 871,
+      "viewport": 375,
+      "width": 375,
+      "words": 871,
+      "pass": true
+    },
+    {
+      "id": "c10-t3-p3",
+      "expectedWords": 971,
+      "viewport": 375,
+      "width": 375,
+      "words": 971,
+      "pass": true
+    },
+    {
+      "id": "c10-t4-p1",
+      "expectedWords": 753,
+      "viewport": 375,
+      "width": 375,
+      "words": 753,
+      "pass": true
+    },
+    {
+      "id": "c10-t4-p2",
+      "expectedWords": 904,
+      "viewport": 375,
+      "width": 375,
+      "words": 904,
+      "pass": true
+    },
+    {
+      "id": "c10-t4-p3",
+      "expectedWords": 962,
+      "viewport": 375,
+      "width": 375,
+      "words": 962,
+      "pass": true
+    },
+    {
+      "id": "c11-t1-p2",
+      "expectedWords": 783,
+      "viewport": 375,
+      "width": 375,
+      "words": 783,
+      "pass": true
+    },
+    {
+      "id": "c11-t1-p3",
+      "expectedWords": 886,
+      "viewport": 375,
+      "width": 375,
+      "words": 886,
+      "pass": true
+    },
+    {
+      "id": "c11-t2-p1",
+      "expectedWords": 853,
+      "viewport": 375,
+      "width": 375,
+      "words": 853,
+      "pass": true
+    },
+    {
+      "id": "c11-t2-p2",
+      "expectedWords": 871,
+      "viewport": 375,
+      "width": 375,
+      "words": 871,
+      "pass": true
+    },
+    {
+      "id": "c11-t2-p3",
+      "expectedWords": 901,
+      "viewport": 375,
+      "width": 375,
+      "words": 901,
+      "pass": true
+    },
+    {
+      "id": "c11-t3-p1",
+      "expectedWords": 838,
+      "viewport": 375,
+      "width": 375,
+      "words": 838,
+      "pass": true
+    },
+    {
+      "id": "c11-t3-p2",
+      "expectedWords": 881,
+      "viewport": 375,
+      "width": 375,
+      "words": 881,
+      "pass": true
+    },
+    {
+      "id": "c11-t3-p3",
+      "expectedWords": 740,
+      "viewport": 375,
+      "width": 375,
+      "words": 740,
+      "pass": true
+    },
+    {
+      "id": "c11-t4-p1",
+      "expectedWords": 856,
+      "viewport": 375,
+      "width": 375,
+      "words": 856,
+      "pass": true
+    },
+    {
+      "id": "c11-t4-p2",
+      "expectedWords": 841,
+      "viewport": 375,
+      "width": 375,
+      "words": 841,
+      "pass": true
+    },
+    {
+      "id": "c11-t4-p3",
+      "expectedWords": 835,
+      "viewport": 375,
+      "width": 375,
+      "words": 835,
+      "pass": true
+    },
+    {
+      "id": "c12-t5-p2",
+      "expectedWords": 767,
+      "viewport": 375,
+      "width": 375,
+      "words": 767,
+      "pass": true
+    },
+    {
+      "id": "c12-t5-p3",
+      "expectedWords": 756,
+      "viewport": 375,
+      "width": 375,
+      "words": 756,
+      "pass": true
+    },
+    {
+      "id": "c12-t6-p1",
+      "expectedWords": 891,
+      "viewport": 375,
+      "width": 375,
+      "words": 891,
+      "pass": true
+    },
+    {
+      "id": "c12-t6-p2",
+      "expectedWords": 803,
+      "viewport": 375,
+      "width": 375,
+      "words": 803,
+      "pass": true
+    },
+    {
+      "id": "c12-t6-p3",
+      "expectedWords": 887,
+      "viewport": 375,
+      "width": 375,
+      "words": 887,
+      "pass": true
+    },
+    {
+      "id": "c12-t7-p1",
+      "expectedWords": 740,
+      "viewport": 375,
+      "width": 375,
+      "words": 740,
+      "pass": true
+    },
+    {
+      "id": "c12-t7-p2",
+      "expectedWords": 807,
+      "viewport": 375,
+      "width": 375,
+      "words": 807,
+      "pass": true
+    },
+    {
+      "id": "c12-t7-p3",
+      "expectedWords": 852,
+      "viewport": 375,
+      "width": 375,
+      "words": 852,
+      "pass": true
+    },
+    {
+      "id": "c12-t8-p1",
+      "expectedWords": 748,
+      "viewport": 375,
+      "width": 375,
+      "words": 748,
+      "pass": true
+    },
+    {
+      "id": "c12-t8-p2",
+      "expectedWords": 913,
+      "viewport": 375,
+      "width": 375,
+      "words": 913,
+      "pass": true
+    },
+    {
+      "id": "c12-t8-p3",
+      "expectedWords": 869,
+      "viewport": 375,
+      "width": 375,
+      "words": 869,
+      "pass": true
+    },
+    {
+      "id": "c13-t1-p2",
+      "expectedWords": 855,
+      "viewport": 375,
+      "width": 375,
+      "words": 855,
+      "pass": true
+    },
+    {
+      "id": "c13-t1-p3",
+      "expectedWords": 911,
+      "viewport": 375,
+      "width": 375,
+      "words": 911,
+      "pass": true
+    },
+    {
+      "id": "c13-t2-p1",
+      "expectedWords": 815,
+      "viewport": 375,
+      "width": 375,
+      "words": 815,
+      "pass": true
+    },
+    {
+      "id": "c13-t2-p2",
+      "expectedWords": 828,
+      "viewport": 375,
+      "width": 375,
+      "words": 828,
+      "pass": true
+    },
+    {
+      "id": "c13-t2-p3",
+      "expectedWords": 936,
+      "viewport": 375,
+      "width": 375,
+      "words": 936,
+      "pass": true
+    },
+    {
+      "id": "c13-t3-p1",
+      "expectedWords": 815,
+      "viewport": 375,
+      "width": 375,
+      "words": 815,
+      "pass": true
+    },
+    {
+      "id": "c13-t3-p2",
+      "expectedWords": 888,
+      "viewport": 375,
+      "width": 375,
+      "words": 888,
+      "pass": true
+    },
+    {
+      "id": "c13-t3-p3",
+      "expectedWords": 873,
+      "viewport": 375,
+      "width": 375,
+      "words": 873,
+      "pass": true
+    },
+    {
+      "id": "c13-t4-p1",
+      "expectedWords": 861,
+      "viewport": 375,
+      "width": 375,
+      "words": 861,
+      "pass": true
+    },
+    {
+      "id": "c13-t4-p2",
+      "expectedWords": 913,
+      "viewport": 375,
+      "width": 375,
+      "words": 913,
+      "pass": true
+    },
+    {
+      "id": "c13-t4-p3",
+      "expectedWords": 896,
+      "viewport": 375,
+      "width": 375,
+      "words": 896,
+      "pass": true
+    },
+    {
+      "id": "c14-t1-p2",
+      "expectedWords": 901,
+      "viewport": 375,
+      "width": 375,
+      "words": 901,
+      "pass": true
+    },
+    {
+      "id": "c14-t1-p3",
+      "expectedWords": 846,
+      "viewport": 375,
+      "width": 375,
+      "words": 846,
+      "pass": true
+    },
+    {
+      "id": "c14-t2-p1",
+      "expectedWords": 935,
+      "viewport": 375,
+      "width": 375,
+      "words": 935,
+      "pass": true
+    },
+    {
+      "id": "c14-t2-p2",
+      "expectedWords": 853,
+      "viewport": 375,
+      "width": 375,
+      "words": 853,
+      "pass": true
+    },
+    {
+      "id": "c14-t2-p3",
+      "expectedWords": 778,
+      "viewport": 375,
+      "width": 375,
+      "words": 778,
+      "pass": true
+    },
+    {
+      "id": "c14-t3-p1",
+      "expectedWords": 876,
+      "viewport": 375,
+      "width": 375,
+      "words": 876,
+      "pass": true
+    },
+    {
+      "id": "c14-t3-p2",
+      "expectedWords": 841,
+      "viewport": 375,
+      "width": 375,
+      "words": 841,
+      "pass": true
+    },
+    {
+      "id": "c14-t3-p3",
+      "expectedWords": 889,
+      "viewport": 375,
+      "width": 375,
+      "words": 889,
+      "pass": true
+    },
+    {
+      "id": "c14-t4-p1",
+      "expectedWords": 796,
+      "viewport": 375,
+      "width": 375,
+      "words": 796,
+      "pass": true
+    },
+    {
+      "id": "c14-t4-p2",
+      "expectedWords": 780,
+      "viewport": 375,
+      "width": 375,
+      "words": 780,
+      "pass": true
+    },
+    {
+      "id": "c14-t4-p3",
+      "expectedWords": 854,
+      "viewport": 375,
+      "width": 375,
+      "words": 854,
+      "pass": true
+    },
+    {
+      "id": "c15-t1-p2",
+      "expectedWords": 777,
+      "viewport": 375,
+      "width": 375,
+      "words": 777,
+      "pass": true
+    },
+    {
+      "id": "c15-t1-p3",
+      "expectedWords": 836,
+      "viewport": 375,
+      "width": 375,
+      "words": 836,
+      "pass": true
+    },
+    {
+      "id": "c15-t2-p1",
+      "expectedWords": 904,
+      "viewport": 375,
+      "width": 375,
+      "words": 904,
+      "pass": true
+    },
+    {
+      "id": "c15-t2-p2",
+      "expectedWords": 925,
+      "viewport": 375,
+      "width": 375,
+      "words": 925,
+      "pass": true
+    },
+    {
+      "id": "c15-t2-p3",
+      "expectedWords": 921,
+      "viewport": 375,
+      "width": 375,
+      "words": 921,
+      "pass": true
+    },
+    {
+      "id": "c15-t3-p1",
+      "expectedWords": 870,
+      "viewport": 375,
+      "width": 375,
+      "words": 870,
+      "pass": true
+    },
+    {
+      "id": "c15-t3-p2",
+      "expectedWords": 800,
+      "viewport": 375,
+      "width": 375,
+      "words": 800,
+      "pass": true
+    },
+    {
+      "id": "c15-t3-p3",
+      "expectedWords": 943,
+      "viewport": 375,
+      "width": 375,
+      "words": 943,
+      "pass": true
+    },
+    {
+      "id": "c15-t4-p1",
+      "expectedWords": 864,
+      "viewport": 375,
+      "width": 375,
+      "words": 864,
+      "pass": true
+    },
+    {
+      "id": "c15-t4-p2",
+      "expectedWords": 745,
+      "viewport": 375,
+      "width": 375,
+      "words": 745,
+      "pass": true
+    },
+    {
+      "id": "c15-t4-p3",
+      "expectedWords": 788,
+      "viewport": 375,
+      "width": 375,
+      "words": 788,
+      "pass": true
+    },
+    {
+      "id": "c16-t1-p2",
+      "expectedWords": 814,
+      "viewport": 375,
+      "width": 375,
+      "words": 814,
+      "pass": true
+    },
+    {
+      "id": "c16-t1-p3",
+      "expectedWords": 832,
+      "viewport": 375,
+      "width": 375,
+      "words": 832,
+      "pass": true
+    },
+    {
+      "id": "c16-t2-p1",
+      "expectedWords": 927,
+      "viewport": 375,
+      "width": 375,
+      "words": 927,
+      "pass": true
+    },
+    {
+      "id": "c16-t2-p2",
+      "expectedWords": 890,
+      "viewport": 375,
+      "width": 375,
+      "words": 890,
+      "pass": true
+    },
+    {
+      "id": "c16-t2-p3",
+      "expectedWords": 751,
+      "viewport": 375,
+      "width": 375,
+      "words": 751,
+      "pass": true
+    },
+    {
+      "id": "c16-t3-p1",
+      "expectedWords": 828,
+      "viewport": 375,
+      "width": 375,
+      "words": 828,
+      "pass": true
+    },
+    {
+      "id": "c16-t3-p2",
+      "expectedWords": 906,
+      "viewport": 375,
+      "width": 375,
+      "words": 906,
+      "pass": true
+    },
+    {
+      "id": "c16-t3-p3",
+      "expectedWords": 802,
+      "viewport": 375,
+      "width": 375,
+      "words": 802,
+      "pass": true
+    },
+    {
+      "id": "c16-t4-p1",
+      "expectedWords": 875,
+      "viewport": 375,
+      "width": 375,
+      "words": 875,
+      "pass": true
+    },
+    {
+      "id": "c16-t4-p2",
+      "expectedWords": 911,
+      "viewport": 375,
+      "width": 375,
+      "words": 911,
+      "pass": true
+    },
+    {
+      "id": "c16-t4-p3",
+      "expectedWords": 862,
+      "viewport": 375,
+      "width": 375,
+      "words": 862,
+      "pass": true
+    },
+    {
+      "id": "c17-t1-p2",
+      "expectedWords": 890,
+      "viewport": 375,
+      "width": 375,
+      "words": 890,
+      "pass": true
+    },
+    {
+      "id": "c17-t1-p3",
+      "expectedWords": 958,
+      "viewport": 375,
+      "width": 375,
+      "words": 958,
+      "pass": true
+    },
+    {
+      "id": "c17-t2-p1",
+      "expectedWords": 780,
+      "viewport": 375,
+      "width": 375,
+      "words": 780,
+      "pass": true
+    },
+    {
+      "id": "c17-t2-p2",
+      "expectedWords": 822,
+      "viewport": 375,
+      "width": 375,
+      "words": 822,
+      "pass": true
+    },
+    {
+      "id": "c17-t2-p3",
+      "expectedWords": 911,
+      "viewport": 375,
+      "width": 375,
+      "words": 911,
+      "pass": true
+    },
+    {
+      "id": "c17-t3-p1",
+      "expectedWords": 788,
+      "viewport": 375,
+      "width": 375,
+      "words": 788,
+      "pass": true
+    },
+    {
+      "id": "c17-t3-p2",
+      "expectedWords": 918,
+      "viewport": 375,
+      "width": 375,
+      "words": 918,
+      "pass": true
+    },
+    {
+      "id": "c17-t3-p3",
+      "expectedWords": 987,
+      "viewport": 375,
+      "width": 375,
+      "words": 987,
+      "pass": true
+    },
+    {
+      "id": "c17-t4-p1",
+      "expectedWords": 857,
+      "viewport": 375,
+      "width": 375,
+      "words": 857,
+      "pass": true
+    },
+    {
+      "id": "c17-t4-p2",
+      "expectedWords": 947,
+      "viewport": 375,
+      "width": 375,
+      "words": 947,
+      "pass": true
+    },
+    {
+      "id": "c17-t4-p3",
+      "expectedWords": 855,
+      "viewport": 375,
+      "width": 375,
+      "words": 855,
+      "pass": true
+    },
+    {
+      "id": "c18-t1-p2",
+      "expectedWords": 816,
+      "viewport": 375,
+      "width": 375,
+      "words": 816,
+      "pass": true
+    },
+    {
+      "id": "c18-t1-p3",
+      "expectedWords": 893,
+      "viewport": 375,
+      "width": 375,
+      "words": 893,
+      "pass": true
+    },
+    {
+      "id": "c18-t2-p1",
+      "expectedWords": 843,
+      "viewport": 375,
+      "width": 375,
+      "words": 843,
+      "pass": true
+    },
+    {
+      "id": "c18-t2-p2",
+      "expectedWords": 952,
+      "viewport": 375,
+      "width": 375,
+      "words": 952,
+      "pass": true
+    },
+    {
+      "id": "c18-t2-p3",
+      "expectedWords": 784,
+      "viewport": 375,
+      "width": 375,
+      "words": 784,
+      "pass": true
+    },
+    {
+      "id": "c18-t3-p1",
+      "expectedWords": 856,
+      "viewport": 375,
+      "width": 375,
+      "words": 856,
+      "pass": true
+    },
+    {
+      "id": "c18-t3-p2",
+      "expectedWords": 924,
+      "viewport": 375,
+      "width": 375,
+      "words": 924,
+      "pass": true
+    },
+    {
+      "id": "c18-t3-p3",
+      "expectedWords": 921,
+      "viewport": 375,
+      "width": 375,
+      "words": 921,
+      "pass": true
+    },
+    {
+      "id": "c18-t4-p1",
+      "expectedWords": 780,
+      "viewport": 375,
+      "width": 375,
+      "words": 780,
+      "pass": true
+    },
+    {
+      "id": "c18-t4-p2",
+      "expectedWords": 934,
+      "viewport": 375,
+      "width": 375,
+      "words": 934,
+      "pass": true
+    },
+    {
+      "id": "c18-t4-p3",
+      "expectedWords": 922,
+      "viewport": 375,
+      "width": 375,
+      "words": 922,
+      "pass": true
+    },
+    {
+      "id": "c19-t1-p2",
+      "expectedWords": 949,
+      "viewport": 375,
+      "width": 375,
+      "words": 949,
+      "pass": true
+    },
+    {
+      "id": "c19-t1-p3",
+      "expectedWords": 903,
+      "viewport": 375,
+      "width": 375,
+      "words": 903,
+      "pass": true
+    },
+    {
+      "id": "c19-t2-p1",
+      "expectedWords": 889,
+      "viewport": 375,
+      "width": 375,
+      "words": 889,
+      "pass": true
+    },
+    {
+      "id": "c19-t2-p2",
+      "expectedWords": 802,
+      "viewport": 375,
+      "width": 375,
+      "words": 802,
+      "pass": true
+    },
+    {
+      "id": "c19-t2-p3",
+      "expectedWords": 944,
+      "viewport": 375,
+      "width": 375,
+      "words": 944,
+      "pass": true
+    },
+    {
+      "id": "c19-t3-p1",
+      "expectedWords": 745,
+      "viewport": 375,
+      "width": 375,
+      "words": 745,
+      "pass": true
+    },
+    {
+      "id": "c19-t3-p2",
+      "expectedWords": 880,
+      "viewport": 375,
+      "width": 375,
+      "words": 880,
+      "pass": true
+    },
+    {
+      "id": "c19-t3-p3",
+      "expectedWords": 921,
+      "viewport": 375,
+      "width": 375,
+      "words": 921,
+      "pass": true
+    },
+    {
+      "id": "c19-t4-p1",
+      "expectedWords": 818,
+      "viewport": 375,
+      "width": 375,
+      "words": 818,
+      "pass": true
+    },
+    {
+      "id": "c19-t4-p2",
+      "expectedWords": 878,
+      "viewport": 375,
+      "width": 375,
+      "words": 878,
+      "pass": true
+    },
+    {
+      "id": "c19-t4-p3",
+      "expectedWords": 804,
+      "viewport": 375,
+      "width": 375,
+      "words": 804,
+      "pass": true
+    },
+    {
+      "id": "c20-t1-p2",
+      "expectedWords": 901,
+      "viewport": 375,
+      "width": 375,
+      "words": 901,
+      "pass": true
+    },
+    {
+      "id": "c20-t1-p3",
+      "expectedWords": 951,
+      "viewport": 375,
+      "width": 375,
+      "words": 951,
+      "pass": true
+    },
+    {
+      "id": "c20-t2-p1",
+      "expectedWords": 809,
+      "viewport": 375,
+      "width": 375,
+      "words": 809,
+      "pass": true
+    },
+    {
+      "id": "c20-t2-p2",
+      "expectedWords": 813,
+      "viewport": 375,
+      "width": 375,
+      "words": 813,
+      "pass": true
+    },
+    {
+      "id": "c20-t2-p3",
+      "expectedWords": 961,
+      "viewport": 375,
+      "width": 375,
+      "words": 961,
+      "pass": true
+    },
+    {
+      "id": "c20-t3-p1",
+      "expectedWords": 870,
+      "viewport": 375,
+      "width": 375,
+      "words": 870,
+      "pass": true
+    },
+    {
+      "id": "c20-t3-p2",
+      "expectedWords": 772,
+      "viewport": 375,
+      "width": 375,
+      "words": 772,
+      "pass": true
+    },
+    {
+      "id": "c20-t3-p3",
+      "expectedWords": 1091,
+      "viewport": 375,
+      "width": 375,
+      "words": 1091,
+      "pass": true
+    },
+    {
+      "id": "c20-t4-p1",
+      "expectedWords": 866,
+      "viewport": 375,
+      "width": 375,
+      "words": 866,
+      "pass": true
+    },
+    {
+      "id": "c20-t4-p2",
+      "expectedWords": 888,
+      "viewport": 375,
+      "width": 375,
+      "words": 888,
+      "pass": true
+    },
+    {
+      "id": "c20-t4-p3",
+      "expectedWords": 836,
+      "viewport": 375,
+      "width": 375,
+      "words": 836,
+      "pass": true
+    }
+  ]
+}
