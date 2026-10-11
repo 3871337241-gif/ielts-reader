@@ -1,0 +1,158 @@
+{
+  "groups": [
+    {
+      "id": "paragraphs",
+      "label": "Questions 27–31",
+      "type": "paragraph",
+      "instructions": [
+        "Reading Passage 3 has eight paragraphs, A–H.",
+        "Which paragraph contains the following information?",
+        "Write the correct letter, A–H, in boxes 27–31 on your answer sheet.",
+        "NB You may use any letter more than once."
+      ],
+      "questionIds": [
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ]
+    },
+    {
+      "id": "summary",
+      "label": "Questions 32–36",
+      "type": "summary",
+      "instructions": [
+        "Complete the summary below.",
+        "Choose ONE WORD ONLY from the passage for each answer.",
+        "Write your answers in boxes 32–36 on your answer sheet."
+      ],
+      "heading": "Looking at evidence of climate change",
+      "paragraphs": [
+        "Yama Dixit and David Hodell have found the first definitive evidence of climate change affecting the plains of north-western India thousands of years ago. By collecting the {{32}} of snails and analysing them, they discovered evidence of a change in water levels in a {{33}} in the region. This occurred when there was less {{34}} than evaporation, and suggests that there was an extended period of drought.",
+        "Petrie and Singh’s team are using archaeological records to look at {{35}} from five millennia ago, in order to know whether people had adapted their agricultural practices to changing climatic conditions. They are also examining objects including {{36}}, so as to find out about links between inhabitants of different parts of the region and whether these changed over time."
+      ],
+      "questionIds": [
+        32,
+        33,
+        34,
+        35,
+        36
+      ]
+    },
+    {
+      "id": "researchers",
+      "label": "Questions 37–40",
+      "type": "researcher",
+      "instructions": [
+        "Look at the following statements (Questions 37–40) and the list of researchers below.",
+        "Match each statement with the correct researcher, A, B, C or D.",
+        "Write the correct letter, A, B, C or D, in boxes 37–40 on your answer sheet.",
+        "NB You may use any letter more than once."
+      ],
+      "questionIds": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "options": {
+        "A": "Cameron Petrie",
+        "B": "Ravindanath Singh",
+        "C": "Yama Dixit",
+        "D": "David Hodell"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": 27,
+      "answer": "C",
+      "text": "proposed explanations for the decline of the Harappan Civilisation"
+    },
+    {
+      "id": 28,
+      "answer": "H",
+      "text": "reference to a present-day application of some archaeological research findings"
+    },
+    {
+      "id": 29,
+      "answer": "A",
+      "text": "a difference between the Harappan Civilisation and another culture of the same period"
+    },
+    {
+      "id": 30,
+      "answer": "B",
+      "text": "a description of some features of Harappan urban design"
+    },
+    {
+      "id": 31,
+      "answer": "D",
+      "text": "reference to the discovery of errors made by previous archaeologists"
+    },
+    {
+      "id": 32,
+      "answer": "shells",
+      "text": "Yama Dixit and David Hodell have found the first definitive evidence of climate change affecting the plains of north-western India thousands of years ago. By collecting the {{32}} of snails and analysing them, they discovered evidence of a change in water levels in a {{33}} in the region. This occurred when there was less {{34}} than evaporation, and suggests that there was an extended period of drought."
+    },
+    {
+      "id": 33,
+      "answer": "lake",
+      "text": "Yama Dixit and David Hodell have found the first definitive evidence of climate change affecting the plains of north-western India thousands of years ago. By collecting the {{32}} of snails and analysing them, they discovered evidence of a change in water levels in a {{33}} in the region. This occurred when there was less {{34}} than evaporation, and suggests that there was an extended period of drought."
+    },
+    {
+      "id": 34,
+      "answer": "rainfall",
+      "text": "Yama Dixit and David Hodell have found the first definitive evidence of climate change affecting the plains of north-western India thousands of years ago. By collecting the {{32}} of snails and analysing them, they discovered evidence of a change in water levels in a {{33}} in the region. This occurred when there was less {{34}} than evaporation, and suggests that there was an extended period of drought."
+    },
+    {
+      "id": 35,
+      "answer": "grains",
+      "text": "Petrie and Singh’s team are using archaeological records to look at {{35}} from five millennia ago, in order to know whether people had adapted their agricultural practices to changing climatic conditions. They are also examining objects including {{36}}, so as to find out about links between inhabitants of different parts of the region and whether these changed over time."
+    },
+    {
+      "id": 36,
+      "answer": "pottery",
+      "text": "Petrie and Singh’s team are using archaeological records to look at {{35}} from five millennia ago, in order to know whether people had adapted their agricultural practices to changing climatic conditions. They are also examining objects including {{36}}, so as to find out about links between inhabitants of different parts of the region and whether these changed over time."
+    },
+    {
+      "id": 37,
+      "answer": "B",
+      "text": "Finding further information about changes to environmental conditions in the region is vital."
+    },
+    {
+      "id": 38,
+      "answer": "A",
+      "text": "Examining previous patterns of behaviour may have long-term benefits."
+    },
+    {
+      "id": 39,
+      "answer": "D",
+      "text": "Rough calculations indicate the approximate length of a period of water shortage."
+    },
+    {
+      "id": 40,
+      "answer": "A",
+      "text": "Information about the decline of the Harappan Civilisation has been lacking."
+    }
+  ],
+  "source": {
+    "questionPrintedPages": [
+      70,
+      71,
+      72
+    ],
+    "answerPrintedPage": 123,
+    "checked": "2026-10-11"
+  }
+}
