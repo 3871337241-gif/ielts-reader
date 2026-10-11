@@ -1,4 +1,5 @@
 import {STORAGE_KEY,LEGACY_KEY,tokens,emptyState,validateState,migrateLegacy} from './core.js?v=20261011-library3.1';
+import {initSelectionTranslation} from './selection-translation.js?v=20261011-translation1';
 const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let library,lexicon,legacyVocab,legacyAnalysis,state,article,sentenceMap={},occurrences=Object.create(null),trigger,selectedNote,selectedForm,selectedContext,toastTimer,scrollTimer,restoring=false,requestId=0,reviewList=[],reviewIndex=0,reveal=false,annotation=false;
 const books=new Map(),scrolls={library:0,vocab:0};
@@ -121,4 +122,5 @@ async function start(){try{
  const tab=state.tab;renderLibrary();counts();if(location.hash&&location.hash!=='#')await route();else if(tab==='read'&&state.selectedArticleId)await openArticle(state.selectedArticleId);else changeTab(tab,{capture:false});
  if('speechSynthesis'in window)speechSynthesis.getVoices();
  }catch(e){$('#library-content').innerHTML=`<div class="error">${esc(e.message)}<br>请刷新重试，已保存的学习记录仍在当前浏览器。</div>`}}
+initSelectionTranslation({readRoot:$('#read'),wordCard:$('#word-card'),closeWordCard:closeCard,beforeOpen:captureProgress});
 start();

@@ -13,5 +13,6 @@ jobs:
         with:
           node-version: '22'
       - run: node --check src/reader.js
-      - run: node --test tests/core.test.mjs
+      - run: node --check src/selection-translation.js
+      - run: node --test tests/*.test.mjs
       - run: node scripts/validate-content.mjs
