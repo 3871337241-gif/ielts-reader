@@ -1,0 +1,4738 @@
+{
+  "c18-t1-p2": {
+    "end": "G",
+    "sourceDescription": "Reading Passage 2 has seven paragraphs, A-G",
+    "sections": [
+      {
+        "label": "A",
+        "page": 22,
+        "starts": "A A tree's 'value' depends on several factors including its species, size, form, condition,",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 22,
+        "starts": "In the past, Pennsylvania landowners were solely interested in the value of their trees as",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "C",
+        "page": 22,
+        "starts": "C Wood energy markets can accept less expensive wood material of lower quality than would",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 23,
+        "starts": "D One such approach is called a Timber Stand Improvement (TSI) Cut. In a TSI Cut, really",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "E",
+        "page": 23,
+        "starts": "Another approach that might yield a high amount of low-use wood is a Salvage Cut. With",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "F",
+        "page": 23,
+        "starts": "F A Shelterwood Cut, which only takes place in a mature forest that has already been thinned",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "G",
+        "page": 23,
+        "starts": "Thinnings and dense and dead wood removal for fire prevention also center on the",
+        "strip": false,
+        "method": "standalone printed letter"
+      }
+    ]
+  },
+  "c18-t1-p3": {
+    "end": "F",
+    "sourceDescription": "Reading Passage 3 has six sections, A-F",
+    "sections": [
+      {
+        "label": "A",
+        "page": 27,
+        "starts": "A Last year, commercial companies, military and civil departments and amateurs",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 27,
+        "starts": "Concern about space junk goes back to the beginning of the satellite era, but the",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "C",
+        "page": 27,
+        "starts": "Even as our ability to monitor space objects increases, so too does the total",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "D",
+        "page": 28,
+        "starts": "In theory, given the vastness of space, satellite operators should have plenty of",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "E",
+        "page": 28,
+        "starts": "The field is called space traffic management, because it's similar to managing traffic",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "F",
+        "page": 28,
+        "starts": "An additional problem is that there is no authoritative catalogue that accurately",
+        "strip": false,
+        "method": "standalone printed letter"
+      }
+    ]
+  },
+  "c18-t3-p1": {
+    "end": "H",
+    "sourceDescription": "Reading Passage 1 has eight sections, A-H",
+    "sections": [
+      {
+        "label": "A",
+        "page": 63,
+        "starts": "A Concrete is the second most used substance in the global economy, after water - and one",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 63,
+        "starts": "B The problem with replacing concrete is that it is so very good at what it does.",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "C",
+        "page": 63,
+        "starts": "Not only are the ingredients of concrete relatively cheap and found in abundance in most",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "D",
+        "page": 63,
+        "starts": "A possible alternative to concrete is wood. Making buildings from wood may seem like a",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "E",
+        "page": 64,
+        "starts": "E Using wood to construct buildings, however, is not straightforward. Wood expands as it",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 64,
+        "starts": "Stora Enso is Europe's biggest supplier of cross-laminated timber, and its vice-president",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "G",
+        "page": 64,
+        "starts": "Fly ash and slag from iron ore are possible alternatives to cement in a concrete mix. Fly ash,",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "H",
+        "page": 64,
+        "starts": "While these technologies are all promising ideas, they are either unproven or based on",
+        "strip": false,
+        "method": "standalone printed letter"
+      }
+    ]
+  },
+  "c18-t3-p2": {
+    "end": "G",
+    "sourceDescription": "Reading Passage 2 has seven paragraphs, A-G",
+    "sections": [
+      {
+        "label": "A",
+        "page": 68,
+        "starts": "A When primitive automobiles first began to appear in the 1800s, their engines were based",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 68,
+        "starts": "But the glory days of steam cars were few. A new technology called the Internal",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "C",
+        "page": 68,
+        "starts": "Even as the market was declining, four brothers made one last effort to rekindle the",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "D",
+        "page": 68,
+        "starts": "The following year Abner Doble drove the Model B from Massachusetts to Detroit in order",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "E",
+        "page": 69,
+        "starts": "E Later that year Abner Doble delivered unhappy news to those eagerly awaiting the delivery",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 69,
+        "starts": "The brothers made one final attempt to produce a viable steam automobile. In early",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "G",
+        "page": 69,
+        "starts": "G Sadly, the Dobles' brilliant steam car never was a financial success. Priced at around",
+        "strip": true,
+        "method": "original OCR prefix"
+      }
+    ]
+  },
+  "c18-t4-p1": {
+    "end": "E",
+    "sourceDescription": "Reading Passage 1 has five paragraphs, A-E",
+    "sections": [
+      {
+        "label": "A",
+        "page": 86,
+        "starts": "Rooftops covered with grass, vegetable gardens and lush foliage are now a common sight",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "B",
+        "page": 86,
+        "starts": "Ongoing research is showcasing how green roofs in cities can integrate with 'living walls':",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "C",
+        "page": 86,
+        "starts": "In North America, green roofs have become mainstream, with a wide array of expansive,",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "D",
+        "page": 87,
+        "starts": "D For green roofs to become the norm for new developments, there needs to be support from",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "E",
+        "page": 87,
+        "starts": "E As the expertise about green roofs grows, official standards have been developed to",
+        "strip": true,
+        "method": "original OCR prefix"
+      }
+    ]
+  },
+  "c9-t1-p2": {
+    "end": "E",
+    "sourceDescription": "Reading Passage 2 has five paragraphs, A-E",
+    "sections": [
+      {
+        "label": "A",
+        "page": 14,
+        "starts": "The primary reason for the search is basic curiosity - the same curiosity about the natural",
+        "strip": false,
+        "method": "原书对照图人工确认段落首句"
+      },
+      {
+        "label": "B",
+        "page": 14,
+        "starts": "In discussing whether we are alone, most SETI scientists adopt two ground rules. First,",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "C",
+        "page": 15,
+        "starts": "Even when we make these assumptions, our understanding of other life forms is still",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "D",
+        "page": 15,
+        "starts": "An alien civilisation could choose many different ways of sending information across the",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "E",
+        "page": 15,
+        "starts": "There is considerable debate over how we should react if we detect a signal from an alien",
+        "strip": false,
+        "method": "standalone printed letter"
+      }
+    ]
+  },
+  "c9-t2-p1": {
+    "end": "I",
+    "sourceDescription": "Reading Passage 1 has nine sections, A-l",
+    "sections": [
+      {
+        "label": "A",
+        "page": 33,
+        "starts": "A Hearing impairment or other auditory function deficit in young children can have a major impact",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 33,
+        "starts": "B A preliminary study in New Zealand has shown that classroom noise presents a major",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "C",
+        "page": 33,
+        "starts": "C Children with auditory function deficit are potentially failing to learn to their maximum",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 33,
+        "starts": "D While the detrimental effects of noise in classroom situations are not limited to children",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "E",
+        "page": 33,
+        "starts": "E Autism is considered a neurological and genetic life-long disorder that causes discrepancies",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 34,
+        "starts": "F The attention deficit disorders are indicative of neurological and genetic disorders and are",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "G",
+        "page": 34,
+        "starts": "G Children experiencing an auditory function deficit can often find speech and communication",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "H",
+        "page": 34,
+        "starts": "H The New Zealand Government has developed a New Zealand Disability Strategy and has",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "I",
+        "page": 34,
+        "starts": "1 A number of countries are already in the process of formulating their own standards for",
+        "strip": true,
+        "method": "gutter OCR"
+      }
+    ]
+  },
+  "c9-t2-p2": {
+    "end": "G",
+    "sourceDescription": "Reading Passage 2 has seven paragraphs, A-G",
+    "sections": [
+      {
+        "label": "A",
+        "page": 37,
+        "starts": "On 8 June 2004, more than half the population of the world were treated to a rare",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "B",
+        "page": 37,
+        "starts": "For centuries, transits of Venus have drawn explorers and astronomers alike to the",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "C",
+        "page": 37,
+        "starts": "Halley was aware that the AU was one of the most fundamental of all astronomical",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "D",
+        "page": 38,
+        "starts": "Inspired by Halley's suggestion of a way to pin down the scale of the Solar System,",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "E",
+        "page": 38,
+        "starts": "While the early transit timings were as precise as instruments would allow, the",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "F",
+        "page": 38,
+        "starts": "But astronomers laboured hard to analyse the results of these expeditions to observe",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "G",
+        "page": 38,
+        "starts": "June 2004's transit of Venus was thus more of an astronomical spectacle than a",
+        "strip": false,
+        "method": "standalone printed letter"
+      }
+    ]
+  },
+  "c9-t3-p2": {
+    "end": "F",
+    "sourceDescription": "Reading Passage 2 has six paragraphs, A-F",
+    "sections": [
+      {
+        "label": "A",
+        "page": 59,
+        "starts": "Operating on the same principle as wind turbines, the power in sea turbines",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "B",
+        "page": 59,
+        "starts": "Tidal sites have already been identified that will produce one sixth or more",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "C",
+        "page": 59,
+        "starts": "Work on designs for the new turbine blades and sites are well advanced",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "D",
+        "page": 60,
+        "starts": "A marine turbine blade needs to be only one third of the size of a wind",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "E",
+        "page": 60,
+        "starts": "Dr Bahaj has done most work on the Alderney site, where there are",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "F",
+        "page": 60,
+        "starts": "One technical difficulty is cavitation, where low pressure behind a turning",
+        "strip": false,
+        "method": "standalone printed letter"
+      }
+    ]
+  },
+  "c9-t3-p3": {
+    "end": "F",
+    "sourceDescription": "Reading Passage 3 has six paragraphs, A-F",
+    "sections": [
+      {
+        "label": "A",
+        "page": 63,
+        "starts": "A In April 2002 an event took place which demonstrated one of the many applications",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 63,
+        "starts": "B It was the longest-distance repair job in history, and a triumph for the NASA",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "C",
+        "page": 64,
+        "starts": "C This all seems light years away from the down-to-earth uses Shannon originally",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 64,
+        "starts": "D Noise usually means unwanted sounds which interfere with genuine information.",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "E",
+        "page": 64,
+        "starts": "E Over the years scientists have devised many such coding methods, and they have",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 64,
+        "starts": "F Shannon also laid the foundations of more efficient ways of storing information, by",
+        "strip": true,
+        "method": "original OCR prefix"
+      }
+    ]
+  },
+  "c9-t4-p2": {
+    "end": "H",
+    "sourceDescription": "Reading Passage 2 has eight paragraphs, A-H",
+    "sections": [
+      {
+        "label": "A",
+        "page": 83,
+        "starts": "A A sense of self develops in young children by degrees. The process can usefully be",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 83,
+        "starts": "B According to James, a child's first step on the road to self-understanding can",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "C",
+        "page": 83,
+        "starts": "Another powerful source of information for infants about the effects they can",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "D",
+        "page": 83,
+        "starts": "D This understanding that children gain of themselves as active agents continues",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "E",
+        "page": 84,
+        "starts": "Once children have acquired a certain level of self-awareness, they begin to",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "F",
+        "page": 84,
+        "starts": "Cooley and other researchers suggested a close connection between a person's own",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "G",
+        "page": 84,
+        "starts": "Lewis and Brooks-Gunn argued that an important developmental milestone is",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "H",
+        "page": 84,
+        "starts": "H Finally, perhaps the most graphic expressions of self-awareness in general can",
+        "strip": true,
+        "method": "original OCR prefix"
+      }
+    ]
+  },
+  "c9-t4-p3": {
+    "end": "F",
+    "sourceDescription": "Reading Passage 3 has six paragraphs, A-F",
+    "sections": [
+      {
+        "label": "A",
+        "page": 89,
+        "starts": "A The conviction that historical relics provide infallible testimony about the past is",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 89,
+        "starts": "B Recently, however, attitudes towards history and the way it should be presented",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "C",
+        "page": 89,
+        "starts": "C In a related development, the sharp distinction between museum and heritage sites",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 90,
+        "starts": "D Theme parks are undergoing other changes, too, as they try to present more serious",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "E",
+        "page": 90,
+        "starts": "E It could be claimed that in order to make everything in heritage more 'real, historical",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 90,
+        "starts": "F Human bias is inevitable, but another source of bias in the representation of history",
+        "strip": true,
+        "method": "original OCR prefix"
+      }
+    ]
+  },
+  "c14-t1-p2": {
+    "end": "G",
+    "sourceDescription": "Reading Passage 2 has seven paragraphs, A-G",
+    "sections": [
+      {
+        "label": "A",
+        "page": 21,
+        "starts": "The original idea for an urban bike-sharing scheme dates back to a summer's day",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "B",
+        "page": 21,
+        "starts": "B Luud Schimmelpennink, a Dutch industrial engineer who still lives and cycles",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "C",
+        "page": 21,
+        "starts": "Schimmelpennink seized this opportunity to present a more elaborate Witte",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "D",
+        "page": 21,
+        "starts": "Schimmelpennink never stopped believing in bike-sharing, and in the mid-90s,",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "E",
+        "page": 22,
+        "starts": "E Theo Molenaar, who was a system designer for the project, worked alongside",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 22,
+        "starts": "Schimmelpennink was disappointed, but - characteristically - not for long. In 2002",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "G",
+        "page": 22,
+        "starts": "In Amsterdam today, 38% of all trips are made by bike and, along with",
+        "strip": false,
+        "method": "gutter OCR"
+      }
+    ]
+  },
+  "c14-t2-p2": {
+    "end": "I",
+    "sourceDescription": "Reading Passage 2 has nine sections, A-I",
+    "sections": [
+      {
+        "label": "A",
+        "page": 43,
+        "starts": "The Recovery of Natural Environments in Architecture by Professor Alan Short is",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "B",
+        "page": 43,
+        "starts": "Short is calling for a sweeping reinvention of how skyscrapers and major public",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "C",
+        "page": 43,
+        "starts": "Short points out that to make most contemporary buildings habitable, they have",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "D",
+        "page": 43,
+        "starts": "Short's book highlights a developing and sophisticated art and science of ventilating",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "E",
+        "page": 44,
+        "starts": "E 'We discovered that 19th-century hospital wards could generate up to 24 air changes",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 44,
+        "starts": "Much of the ingenuity present in 19th-century hospital and building design was",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "G",
+        "page": 44,
+        "starts": "Today, huge amounts of a building's space and construction cost are given over to",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "H",
+        "page": 44,
+        "starts": "H Successful examples of Short's approach include the Queen's Building at De",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "I",
+        "page": 44,
+        "starts": "He is convinced that sufficiently cooled skyscrapers using the natural environment",
+        "strip": false,
+        "method": "gutter OCR"
+      }
+    ]
+  },
+  "c14-t2-p3": {
+    "end": "H",
+    "sourceDescription": "Reading Passage 3 has eight sections, A-H",
+    "sections": [
+      {
+        "label": "A",
+        "page": 48,
+        "starts": "A Organisation is big business. Whether it is of our lives - all those inboxes and calendars -",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 48,
+        "starts": "Ironically, however, the number of businesses that fail has also steadily increased.",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "C",
+        "page": 48,
+        "starts": "This has been a problem for a while now. Frederick Taylor was one of the forefathers of",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "D",
+        "page": 48,
+        "starts": "D New research suggests that this obsession with efficiency is misguided. The problem is not",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "E",
+        "page": 48,
+        "starts": "What's more, recent studies show that order actually has diminishing returns. Order does",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "F",
+        "page": 49,
+        "starts": "F In fact, research shows that, when innovating, the best approach is to create an environment",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "G",
+        "page": 49,
+        "starts": "In recent times companies have slowly started to embrace this disorganisation. Many of",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "H",
+        "page": 49,
+        "starts": "A word of warning to others thinking of jumping on this bandwagon: the evidence so far",
+        "strip": false,
+        "method": "原书对照图人工确认段落首句"
+      }
+    ]
+  },
+  "c14-t3-p1": {
+    "end": "J",
+    "sourceDescription": "Reading Passage 1 has ten sections, A-J",
+    "sections": [
+      {
+        "label": "A",
+        "page": 60,
+        "starts": "Looked at in one way, everyone knows what intelligence is; looked at in another way, no one",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "B",
+        "page": 60,
+        "starts": "First, implicit theories of intelligence drive the way in which people perceive and evaluate",
+        "strip": false,
+        "method": "原书对照图人工确认段落首句"
+      },
+      {
+        "label": "C",
+        "page": 60,
+        "starts": "C Second, the implicit theories of scientific investigators ultimately give rise to their explicit",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 60,
+        "starts": "Third, implicit theories can be useful when an investigator suspects that existing explicit",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "E",
+        "page": 61,
+        "starts": "E Finally, understanding implicit theories of intelligence can help elucidate developmental and",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 61,
+        "starts": "I have suggested that there are three major implicit theories of how intelligence relates to",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "G",
+        "page": 61,
+        "starts": "The Hamiltonian view, which is similar to the Platonic view, is that people are born with",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "H",
+        "page": 61,
+        "starts": "The Jeffersonian view is that people should have equal opportunities, but they do not",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "I",
+        "page": 61,
+        "starts": "The Jacksonian view is that all people are equal, not only as human beings but in terms",
+        "strip": false,
+        "method": "原书对照图人工确认段落首句"
+      },
+      {
+        "label": "J",
+        "page": 61,
+        "starts": "Implicit theories of intelligence and of the relationship of intelligence to society perhaps",
+        "strip": false,
+        "method": "standalone printed letter"
+      }
+    ]
+  },
+  "c14-t3-p2": {
+    "end": "I",
+    "sourceDescription": "Reading Passage 2 has nine paragraphs, A-I",
+    "sections": [
+      {
+        "label": "A",
+        "page": 64,
+        "starts": "More drugs than you might think are derived from, or inspired by, compounds found",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "B",
+        "page": 64,
+        "starts": "Pharmaceutical science and chemistry built on these ancient foundations and",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "C",
+        "page": 64,
+        "starts": "Laboratory-based drug discovery has achieved varying levels of success,",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "D",
+        "page": 64,
+        "starts": "Insects are the undisputed masters of the terrestrial domain, where they occupy",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "E",
+        "page": 65,
+        "starts": "E From the tiny proportion of insects that have been investigated, several promising",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 65,
+        "starts": "F Why is it that insects have received relatively little attention in bioprospecting?",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "G",
+        "page": 65,
+        "starts": "My colleagues and | at Aberystwyth University in the UK have developed an",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "H",
+        "page": 65,
+        "starts": "Although natural history knowledge points us in the right direction, it doesn't",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "I",
+        "page": 65,
+        "starts": "With every bit of wilderness that disappears, we deprive ourselves of potential",
+        "strip": false,
+        "method": "gutter OCR"
+      }
+    ]
+  },
+  "c14-t4-p2": {
+    "end": "F",
+    "sourceDescription": "Reading Passage 2 has six paragraphs, A-F",
+    "sections": [
+      {
+        "label": "A",
+        "page": 87,
+        "starts": "In my view, it is perfectly possible for many species of animals living in zoos",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "B",
+        "page": 87,
+        "starts": "Firstly, zoos aid conservation. Colossal numbers of species are becoming extinct",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "C",
+        "page": 87,
+        "starts": "Zoos also provide education. Many children and adults, especially those in cities,",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "D",
+        "page": 88,
+        "starts": "D In addition to this, there is also the education that can take place in zoos through",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "E",
+        "page": 88,
+        "starts": "E Zoos also play a key role in research. If we are to save wild species and restore",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 88,
+        "starts": "In conclusion, considering the many ongoing global threats to the environment, it is",
+        "strip": false,
+        "method": "standalone printed letter"
+      }
+    ]
+  },
+  "c5-t1-p2": {
+    "end": "I",
+    "sourceDescription": "Reading Passage 2 has nine paragraphs, A-I",
+    "sections": [
+      {
+        "label": "A",
+        "page": 21,
+        "starts": "A few years ago, in one of the most fascinating and disturbing experiments in behavioural",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "B",
+        "page": 21,
+        "starts": "Milgram's experimental set-up involved placing the teacher-subject before a panel of thirty",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "C",
+        "page": 21,
+        "starts": "As the experiment unfolded, the pupil would deliberately give the wrong answers to",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "D",
+        "page": 21,
+        "starts": "Prior to carrying out the experiment, Milgram explained his idea to a group of",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "E",
+        "page": 22,
+        "starts": "What were the actual results? Well, over 60 per cent of the teacher-subjects continued to",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "F",
+        "page": 22,
+        "starts": "F One's first inclination might be to argue that there must be some sort of built-in animal",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "G",
+        "page": 22,
+        "starts": "G An alternative to this notion of genetic programming is to see the teacher-subjects' actions",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "H",
+        "page": 22,
+        "starts": "Thus, in this explanation the subject merges his unique personality and personal and moral",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "I",
+        "page": 22,
+        "starts": "Here we have two radically different explanations for why so many teacher-subjects were",
+        "strip": false,
+        "method": "gutter OCR"
+      }
+    ]
+  },
+  "c5-t3-p1": {
+    "end": "F",
+    "sourceDescription": "Reading Passage 1 has six sections, A-F",
+    "sections": [
+      {
+        "label": "A",
+        "page": 63,
+        "starts": "'Education To Be More' was published last",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "B",
+        "page": 63,
+        "starts": "A 13-year study of early childhood development",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "C",
+        "page": 63,
+        "starts": "It is generally acknowledged that young people",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "D",
+        "page": 63,
+        "starts": "As a result of the growing research evidence",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "E",
+        "page": 64,
+        "starts": "At the age of three, the children who had been",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "F",
+        "page": 64,
+        "starts": "These research findings are exciting. There is",
+        "strip": false,
+        "method": "standalone printed letter"
+      }
+    ]
+  },
+  "c5-t3-p2": {
+    "end": "F",
+    "sourceDescription": "Reading Passage 2 has six paragraphs, A-F",
+    "sections": [
+      {
+        "label": "A",
+        "page": 68,
+        "starts": "A The fertile land of the Nile delta is being",
+        "strip": false,
+        "method": "PDF text prefix aligned to OCR"
+      },
+      {
+        "label": "B",
+        "page": 68,
+        "starts": "B Up to now, people have blamed this loss of",
+        "strip": false,
+        "method": "PDF text prefix aligned to OCR"
+      },
+      {
+        "label": "C",
+        "page": 68,
+        "starts": "C Now, however, there turns out to be more to",
+        "strip": false,
+        "method": "PDF text prefix aligned to OCR"
+      },
+      {
+        "label": "D",
+        "page": 68,
+        "starts": "D Once north of Cairo, most of the Nile water",
+        "strip": false,
+        "method": "PDF text prefix aligned to OCR"
+      },
+      {
+        "label": "E",
+        "page": 68,
+        "starts": "E The farms on the delta plains and fishing and",
+        "strip": false,
+        "method": "PDF text prefix aligned to OCR"
+      },
+      {
+        "label": "F",
+        "page": 69,
+        "starts": "F According to Siegel, international",
+        "strip": false,
+        "method": "PDF text prefix aligned to OCR"
+      }
+    ]
+  },
+  "c5-t3-p3": {
+    "end": "G",
+    "sourceDescription": "Reading Passage 3 has seven paragraphs, A-G",
+    "sections": [
+      {
+        "label": "A",
+        "page": 72,
+        "starts": "A After years in the wilderness, the term 'artificial intelligence' (AI)",
+        "strip": false,
+        "method": "PDF text prefix aligned to OCR"
+      },
+      {
+        "label": "B",
+        "page": 72,
+        "starts": "B The field was launched, and the term 'artificial intelligence' coined, at a conference in 1956 by",
+        "strip": false,
+        "method": "PDF text prefix aligned to OCR"
+      },
+      {
+        "label": "C",
+        "page": 72,
+        "starts": "C Most researchers agree that Al peaked around 1985. A public reared on science-fiction",
+        "strip": false,
+        "method": "PDF text prefix aligned to OCR"
+      },
+      {
+        "label": "D",
+        "page": 73,
+        "starts": "D Ironically, in some ways Al was a victim of its own success. Whenever an apparently mundane",
+        "strip": false,
+        "method": "PDF text prefix aligned to OCR"
+      },
+      {
+        "label": "E",
+        "page": 73,
+        "starts": "E But the tide may now be turning, according to Dr Leake. HNC Software of San Diego, backed",
+        "strip": false,
+        "method": "PDF text prefix aligned to OCR"
+      },
+      {
+        "label": "F",
+        "page": 73,
+        "starts": "F Another factor that may boost the prospects for Al in the near future is that investors are",
+        "strip": false,
+        "method": "PDF text prefix aligned to OCR"
+      },
+      {
+        "label": "G",
+        "page": 73,
+        "starts": "G The 1969 film, 200l :A Space Odyssey, featured an intelligent computer called HAL 9000. As",
+        "strip": false,
+        "method": "PDF text prefix aligned to OCR"
+      }
+    ]
+  },
+  "c5-t4-p1": {
+    "end": "C",
+    "sourceDescription": "Reading Passage 1 has three sections, A-C",
+    "sections": [
+      {
+        "label": "A",
+        "page": 87,
+        "starts": "The market for tourism in remote areas is booming as never before. Countries all",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "B",
+        "page": 87,
+        "starts": "Once a location is established as a main tourist destination, the effects on the local",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "C",
+        "page": 88,
+        "starts": "Stories about the problems of tourism have become legion in the last few years. Yet",
+        "strip": false,
+        "method": "standalone printed letter"
+      }
+    ]
+  },
+  "c4-t2-p3": {
+    "end": "I",
+    "sourceDescription": "原书阅读页字母编号",
+    "sections": [
+      {
+        "label": "A",
+        "page": 51,
+        "starts": "A Playing is a serious business. Children engrossed in a make-believe world, fox cubs play-fight-",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 51,
+        "starts": "B But if play is not simply a developmental hiccup, as biologists once thought, why did it evolve?",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "C",
+        "page": 51,
+        "starts": "C Take the exercise theory. If play evolved to build muscle or as a kind of endurance training,",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 51,
+        "starts": "D Then there's the skills-training hypothesis. At first glance, playing animals do appear to be",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "E",
+        "page": 52,
+        "starts": "E Earlier this year, Sergio Pellis of Lethbridge University, Canada, reported that there is a",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 52,
+        "starts": "F According to Byers, the timing of the playful stage in young animals provides an important",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "G",
+        "page": 52,
+        "starts": "G People have not paid enough attention to the amount of the brain activated by play, says",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "H",
+        "page": 52,
+        "starts": "H Not only is more of the brain involved in play than was suspected, but it also seems to acti-",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "I",
+        "page": 52,
+        "starts": "I What might further experimentation suggest about the way children are raised in many soci-",
+        "strip": true,
+        "method": "original OCR prefix"
+      }
+    ]
+  },
+  "c4-t3-p2": {
+    "end": "D",
+    "sourceDescription": "Reading Passage 2 has four sections A-D",
+    "sections": [
+      {
+        "label": "A",
+        "page": 72,
+        "starts": "A Volcanoes are the ultimate earth-moving machinery. A violent eruption can blow",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 72,
+        "starts": "Geologists consider the earth as having a molten core, surrounded by a semi-molten",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "C",
+        "page": 73,
+        "starts": "C These zones are lines of weakness, or hot spots. Every eruption is different, but put",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 73,
+        "starts": "D But volcanoes are not very predictable. That is because geological time is not like",
+        "strip": true,
+        "method": "original OCR prefix"
+      }
+    ]
+  },
+  "c4-t3-p3": {
+    "end": "G",
+    "sourceDescription": "原书阅读页字母编号",
+    "sections": [
+      {
+        "label": "A",
+        "page": 75,
+        "starts": "A Many procedures are available for obtaining",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 75,
+        "starts": "In all cases, someone has to act as a source",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "C",
+        "page": 75,
+        "starts": "C Many factors must be considered when",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 75,
+        "starts": "Today, researchers often tape-record infor-",
+        "strip": false,
+        "method": "PDF text prefix aligned to OCR"
+      },
+      {
+        "label": "E",
+        "page": 76,
+        "starts": "E An audio tape recording does not solve all",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 76,
+        "starts": "Linguists also make great use of structured",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "G",
+        "page": 76,
+        "starts": "G A representative sample of language, com-",
+        "strip": true,
+        "method": "original OCR prefix"
+      }
+    ]
+  },
+  "c15-t1-p2": {
+    "end": "G",
+    "sourceDescription": "Reading Passage 2 has seven sections, A-G",
+    "sections": [
+      {
+        "label": "A",
+        "page": 22,
+        "starts": "The automotive sector is well used to adapting to automation in manufacturing.",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "B",
+        "page": 22,
+        "starts": "There are many reasons why technology is advancing so fast. One frequently cited",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "C",
+        "page": 22,
+        "starts": "C Beyond these direct benefits, we can consider the wider implications for transport",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 22,
+        "starts": "D The Massachusetts Institute of Technology investigated automated mobility in",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "E",
+        "page": 23,
+        "starts": "E Automation may prompt other changes in vehicle manufacture. If we move to a",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 23,
+        "starts": "There are a number of hurdles to overcome in delivering automated vehicles",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "G",
+        "page": 23,
+        "starts": "It's clear that there are many challenges that need to be addressed but, through",
+        "strip": false,
+        "method": "gutter OCR"
+      }
+    ]
+  },
+  "c15-t2-p1": {
+    "end": "G",
+    "sourceDescription": "Reading Passage 1 has seven paragraphs, A-G",
+    "sections": [
+      {
+        "label": "A",
+        "page": 39,
+        "starts": "A The way we travel around cities has a major impact on whether they are sustainable.",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 39,
+        "starts": "Dance might hold some of the answers. That is not to suggest everyone should dance their",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "C",
+        "page": 39,
+        "starts": "Whereas medieval builders improvised and adapted construction through their intimate",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "D",
+        "page": 39,
+        "starts": "To illustrate, Sennett discusses the Peachtree Center in Atlanta, USA, a development typical",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "E",
+        "page": 40,
+        "starts": "E The same is true in transport engineering, which uses models to predict and shape the",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 40,
+        "starts": "If their designers had had the tools to think with their bodies - like dancers - and imagine",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "G",
+        "page": 40,
+        "starts": "Observing the choreographer Wayne McGregor, cognitive scientist David Kirsh described",
+        "strip": false,
+        "method": "standalone printed letter"
+      }
+    ]
+  },
+  "c15-t2-p2": {
+    "end": "F",
+    "sourceDescription": "Reading Passage 2 has six paragraphs, A-F",
+    "sections": [
+      {
+        "label": "A",
+        "page": 42,
+        "starts": "A The passenger pigeon was a legendary species. Flying in vast numbers across",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 42,
+        "starts": "In Australia, the thylacine, more commonly known as the Tasmanian tiger, is",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "C",
+        "page": 42,
+        "starts": "C If extinct species can be brought back to life, can humanity begin to correct the",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 43,
+        "starts": "This complicated process and questionable outcome begs the question: what is",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "E",
+        "page": 43,
+        "starts": "Another popular candidate for this technology is the woolly mammoth. George",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "F",
+        "page": 43,
+        "starts": "While the prospect of bringing extinct animals back to life might capture",
+        "strip": false,
+        "method": "standalone printed letter"
+      }
+    ]
+  },
+  "c15-t3-p2": {
+    "end": "G",
+    "sourceDescription": "Reading Passage 2 has seven sections, A-G",
+    "sections": [
+      {
+        "label": "A",
+        "page": 65,
+        "starts": "A Travelling around Thailand in the 1990s, William Janssen was impressed with the",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 65,
+        "starts": "The Desolenator operates as a mobile desalination unit that can take water from",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "C",
+        "page": 65,
+        "starts": "The Desolenator can produce 15 litres of drinking water per day, enough to sustain",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "D",
+        "page": 65,
+        "starts": "D A recent analysis found that at least two-thirds of the world's population lives",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "E",
+        "page": 66,
+        "starts": "E The device is aimed at a wide variety of users - from homeowners in the developing",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 66,
+        "starts": "Prices will vary according to where it is bought. In the developing world, the price",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "G",
+        "page": 66,
+        "starts": "G The company itself is based at Imperial College London, although Janssen, its chief",
+        "strip": true,
+        "method": "original OCR prefix"
+      }
+    ]
+  },
+  "c8-t1-p1": {
+    "end": "H",
+    "sourceDescription": "Reading Passage 1 has eight paragraphs, A-H",
+    "sections": [
+      {
+        "label": "A",
+        "page": 17,
+        "starts": "A According to archaeological evidence, at least 5,000 years ago, and long before the advent",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 17,
+        "starts": "Before the invention of artificial light, the moon had greater social impact. And, for those",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "C",
+        "page": 17,
+        "starts": "C Centuries before the Roman Empire, the Egyptians had formulated a municipal calendar",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 18,
+        "starts": "In order to track temporal hours during the day, inventors created sundials, which indicate",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "E",
+        "page": 18,
+        "starts": "E The advent of the mechanical clock meant that although it could be adjusted to maintain",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 18,
+        "starts": "The earliest recorded weight-driven mechanical clock was built in 1283 in Bedfordshire",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "G",
+        "page": 18,
+        "starts": "G To address this, a variation on the original escapement was invented in 1670, in England.",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "H",
+        "page": 18,
+        "starts": "H Today, highly accurate timekeeping instruments set the beat for most electronic devices.",
+        "strip": true,
+        "method": "original OCR prefix"
+      }
+    ]
+  },
+  "c8-t1-p2": {
+    "end": "G",
+    "sourceDescription": "Reading Passage 2 has seven paragraphs, A-G",
+    "sections": [
+      {
+        "label": "A",
+        "page": 22,
+        "starts": "A An accident that occurred in the skies over the Grand Canyon in 1956 resulted",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 22,
+        "starts": "B Rudimentary air traffic control (ATC) existed well before the Grand Canyon disaster.",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "C",
+        "page": 22,
+        "starts": "C In the 1940s, ATC centres could and did take advantage of the newly developed",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 22,
+        "starts": "Many people think that ATC consists of a row of controllers sitting in front of their",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "E",
+        "page": 22,
+        "starts": "E To meet this challenge, the following elements were put into effect. First, ATC",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 23,
+        "starts": "F The FAA then recognised two types of operating environments. In good",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "G",
+        "page": 23,
+        "starts": "G Controlled airspace is divided into several different types, designated by letters",
+        "strip": true,
+        "method": "original OCR prefix"
+      }
+    ]
+  },
+  "c8-t2-p2": {
+    "end": "F",
+    "sourceDescription": "Reading Passage 2 has six paragraphs, A-F",
+    "sections": [
+      {
+        "label": "A",
+        "page": 45,
+        "starts": "A This book will provide a detailed examination of the Little Ice Age and other climatic",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 45,
+        "starts": "B The Little Ice Age lasted from roughly 1300 until the middle of the nineteenth",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "C",
+        "page": 45,
+        "starts": "C Reconstructing the climate changes of the past is extremely difficult, because",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 46,
+        "starts": "D This book is a narrative history of climatic shifts during the past ten centuries, and",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "E",
+        "page": 46,
+        "starts": "E Itis known that the Little Ice Age cooling began in Greenland and the Arctic in",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 46,
+        "starts": "F Global temperatures began to rise slowly after 1850, with the beginning of the",
+        "strip": true,
+        "method": "original OCR prefix"
+      }
+    ]
+  },
+  "c8-t2-p3": {
+    "end": "F",
+    "sourceDescription": "Reading Passage 3 has six paragraphs, A-F",
+    "sections": [
+      {
+        "label": "A",
+        "page": 49,
+        "starts": "A A survey conducted by Anthony Synott at Montreal's Concordia University asked",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 49,
+        "starts": "B Odours are also essential cues in social bonding. One respondent to the survey",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "C",
+        "page": 49,
+        "starts": "C In spite of its importance to our emotional and sensory lives, smell is probably",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 49,
+        "starts": "D Smell, however, is a highly elusive phenomenon. Odours, unlike colours, for",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "E",
+        "page": 50,
+        "starts": "E Most of the research on smell undertaken to date has been of a physical scientific",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 50,
+        "starts": "However, smell is not simply a biological and psychological phenomenon. Smell",
+        "strip": false,
+        "method": "gutter OCR"
+      }
+    ]
+  },
+  "c8-t3-p3": {
+    "end": "G",
+    "sourceDescription": "Reading Passage 3 has seven paragraphs, A-G",
+    "sections": [
+      {
+        "label": "A",
+        "page": 74,
+        "starts": "A Our life span is restricted. Everyone accepts this as \"biologically' obvious.",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 74,
+        "starts": "B Our 'dead' products are 'static', closed systems. It is always the basic material",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "C",
+        "page": 74,
+        "starts": "C Thus ageing and death should not be seen as inevitable, particularly as",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 74,
+        "starts": "Every organism has a life span which is highly characteristic. There are striking",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "E",
+        "page": 75,
+        "starts": "E If a life span is a genetically determined biological characteristic, it is logically",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 75,
+        "starts": "F Animals which behave frugally' with energy become particularly old, for",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "G",
+        "page": 75,
+        "starts": "G It follows from the above that sparing use of energy reserves should",
+        "strip": true,
+        "method": "original OCR prefix"
+      }
+    ]
+  },
+  "c8-t4-p1": {
+    "end": "F",
+    "sourceDescription": "Reading Passage 1 has six sections, A-F",
+    "sections": [
+      {
+        "label": "A",
+        "page": 88,
+        "starts": "A Japan has a significantly better record in terms of average mathematical attainment",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 88,
+        "starts": "B Lower secondary schools in Japan cover three school years, from the seventh",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "C",
+        "page": 88,
+        "starts": "C Traditional ways of teaching form the basis of the lesson and the remarkably quiet",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 88,
+        "starts": "D Lessons all follow the same pattern. At the beginning, the pupils put solutions",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "E",
+        "page": 89,
+        "starts": "E It is remarkable that large, mixed-ability classes could be kept together for maths",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 89,
+        "starts": "F So what are the major contributing factors in the success of maths teaching?",
+        "strip": true,
+        "method": "original OCR prefix"
+      }
+    ]
+  },
+  "c19-t1-p2": {
+    "end": "G",
+    "sourceDescription": "Reading Passage 2 has seven paragraphs, A-G",
+    "sections": [
+      {
+        "label": "A",
+        "page": 21,
+        "starts": "A When one mentions pirates, an image springs to most people's minds of a crew of misfits,",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 21,
+        "starts": "Although piracy in the Mediterranean is first recorded in ancient Egypt during the reign",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "C",
+        "page": 21,
+        "starts": "C One should also add that it was not unknown in the first and second millennia BCE for",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 22,
+        "starts": "D The first known record of a named group of Mediterranean pirates, made during the rule of",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "E",
+        "page": 22,
+        "starts": "The ancient Greek world's experience of piracy was different from that of Egyptian rulers.",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "F",
+        "page": 22,
+        "starts": "The rising power of ancient Rome required the Roman Republic to deal with piracy in the",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "G",
+        "page": 22,
+        "starts": "G By now, Rome was well aware that pirates had outlived their usefulness. The time had",
+        "strip": true,
+        "method": "original OCR prefix"
+      }
+    ]
+  },
+  "c19-t2-p2": {
+    "end": "F",
+    "sourceDescription": "Reading Passage 2 has six paragraphs, A-F",
+    "sections": [
+      {
+        "label": "A",
+        "page": 45,
+        "starts": "It isn't easy being a professional athlete. Not only are the physical demands greater",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "B",
+        "page": 45,
+        "starts": "For athletes, some level of performance stress is almost unavoidable. But there are",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "C",
+        "page": 45,
+        "starts": "Each new demand or change in circumstances affects whether a person responds",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "D",
+        "page": 45,
+        "starts": "Our challenge and threat responses essentially influence how our body responds",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "E",
+        "page": 46,
+        "starts": "E That said, anxiety is also a common experience for athletes when they're under",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 46,
+        "starts": "F But there are many ways athletes can ensure they respond positively under",
+        "strip": true,
+        "method": "original OCR prefix"
+      }
+    ]
+  },
+  "c19-t3-p2": {
+    "end": "H",
+    "sourceDescription": "Reading Passage 2 has eight paragraphs, A-H",
+    "sections": [
+      {
+        "label": "A",
+        "page": 67,
+        "starts": "A Wetlands are areas where water covers the soil, or is present either at or near the surface",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 67,
+        "starts": "B Throughout history, humans have gathered around wetlands, and their fertile ecosystems",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "C",
+        "page": 67,
+        "starts": "C They also serve a crucial environmental purpose. 'Wetlands are one of the key tools",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 67,
+        "starts": "D The world's wetlands are, unfortunately, rich sources for in-demand commodities, such as",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "E",
+        "page": 68,
+        "starts": "E The damage starts when logging companies arrive to clear the trees. They dig ditches to",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 68,
+        "starts": "F And while these industries affect wetlands in ways that can easily be documented,",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "G",
+        "page": 68,
+        "starts": "G Silvius also acknowledges the importance of income generation. 'It's not that we just want",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "H",
+        "page": 68,
+        "starts": "H The fortunes of wetlands would be improved, Silvius suggests, if more governments",
+        "strip": true,
+        "method": "original OCR prefix"
+      }
+    ]
+  },
+  "c19-t4-p2": {
+    "end": "F",
+    "sourceDescription": "Reading Passage 2 has six paragraphs, A-F",
+    "sections": [
+      {
+        "label": "A",
+        "page": 89,
+        "starts": "A When Professor Mat Upton found that a microbe from a deep-sea sponge was killing",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 89,
+        "starts": "B 'We're looking at the bioactive potential of marine resources, to see if there are any more",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "C",
+        "page": 89,
+        "starts": "C The deep sea contains more nickel, cobalt and rare earth metals than all land reserves",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 90,
+        "starts": "D But environmental and legal groups have urged caution, arguing there are potentially massive",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "E",
+        "page": 90,
+        "starts": "E Scientific research - including a recent paper in Marine Policy journal - has suggested the",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 90,
+        "starts": "F The oceans occupy around 70% of the planet and are relatively unexplored, says",
+        "strip": true,
+        "method": "original OCR prefix"
+      }
+    ]
+  },
+  "c12-t5-p3": {
+    "end": "F",
+    "sourceDescription": "Reading Passage 3 has six sections, A-F",
+    "sections": [
+      {
+        "label": "A",
+        "page": 25,
+        "starts": "A 'I would found an institution where any person can find instruction in any",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 25,
+        "starts": "Naturally, the course is intended for prospective arson investigators, who can learn all",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "C",
+        "page": 25,
+        "starts": "I realized this anew when I was invited to speak before a class in marketing, which is",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "D",
+        "page": 25,
+        "starts": "D Is that obvious? I made the suggestion, which may sound downright crazy in light of",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "E",
+        "page": 26,
+        "starts": "E Let us apply both the terms 'means' and 'end' to marketing. The students have signed",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 26,
+        "starts": "F It is at this point that \"Arson for Profit becomes supremely relevant. That course is",
+        "strip": true,
+        "method": "original OCR prefix"
+      }
+    ]
+  },
+  "c12-t6-p1": {
+    "end": "I",
+    "sourceDescription": "Reading Passage 1 has nine paragraphs, A-l",
+    "sections": [
+      {
+        "label": "A",
+        "page": 37,
+        "starts": "Two things distinguish food production from all other productive activities: first,",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "B",
+        "page": 37,
+        "starts": "Farmers everywhere face major risks, including extreme weather, long-term",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "C",
+        "page": 37,
+        "starts": "Participants in the online debate argued that our biggest challenge is to address the",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "D",
+        "page": 37,
+        "starts": "On the question of mitigating the risks farmers face, most essayists called for",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "E",
+        "page": 38,
+        "starts": "Shenggen Fan, Director General of the International Food Policy Research",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "F",
+        "page": 38,
+        "starts": "Nwanze, Murphy and Fan argued that private risk management tools, like private",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "G",
+        "page": 38,
+        "starts": "Many essayists mentioned climate change and its consequences for small-scale",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "H",
+        "page": 39,
+        "starts": "H Some participating authors and commentators argued in favour of community-",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "I",
+        "page": 39,
+        "starts": "Some participants explained that market price volatility is often worsened by the",
+        "strip": false,
+        "method": "原书对照图人工确认段落首句"
+      }
+    ]
+  },
+  "c12-t6-p2": {
+    "end": "G",
+    "sourceDescription": "Reading Passage 2 has seven paragraphs, A-G",
+    "sections": [
+      {
+        "label": "A",
+        "page": 44,
+        "starts": "A When the US explorer and academic Hiram Bingham arrived in South America in",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 44,
+        "starts": "B When Bingham and his team set off down the Urubamba in late July, they had",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "C",
+        "page": 44,
+        "starts": "C On 24 July they were a few days into their descent of the valley. The day began",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 44,
+        "starts": "Bingham writes about the approach in vivid style in his book. First, as he climbs",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "E",
+        "page": 45,
+        "starts": "E We should remember, however, that Lost City of the Incas is a work of hindsight,",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 45,
+        "starts": "F However, soon after returning it occurred to him that he could make a name for",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "G",
+        "page": 45,
+        "starts": "One question that has perplexed visitors, historians and archaeologists alike ever",
+        "strip": false,
+        "method": "gutter OCR"
+      }
+    ]
+  },
+  "c12-t6-p3": {
+    "end": "G",
+    "sourceDescription": "Reading Passage 3 has seven paragraphs, A-G",
+    "sections": [
+      {
+        "label": "A",
+        "page": 47,
+        "starts": "A According to the latest figures, the majority of the world's population is now bilingual",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 47,
+        "starts": "Research shows that when a bilingual person uses one language, the other is",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "C",
+        "page": 47,
+        "starts": "Having to deal with this persistent linguistic competition can result in difficulties,",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "D",
+        "page": 48,
+        "starts": "It also seems that the neurological roots of the bilingual advantage extend to brain",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "E",
+        "page": 48,
+        "starts": "Such improvements in cognitive and sensory processing may help a bilingual",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "F",
+        "page": 48,
+        "starts": "Research also indicates that bilingual experience may help to keep the cognitive",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "G",
+        "page": 48,
+        "starts": "G Furthermore, the benefits associated with bilingual experience seem to start",
+        "strip": true,
+        "method": "original OCR prefix"
+      }
+    ]
+  },
+  "c12-t7-p1": {
+    "end": "G",
+    "sourceDescription": "Reading Passage 1 has seven paragraphs, A-G",
+    "sections": [
+      {
+        "label": "A",
+        "page": 61,
+        "starts": "A Forests of spiny cacti cover much of the uneven lava plains that separate the",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 61,
+        "starts": "Before human arrival, the archipelago's tortoises numbered in the hundreds",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "C",
+        "page": 61,
+        "starts": "C Today, only 11 of the original subspecies survive and of these, several are highly",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 61,
+        "starts": "D The problem was also a pressing one. Captive-bred tortoises can't be reintroduced",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "E",
+        "page": 62,
+        "starts": "E For years, repatriation efforts were carried out in small numbers, with the tortoises",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 62,
+        "starts": "This unprecedented effort was made possible by the owners of the 67-metre",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "G",
+        "page": 62,
+        "starts": "Upon their release, the juvenile tortoises quickly spread out over their ancestral",
+        "strip": false,
+        "method": "standalone printed letter"
+      }
+    ]
+  },
+  "c12-t7-p2": {
+    "end": "H",
+    "sourceDescription": "Reading Passage 2 has eight sections, A-H",
+    "sections": [
+      {
+        "label": "A",
+        "page": 64,
+        "starts": "While many diseases that affect humans have been eradicated due to",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "B",
+        "page": 64,
+        "starts": "Geography can often play a very large role in the health concerns of certain",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "C",
+        "page": 64,
+        "starts": "In some countries, geographical factors influence the health and well-being of",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "D",
+        "page": 64,
+        "starts": "It is in situations like these that the field of health geography comes into its own. It",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "E",
+        "page": 65,
+        "starts": "E The geography of disease and ill health analyses the frequency with which certain",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 65,
+        "starts": "Researchers study the interactions between humans and their environment that",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "G",
+        "page": 65,
+        "starts": "The second subcategory of health geography is the geography of healthcare",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "H",
+        "page": 65,
+        "starts": "H The field of health geography is often overlooked, but it constitutes a huge area",
+        "strip": true,
+        "method": "original OCR prefix"
+      }
+    ]
+  },
+  "c12-t8-p3": {
+    "end": "G",
+    "sourceDescription": "Reading Passage 3 has seven paragraphs, A-G",
+    "sections": [
+      {
+        "label": "A",
+        "page": 90,
+        "starts": "A After a number of serious failures of governance (that is, how they are managed",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 90,
+        "starts": "B The knock-on effect of this scrutiny has been to make the governance of",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "C",
+        "page": 90,
+        "starts": "Often, board business is devolved to committees in order to cope with the",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "D",
+        "page": 90,
+        "starts": "D A radical solution, which may work for some very large companies whose",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "E",
+        "page": 91,
+        "starts": "E One of the main criticisms of boards and their directors is that they do not focus",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 91,
+        "starts": "Compensation for chief executives has become a combat zone where pitched",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "G",
+        "page": 91,
+        "starts": "G The financial crisis stimulated a debate about the role and purpose of the company",
+        "strip": true,
+        "method": "original OCR prefix"
+      }
+    ]
+  },
+  "c13-t1-p2": {
+    "end": "F",
+    "sourceDescription": "Reading Passage 2 has six paragraphs, A-F",
+    "sections": [
+      {
+        "label": "A",
+        "page": 22,
+        "starts": "A We all know how it feels - it's impossible to keep your mind on anything, time",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 22,
+        "starts": "By asking people about their experiences of boredom, Thomas Goetz and his team",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "C",
+        "page": 22,
+        "starts": "Psychologist Sandi Mann at the University of Central Lancashire, UK, goes further.",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "D",
+        "page": 22,
+        "starts": "Psychologist John Eastwood at York University in Toronto, Canada, isn't convinced.",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "E",
+        "page": 23,
+        "starts": "Eastwood's team is now trying to explore why the attention system fails. It's early",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "F",
+        "page": 23,
+        "starts": "Psychologist Francoise Wemelsfelder speculates that our over-connected lifestyles",
+        "strip": false,
+        "method": "standalone printed letter"
+      }
+    ]
+  },
+  "c13-t2-p2": {
+    "end": "F",
+    "sourceDescription": "Reading Passage 2 has six paragraphs, A-F",
+    "sections": [
+      {
+        "label": "A",
+        "page": 43,
+        "starts": "A Oxytocin is a chemical, a hormone produced in the pituitary gland in the brain. It",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 43,
+        "starts": "Oxytocin's role in human behaviour first emerged in 2005. In a groundbreaking",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "C",
+        "page": 43,
+        "starts": "Then, after a few years, contrasting findings began to emerge. Simone Shamay-",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "D",
+        "page": 44,
+        "starts": "D Another discovery is that oxytocin's effects vary depending on who we are",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "E",
+        "page": 44,
+        "starts": "E There were signs of these subtleties from the start. Bartz has recently shown that",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 44,
+        "starts": "Perhaps we should not be surprised that the oxytocin story has become more",
+        "strip": false,
+        "method": "standalone printed letter"
+      }
+    ]
+  },
+  "c13-t3-p2": {
+    "end": "F",
+    "sourceDescription": "Reading Passage 2 has six paragraphs, A-F",
+    "sections": [
+      {
+        "label": "A",
+        "page": 65,
+        "starts": "The typical way of talking to a baby - high-pitched, exaggerated and repetitious - is",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "B",
+        "page": 65,
+        "starts": "Early language exposure seems to have benefits to the brain - for instance, studies",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "C",
+        "page": 65,
+        "starts": "Fathers don't use baby talk as often or in the same ways as mothers - and that's",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "D",
+        "page": 65,
+        "starts": "Scientists from the University of Washington and the University of Connecticut",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "E",
+        "page": 66,
+        "starts": "E Another study suggests that parents might want to pair their youngsters up so",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 66,
+        "starts": "In a study published in Proceedings of the National Academy of Sciences, a total",
+        "strip": false,
+        "method": "standalone printed letter"
+      }
+    ]
+  },
+  "c13-t3-p3": {
+    "end": "H",
+    "sourceDescription": "Reading Passage 3 has eight paragraphs, A-H",
+    "sections": [
+      {
+        "label": "A",
+        "page": 69,
+        "starts": "The Harappan Civilisation of ancient Pakistan and India flourished 5,000 years",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "B",
+        "page": 69,
+        "starts": "B 'There is plenty of archaeological evidence to tell us about the rise of the Harappan",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "C",
+        "page": 69,
+        "starts": "C Some have claimed that major glacier-fed rivers changed their course, dramatically",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 69,
+        "starts": "D A research team led by Petrie, together with Dr Ravindanath Singh of Banaras",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "E",
+        "page": 70,
+        "starts": "Now, research published by Dr Yama Dixit and Professor David Hodell, both",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "F",
+        "page": 70,
+        "starts": "It has long been thought that other great Bronze Age civilisations also declined at",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "G",
+        "page": 70,
+        "starts": "Petrie and Singh's team is now examining archaeological records and trying to",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "H",
+        "page": 70,
+        "starts": "Petrie believes that archaeologists are in a unique position to investigate how",
+        "strip": false,
+        "method": "gutter OCR"
+      }
+    ]
+  },
+  "c13-t4-p2": {
+    "end": "G",
+    "sourceDescription": "Reading Passage 2 has seven paragraphs, A-G",
+    "sections": [
+      {
+        "label": "A",
+        "page": 86,
+        "starts": "More than a third of the world's soil is endangered, according to a recent UN report.",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "B",
+        "page": 86,
+        "starts": "Peter Groffman, from the Cary Institute of Ecosystem Studies in New York, points",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "C",
+        "page": 86,
+        "starts": "If the soil loses its ability to perform these functions, the human race could be in",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "D",
+        "page": 86,
+        "starts": "But these practices became inconvenient as populations grew and agriculture had",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "E",
+        "page": 87,
+        "starts": "E One of the people looking for a solution to this problem is Pius Floris, who started",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 87,
+        "starts": "However, measures like this are not enough to solve the global soil degradation",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "G",
+        "page": 87,
+        "starts": "But this is only a first step. We need ways of presenting the problem that bring",
+        "strip": false,
+        "method": "gutter OCR"
+      }
+    ]
+  },
+  "c10-t1-p2": {
+    "end": "I",
+    "sourceDescription": "Reading Passage 2 has nine paragraphs, A-l",
+    "sections": [
+      {
+        "label": "A",
+        "page": 15,
+        "starts": "A It is difficult to conceive of vigorous economic growth without an efficient transport",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 15,
+        "starts": "B As far as goods transport is concerned, growth is due to a large extent to changes in",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "C",
+        "page": 15,
+        "starts": "C The strong economic growth expected in countries which are candidates for entry to",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 15,
+        "starts": "D However, a new imperative - sustainable development - offers an opportunity for",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "E",
+        "page": 16,
+        "starts": "E In 1998, energy consumption in the transport sector was to blame for 28% of",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 16,
+        "starts": "F At the same time greater efforts must be made to achieve a modal shift. Such a",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "G",
+        "page": 16,
+        "starts": "G The first approach would consist of focusing on road transport solely through pricing.",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "H",
+        "page": 16,
+        "starts": "H The second approach also concentrates on road transport pricing but is accompanied",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "I",
+        "page": 16,
+        "starts": "• The third approach, which is not new, comprises a series of measures ranging from",
+        "strip": true,
+        "method": "gutter OCR"
+      }
+    ]
+  },
+  "c10-t2-p1": {
+    "end": "G",
+    "sourceDescription": "Reading Passage 1 has seven paragraphs, A-G",
+    "sections": [
+      {
+        "label": "A",
+        "page": 35,
+        "starts": "Alan Macfarlane, professor of anthropological science at King's College, Cambridge, has, like",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "B",
+        "page": 35,
+        "starts": "Macfarlane compares the puzzle to a combination lock. \"There are about 20 different",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "C",
+        "page": 35,
+        "starts": "The missing factors, he proposes, are to be found in almost every kitchen cupboard. Tea and",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "D",
+        "page": 35,
+        "starts": "Macfarlane had wondered for a long time how the Industrial Revolution came about.",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "E",
+        "page": 36,
+        "starts": "This population burst seemed to happen at just the right time to provide labour for the",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "F",
+        "page": 36,
+        "starts": "Macfarlane looked to Japan, which was also developing large cities about the same time,",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "G",
+        "page": 36,
+        "starts": "But, if tea is a factor in the combination lock, why didn't Japan forge ahead in a tea-soaked",
+        "strip": false,
+        "method": "standalone printed letter"
+      }
+    ]
+  },
+  "c10-t2-p2": {
+    "end": "F",
+    "sourceDescription": "Reading Passage 2 has six paragraphs, A-F",
+    "sections": [
+      {
+        "label": "A",
+        "page": 38,
+        "starts": "Internationally, 'giftedness' is most frequently determined by a score on a",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "B",
+        "page": 38,
+        "starts": "Excellence does not emerge without appropriate help. To reach an",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "C",
+        "page": 38,
+        "starts": "High achievers have been found to use self-regulatory learning strategies",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "D",
+        "page": 39,
+        "starts": "Yet in order to learn by themselves, the gifted do need some support from their",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "E",
+        "page": 39,
+        "starts": "But scientific progress is not all theoretical, knowledge is also vital to",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "F",
+        "page": 39,
+        "starts": "To sum up, learning is affected by emotions of both the individual and",
+        "strip": false,
+        "method": "standalone printed letter"
+      }
+    ]
+  },
+  "c10-t3-p1": {
+    "end": "E",
+    "sourceDescription": "Reading Passage 1 has five paragraphs, A-E",
+    "sections": [
+      {
+        "label": "A",
+        "page": 58,
+        "starts": "A Travel has existed since the beginning of time, when primitive man set out, often",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 58,
+        "starts": "Tourism in the mass form as we know it today is a distinctly twentieth-century",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "C",
+        "page": 58,
+        "starts": "C Tourism today has grown significantly in both economic and social importance. In",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 59,
+        "starts": "D However, the major problems of the travel and tourism industry that have hidden,",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "E",
+        "page": 59,
+        "starts": "Once the exclusive province of the wealthy, travel and tourism have become an",
+        "strip": false,
+        "method": "standalone printed letter"
+      }
+    ]
+  },
+  "c10-t3-p2": {
+    "end": "I",
+    "sourceDescription": "Reading Passage 2 has nine paragraphs, A-l",
+    "sections": [
+      {
+        "label": "A",
+        "page": 61,
+        "starts": "One of the most captivating natural events of the year in many areas throughout",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "B",
+        "page": 61,
+        "starts": "Summer leaves are green because they are full of chlorophyll, the molecule that",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "C",
+        "page": 61,
+        "starts": "C The source of the red is widely known: it is created by anthocyanins, water-soluble",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 61,
+        "starts": "Some theories about anthocyanins have argued that they might act as a chemical",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "E",
+        "page": 62,
+        "starts": "E It has also been proposed that trees may produce vivid red colours to convince",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 62,
+        "starts": "Perhaps the most plausible suggestion as to why leaves would go to the trouble",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "G",
+        "page": 62,
+        "starts": "Chlorophyll, although exquisitely evolved to capture the energy of sunlight,",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "H",
+        "page": 62,
+        "starts": "Even if you had never suspected that this is what was going on when leaves turn",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "I",
+        "page": 62,
+        "starts": "What is still not fully understood, however, is why some trees resort to producing",
+        "strip": false,
+        "method": "gutter OCR"
+      }
+    ]
+  },
+  "c10-t4-p2": {
+    "end": "H",
+    "sourceDescription": "原书阅读页字母编号",
+    "sections": [
+      {
+        "label": "A",
+        "page": 85,
+        "starts": "Psychologists have long held that a person's character cannot undergo a",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "B",
+        "page": 85,
+        "starts": "'The evidence is good that most personality traits can be altered,' says Christopher",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "C",
+        "page": 85,
+        "starts": "David Fajgenbaum had to make a similar transition. He was preparing for",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "D",
+        "page": 85,
+        "starts": "Suzanne Segerstrom, professor of psychology at the University of Kentucky,",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "E",
+        "page": 86,
+        "starts": "E You can recognise a person who is passionate about a pursuit by the way they",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 86,
+        "starts": "Finding a pursuit that excites you can improve anyone's life. The secret about",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "G",
+        "page": 86,
+        "starts": "In 2004, physician-scientist Mauro Zappaterra began his PhD research at Harvard",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "H",
+        "page": 86,
+        "starts": "Usually, we think of courage in physical terms but ordinary life demands",
+        "strip": false,
+        "method": "standalone printed letter"
+      }
+    ]
+  },
+  "c11-t1-p3": {
+    "end": "H",
+    "sourceDescription": "Reading Passage 3 has eight paragraphs A-H",
+    "sections": [
+      {
+        "label": "A",
+        "page": 24,
+        "starts": "A Such is our dependence on fossil fuels, and such is the volume of carbon dioxide already",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 24,
+        "starts": "Geo-engincering has been shown to work, at least on a small localised scale. For decades, May",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "C",
+        "page": 24,
+        "starts": "The majority of geo-engineering projects so far carried our - which include planting forests",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "D",
+        "page": 24,
+        "starts": "The concept of releasing acrosol sprays into the stratosphere above the Arctic has been proposed",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "E",
+        "page": 25,
+        "starts": "Bur will such schemes ever be implemented? Generally speaking, those who are most cautious",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "F",
+        "page": 25,
+        "starts": "F The US National Center for Atmospheric Research has already suggested that the proposal",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "G",
+        "page": 25,
+        "starts": "'A further risk with geo-engineering projects is that you can \"overshoot\", says Dr Dan",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "H",
+        "page": 25,
+        "starts": "The main reason why geo-engineering is supported by many in the scientific community is that",
+        "strip": false,
+        "method": "standalone printed letter"
+      }
+    ]
+  },
+  "c11-t2-p2": {
+    "end": "G",
+    "sourceDescription": "Reading Passage 2 has seven paragraphs, A-G",
+    "sections": [
+      {
+        "label": "A",
+        "page": 45,
+        "starts": "A Easter Island, or Rapu Nui as it is known locally, is home to several hundred",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 45,
+        "starts": "When the Europeans arrived, Rapa Nui was grassland, with only a few scrawny",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "C",
+        "page": 45,
+        "starts": "C The moai, he thinks, accelerated the self-destruction. Diamond interprets them",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 46,
+        "starts": "D Archaeologists Terry Hunt of the University of Hawaii and Carl Lipo of California",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "E",
+        "page": 46,
+        "starts": "Hunt and Lipo contend that moal-building was an activity that helped keep the",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "F",
+        "page": 46,
+        "starts": "Moreover, Hunt and Lipo are convinced that the settlers were not wholly",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "G",
+        "page": 46,
+        "starts": "Hunt and Lipo's vision, therefore, is one of an island populated by peaceful and",
+        "strip": false,
+        "method": "standalone printed letter"
+      }
+    ]
+  },
+  "c11-t3-p3": {
+    "end": "G",
+    "sourceDescription": "Reading Passage 3 has seven sections, A-G",
+    "sections": [
+      {
+        "label": "A",
+        "page": 72,
+        "starts": "A Occasionally, in some difficult musical compositions, there are beautiful, but easy",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 72,
+        "starts": "One of my purposes in writing this book is to give readers who haven't had the",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "C",
+        "page": 72,
+        "starts": "I hope this book will help bridge that notorious gap that separates the two cultures:",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "D",
+        "page": 72,
+        "starts": "Other scientists have written books to explain their fields to non-scientists, but have",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "E",
+        "page": 73,
+        "starts": "E Still, the non-mathematical reader can go far in understanding mathematical",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 73,
+        "starts": "F As I wrote, I kept in mind two types of readers: those who enjoyed mathematics",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "G",
+        "page": 73,
+        "starts": "G A physician wrote, 'The discipline of analytical thought processes [in mathematics]",
+        "strip": true,
+        "method": "original OCR prefix"
+      }
+    ]
+  },
+  "c11-t4-p3": {
+    "end": "F",
+    "sourceDescription": "Reading Passage 3 has six paragraphs, A-F",
+    "sections": [
+      {
+        "label": "A",
+        "page": 96,
+        "starts": "A Of all mankind's manifold creations, language must take pride of place. Other inventions -",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 96,
+        "starts": "B But language is foremost not just because it came first. In its own right it is a tool of",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "C",
+        "page": 96,
+        "starts": "Language often seems so skillfully drafted that one can hardly imagine it as anything other",
+        "strip": false,
+        "method": "原书对照图人工确认段落首句"
+      },
+      {
+        "label": "D",
+        "page": 96,
+        "starts": "The most extraordinary thing about language, however, is that one doesn't have to be a",
+        "strip": false,
+        "method": "原书对照图人工确认段落首句"
+      },
+      {
+        "label": "E",
+        "page": 97,
+        "starts": "E Often, it is only the estrangement of foreign tongues, with their many exotic and outlandish",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 97,
+        "starts": "F And if that sounds like some one-off freak, then consider Sumerian, the language spoken",
+        "strip": true,
+        "method": "original OCR prefix"
+      }
+    ]
+  },
+  "c20-t1-p2": {
+    "end": "G",
+    "sourceDescription": "Reading Passage 2 has seven sections, A-G",
+    "sections": [
+      {
+        "label": "A",
+        "page": 11,
+        "starts": "Around 25 million elms, accounting for 90% of all elm trees in the UK, died",
+        "strip": false,
+        "method": "原书对照图人工确认段落首句"
+      },
+      {
+        "label": "B",
+        "page": 11,
+        "starts": "B The disease is caused by a fungus that blocks the elms' vascular (water,",
+        "strip": true,
+        "method": "原书对照图人工确认段落首句"
+      },
+      {
+        "label": "C",
+        "page": 11,
+        "starts": "C Today, elms still exist in the southern English countryside but mostly only in low",
+        "strip": true,
+        "method": "原书对照图人工确认段落首句"
+      },
+      {
+        "label": "D",
+        "page": 12,
+        "starts": "D For centuries, elm ran a close second to oak as the hardwood tree of choice in",
+        "strip": true,
+        "method": "原书对照图人工确认段落首句"
+      },
+      {
+        "label": "E",
+        "page": 12,
+        "starts": "E Given how ingrained elm is in British culture, it's unsurprising the tree has many",
+        "strip": true,
+        "method": "原书对照图人工确认段落首句"
+      },
+      {
+        "label": "F",
+        "page": 13,
+        "starts": "F Any prospect of the elm returning relies heavily on trees being either resistant to,",
+        "strip": true,
+        "method": "原书对照图人工确认段落首句"
+      },
+      {
+        "label": "G",
+        "page": 13,
+        "starts": "G All of this raises questions of social acceptance, acknowledges Russell. 'If we're",
+        "strip": true,
+        "method": "原书对照图人工确认段落首句"
+      }
+    ]
+  },
+  "c20-t2-p2": {
+    "end": "F",
+    "sourceDescription": "Reading Passage 2 has six paragraphs, A-F",
+    "sections": [
+      {
+        "label": "A",
+        "page": 13,
+        "starts": "Procrastination is the habit of delaying a necessary task, usually by focusing",
+        "strip": false,
+        "method": "原书对照图人工确认段落首句"
+      },
+      {
+        "label": "B",
+        "page": 13,
+        "starts": "B Contrary to popular belief, procrastination is not due to laziness or poor time",
+        "strip": true,
+        "method": "原书对照图人工确认段落首句"
+      },
+      {
+        "label": "C",
+        "page": 14,
+        "starts": "C Tasks that are emotionally loaded or difficult, such as preparing for exams, are",
+        "strip": true,
+        "method": "原书对照图人工确认段落首句"
+      },
+      {
+        "label": "D",
+        "page": 14,
+        "starts": "D So why is this such a problem? When most people think of the costs of",
+        "strip": true,
+        "method": "原书对照图人工确认段落首句"
+      },
+      {
+        "label": "E",
+        "page": 15,
+        "starts": "E Procrastination also correlates with serious health and well-being problems. A",
+        "strip": true,
+        "method": "原书对照图人工确认段落首句"
+      },
+      {
+        "label": "F",
+        "page": 15,
+        "starts": "F Finding better ways of managing our emotions is one route out of the vicious",
+        "strip": true,
+        "method": "原书对照图人工确认段落首句"
+      }
+    ]
+  },
+  "c20-t3-p2": {
+    "end": "F",
+    "sourceDescription": "Reading Passage 2 has six sections, A-F",
+    "sections": [
+      {
+        "label": "A",
+        "page": 12,
+        "starts": "Conservationists have put the final touches to a giant artificial reef they have been",
+        "strip": false,
+        "method": "原书对照图人工确认段落首句"
+      },
+      {
+        "label": "B",
+        "page": 13,
+        "starts": "Corals are composed of tiny animals, known as polyps, with tentacles for",
+        "strip": false,
+        "method": "原书对照图人工确认段落首句"
+      },
+      {
+        "label": "C",
+        "page": 13,
+        "starts": "As a result, coral reefs are often described as the 'rainforests of the sea', though",
+        "strip": false,
+        "method": "原书对照图人工确认段落首句"
+      },
+      {
+        "label": "D",
+        "page": 14,
+        "starts": "Unfortunately, these majestic sights are now under very serious threat, with the",
+        "strip": false,
+        "method": "原书对照图人工确认段落首句"
+      },
+      {
+        "label": "E",
+        "page": 15,
+        "starts": "However, scientists are trying to pinpoint hardy types of coral that could survive",
+        "strip": false,
+        "method": "原书对照图人工确认段落首句"
+      },
+      {
+        "label": "F",
+        "page": 15,
+        "starts": "Research in these fields is being conducted in laboratories around the world, with",
+        "strip": false,
+        "method": "原书对照图人工确认段落首句"
+      }
+    ]
+  },
+  "c20-t4-p2": {
+    "end": "F",
+    "sourceDescription": "Reading Passage 2 has six paragraphs, A-F",
+    "sections": [
+      {
+        "label": "A",
+        "page": 12,
+        "starts": "All around the world, nations are already preparing for, and adapting to,",
+        "strip": false,
+        "method": "原书对照图人工确认段落首句"
+      },
+      {
+        "label": "B",
+        "page": 12,
+        "starts": "In Miami Beach, Florida, USA, seawater isn't just breaching the island city's",
+        "strip": false,
+        "method": "原书对照图人工确认段落首句"
+      },
+      {
+        "label": "C",
+        "page": 13,
+        "starts": "Seawalls are a staple strategy for many coastal communities, but on the soft,",
+        "strip": false,
+        "method": "原书对照图人工确认段落首句"
+      },
+      {
+        "label": "D",
+        "page": 13,
+        "starts": "As the floodwaters rose in the rice fields of the Mekong Delta in September",
+        "strip": false,
+        "method": "原书对照图人工确认段落首句"
+      },
+      {
+        "label": "E",
+        "page": 14,
+        "starts": "Bangladesh is especially vulnerable to climate change. Most of the country",
+        "strip": false,
+        "method": "原书对照图人工确认段落首句"
+      },
+      {
+        "label": "F",
+        "page": 14,
+        "starts": "Greg Spotts from Los Angeles (LA) in the USA is chief sustainability officer of",
+        "strip": false,
+        "method": "原书对照图人工确认段落首句"
+      }
+    ]
+  },
+  "c20-t4-p3": {
+    "end": "G",
+    "sourceDescription": "Reading Passage 3 has seven paragraphs, A-G",
+    "sections": [
+      {
+        "label": "A",
+        "page": 17,
+        "starts": "For thousands of years, livestock guard dogs worked alongside shepherds",
+        "strip": false,
+        "method": "原书对照图人工确认段落首句"
+      },
+      {
+        "label": "B",
+        "page": 17,
+        "starts": "Today there are around 50 breeds of guard dogs on duty in various parts of",
+        "strip": false,
+        "method": "原书对照图人工确认段落首句"
+      },
+      {
+        "label": "C",
+        "page": 18,
+        "starts": "The evidence indicates that guard dogs are highly effective. For example, in",
+        "strip": false,
+        "method": "原书对照图人工确认段落首句"
+      },
+      {
+        "label": "D",
+        "page": 18,
+        "starts": "But today's guard dogs also have a new role - to help preserve the",
+        "strip": false,
+        "method": "原书对照图人工确认段落首句"
+      },
+      {
+        "label": "E",
+        "page": 19,
+        "starts": "Looking at all the published evidence, Bethany Smith at Nottingham Trent",
+        "strip": false,
+        "method": "原书对照图人工确认段落首句"
+      },
+      {
+        "label": "F",
+        "page": 19,
+        "starts": "Another concern is whether there may be unintended ecological effects of",
+        "strip": false,
+        "method": "原书对照图人工确认段落首句"
+      },
+      {
+        "label": "G",
+        "page": 20,
+        "starts": "The evidence so far, however, indicates that these consequences aren't",
+        "strip": false,
+        "method": "原书对照图人工确认段落首句"
+      }
+    ]
+  },
+  "c7-t1-p1": {
+    "end": "E",
+    "sourceDescription": "Reading Passage 1 has five paragraphs, A-E",
+    "sections": [
+      {
+        "label": "A",
+        "page": 23,
+        "starts": "Bats have a problem: how to find their way around in the dark. They hunt at night, and cannot",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "B",
+        "page": 23,
+        "starts": "B Bats have an engineering problem: how to find their way and find their prey in the absence of",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "C",
+        "page": 23,
+        "starts": "C Given the questions of how to manoeuvre in the dark, what solutions might an engineer",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 24,
+        "starts": "D What else might the engineer think of? Well, blind humans sometimes seem to have an uncanny",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "E",
+        "page": 24,
+        "starts": "E The Sonar and Radar pioneers didn't know it then, but all the world now knows that bats, or",
+        "strip": true,
+        "method": "original OCR prefix"
+      }
+    ]
+  },
+  "c7-t1-p2": {
+    "end": "H",
+    "sourceDescription": "Reading Passage 2 has seven paragraphs, A-H",
+    "sections": [
+      {
+        "label": "A",
+        "page": 28,
+        "starts": "A The history of human civilisation is entwined with the history of the ways we have",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 28,
+        "starts": "During the industrial revolution and population explosion of the 19th and 20th",
+        "strip": false,
+        "method": "PDF text prefix aligned to OCR"
+      },
+      {
+        "label": "C",
+        "page": 28,
+        "starts": "C Yet there is a dark side to this picture: despite our progress, half of the world's",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 28,
+        "starts": "D The consequences of our water policies extend beyond jeopardising human health.",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "E",
+        "page": 29,
+        "starts": "E At the outset of the new millennium, however, the way resource planners think about",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 29,
+        "starts": "F Fortunately - and unexpectedly - the demand for water is not rising as rapidly as",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "G",
+        "page": 29,
+        "starts": "What explains this remarkable turn of events? Two factors: people have figured out",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "H",
+        "page": 29,
+        "starts": "On the other hand, dams, aqueducts and other kinds of infrastructure will still have",
+        "strip": false,
+        "method": "PDF text prefix aligned to OCR"
+      }
+    ]
+  },
+  "c7-t2-p2": {
+    "end": "G",
+    "sourceDescription": "Reading Passage 2 has seven paragraphs, A-G",
+    "sections": [
+      {
+        "label": "A",
+        "page": 49,
+        "starts": "A For more than forty years the cost of food has been",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 49,
+        "starts": "First mechanisation, then mass use of chemical fertilisers and pesticides, then",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "C",
+        "page": 49,
+        "starts": "C Put it all together and it looks like a battlefield, but consumers rarely make the",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 50,
+        "starts": "D But the costs to society can actually be quantified and, when added up, can amount to",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "E",
+        "page": 50,
+        "starts": "E The costs included: £120m for removal of pesticides; £16m for removal of nitrates;",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 50,
+        "starts": "So can the true cost of food be brought down? Breaking away from industrial agriculture",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "G",
+        "page": 50,
+        "starts": "G But if industrial agriculture is to be replaced, what is a viable alternative? Professor",
+        "strip": true,
+        "method": "original OCR prefix"
+      }
+    ]
+  },
+  "c7-t3-p2": {
+    "end": "G",
+    "sourceDescription": "Reading Passage 2 has seven sections, A-G",
+    "sections": [
+      {
+        "label": "A",
+        "page": 75,
+        "starts": "A Study of the origins and distribution of",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 75,
+        "starts": "B Recent work on the problem of when",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "C",
+        "page": 75,
+        "starts": "C An important project, led by the",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 75,
+        "starts": "Williams and his colleagues sampled the",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "E",
+        "page": 75,
+        "starts": "How far does other research support",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "F",
+        "page": 76,
+        "starts": "F There are two other kinds of research that",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "G",
+        "page": 76,
+        "starts": "G The linguist Joseph Greenberg has, since",
+        "strip": true,
+        "method": "original OCR prefix"
+      }
+    ]
+  },
+  "c16-t1-p2": {
+    "end": "G",
+    "sourceDescription": "Reading Passage 2 has seven paragraphs, A-G",
+    "sections": [
+      {
+        "label": "A",
+        "page": 21,
+        "starts": "A The pyramids are the most famous monuments of ancient Egypt and still hold",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 21,
+        "starts": "Djoser was the first king of the Third Dynasty of Egypt and the first to build in",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "C",
+        "page": 21,
+        "starts": "The Step Pyramid has been thoroughly examined and investigated over the",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "D",
+        "page": 21,
+        "starts": "When finally completed, the Step Pyramid rose 62 meters high and was the tallest",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "E",
+        "page": 22,
+        "starts": "E The burial chamber of the tomb, where the king's body was laid to rest, was dug",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 22,
+        "starts": "Unfortunately, all of the precautions and intricate design of the underground network",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "G",
+        "page": 22,
+        "starts": "Egyptologist Miroslav Verner writes, 'Few monuments hold a place in human",
+        "strip": false,
+        "method": "standalone printed letter"
+      }
+    ]
+  },
+  "c16-t3-p2": {
+    "end": "H",
+    "sourceDescription": "Reading Passage 2 has eight sections, A-H",
+    "sections": [
+      {
+        "label": "A",
+        "page": 65,
+        "starts": "A Well above the treeline in Norway's highest mountains, ancient fields of ice are shrinking",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 65,
+        "starts": "Organic materials like textiles and hides are relatively rare finds at archaeological sites.",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "C",
+        "page": 65,
+        "starts": "Over a nine-year period, a team of archaeologists, which included Lars Pilø of Oppland",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "D",
+        "page": 66,
+        "starts": "At the edges of the contracting ice patches, archaeologists found more than 2,000",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "E",
+        "page": 66,
+        "starts": "Barrett's team radiocarbon-dated 153 of the artefacts and compared those dates to the timing",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "F",
+        "page": 66,
+        "starts": "What was surprising, according to Barrett, was the timing of these periods. Oppland's",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "G",
+        "page": 66,
+        "starts": "Many of the artefacts Barrett's team recovered date from the beginning of the Viking Age,",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "H",
+        "page": 66,
+        "starts": "Norway's mountains are probably still hiding a lot of history - and prehistory - in remote",
+        "strip": false,
+        "method": "standalone printed letter"
+      }
+    ]
+  },
+  "c16-t3-p3": {
+    "end": "H",
+    "sourceDescription": "Reading Passage 3 has eight sections, A-H",
+    "sections": [
+      {
+        "label": "A",
+        "page": 69,
+        "starts": "A An international team of scientists led by the University of Cambridge has",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 69,
+        "starts": "At night, these molecules change states, and the pace at which they change is",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "C",
+        "page": 69,
+        "starts": "Farmers and gardeners have known for hundreds of years how responsive plants are",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "D",
+        "page": 69,
+        "starts": "D With weather and temperatures set to become ever more unpredictable due to",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "E",
+        "page": 70,
+        "starts": "E In their active state, phytochrome molecules bind themselves to DNA to restrict",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 70,
+        "starts": "\"The lower the temperature, the slower the rate at which phytochromes revert to",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "G",
+        "page": 70,
+        "starts": "Some plants mainly use day length as an indicator of the season. Other species, such",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "H",
+        "page": 70,
+        "starts": "The new findings are the culmination of twelve years of research involving scientists",
+        "strip": false,
+        "method": "standalone printed letter"
+      }
+    ]
+  },
+  "c16-t4-p3": {
+    "end": "F",
+    "sourceDescription": "Reading Passage 3 has six sections, A-F",
+    "sections": [
+      {
+        "label": "A",
+        "page": 91,
+        "starts": "A Artificial intelligence (AI) can already predict the future. Police forces are using it",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 91,
+        "starts": "B Take the case of Watson for Oncology, one of technology giant IBM's",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "C",
+        "page": 91,
+        "starts": "C This is just one example of people's lack of confidence in AI and their reluctance to",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 92,
+        "starts": "Feelings about AI run deep. In a recent experiment, people from a range of",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "E",
+        "page": 92,
+        "starts": "Fortunately, we already have some ideas about how to improve trust in AI. Simply",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "F",
+        "page": 92,
+        "starts": "Research suggests that allowing people some control over AI decision-making could",
+        "strip": false,
+        "method": "standalone printed letter"
+      }
+    ]
+  },
+  "c17-t1-p2": {
+    "end": "G",
+    "sourceDescription": "Reading Passage 2 has seven sections, A-G",
+    "sections": [
+      {
+        "label": "A",
+        "page": 20,
+        "starts": "Stadiums are among the oldest forms of urban architecture: vast stadiums where the public",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "B",
+        "page": 20,
+        "starts": "The amphitheatre* of Arles in southwest France, with a capacity of 25,000 spectators,",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "C",
+        "page": 20,
+        "starts": "The area in the centre of the Italian town of Lucca, known as the Piazza dell'Anfiteatro,",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "D",
+        "page": 20,
+        "starts": "There are many similarities between modern stadiums and the ancient amphitheatres",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "E",
+        "page": 21,
+        "starts": "But many of today's most innovative architects see scope for the stadium to help improve the",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "F",
+        "page": 21,
+        "starts": "The phenomenon of stadiums as power stations has arisen from the idea that energy",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "G",
+        "page": 21,
+        "starts": "Sporting arenas have always been central to the life and culture of cities. In every era, the",
+        "strip": false,
+        "method": "standalone printed letter"
+      }
+    ]
+  },
+  "c17-t2-p2": {
+    "end": "E",
+    "sourceDescription": "Reading Passage 2 has five sections, A-E",
+    "sections": [
+      {
+        "label": "A",
+        "page": 41,
+        "starts": "A It took at least 3,000 years for humans to learn how to domesticate the wild tomato",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 41,
+        "starts": "B Wild tomatoes, which are native to the Andes region in South America, produce",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "C",
+        "page": 42,
+        "starts": "C Kudla's team made six changes altogether. For instance, they tripled the size",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 42,
+        "starts": "Meanwhile, Joyce Van Eck at the Boyce Thompson Institute in New York state",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "E",
+        "page": 42,
+        "starts": "E This approach could boost the use of many obscure plants, says Jonathan Jones",
+        "strip": true,
+        "method": "original OCR prefix"
+      }
+    ]
+  },
+  "c17-t3-p2": {
+    "end": "H",
+    "sourceDescription": "Reading Passage 2 has eight sections, A-H",
+    "sections": [
+      {
+        "label": "A",
+        "page": 63,
+        "starts": "A Palm oil is an edible oil derived from the fruit of the African oil palm tree, and is currently",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 63,
+        "starts": "Many farmers have seized the opportunity to maximise the planting of oil palm trees.",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "C",
+        "page": 63,
+        "starts": "However, there are multiple reasons why conservationists cite the rapid spread of oil palm",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "D",
+        "page": 63,
+        "starts": "• 'Palm oil is surely one of the greatest threats to global biodiversity, declares Dr Farnon",
+        "strip": true,
+        "method": "原书对照图人工确认段落首句"
+      },
+      {
+        "label": "E",
+        "page": 64,
+        "starts": "E One response to the boycott movement has been the argument for the vital role palm",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 64,
+        "starts": "Even the deforestation argument isn't as straightforward as it seems. Oil palm plantations",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "G",
+        "page": 64,
+        "starts": "G The industry is now regulated by a group called the Roundtable on Sustainable Palm Oil",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "H",
+        "page": 64,
+        "starts": "There is even hope that oil palm plantations might not need to be such sterile monocultures,",
+        "strip": false,
+        "method": "standalone printed letter"
+      }
+    ]
+  },
+  "c17-t4-p2": {
+    "end": "F",
+    "sourceDescription": "Reading Passage 2 has six sections, A-F",
+    "sections": [
+      {
+        "label": "A",
+        "page": 85,
+        "starts": "A Over the last decade, a huge database about the lives of southwest German villagers",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 85,
+        "starts": "As Ogilvie explains, 'Education helps us to work more productively, invent better",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "C",
+        "page": 85,
+        "starts": "In the handwritten inventories that Ogilvie is analysing are the belongings of women and",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "D",
+        "page": 86,
+        "starts": "Ogilvie and her team have been building the vast database of material possessions on top",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "E",
+        "page": 86,
+        "starts": "The data-gathering phase of the project has been completed and now, according to Ogilvie,",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "F",
+        "page": 86,
+        "starts": "Ogilvie hopes to start finding answers to these questions over the next few years. One",
+        "strip": false,
+        "method": "standalone printed letter"
+      }
+    ]
+  },
+  "c17-t4-p3": {
+    "end": "H",
+    "sourceDescription": "Reading Passage 3 has eight paragraphs, A-H",
+    "sections": [
+      {
+        "label": "A",
+        "page": 89,
+        "starts": "Next month, a chess player named Timur Gareyev will take on nearly 50 opponents",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "B",
+        "page": 89,
+        "starts": "But Gareyev's prowess has drawn interest from beyond the chess-playing",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "C",
+        "page": 89,
+        "starts": "Gareyev learned to play chess in his native Uzbekistan when he was six years old.",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "D",
+        "page": 89,
+        "starts": "D To the uninitiated, blindfold chess seems to call for superhuman skill. But displays",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "E",
+        "page": 89,
+        "starts": "Accomplished players can develop the skill of playing blind even without realising",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "F",
+        "page": 90,
+        "starts": "The scientists first had Gareyev perform some standard memory tests. These",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "G",
+        "page": 90,
+        "starts": "G It was not the only hint of something special in Gareyev's brain. The scans also",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "H",
+        "page": 90,
+        "starts": "For the world record attempt, Gareyev hopes to play 47 blindfold games at once in",
+        "strip": false,
+        "method": "standalone printed letter"
+      }
+    ]
+  },
+  "c6-t1-p1": {
+    "end": "F",
+    "sourceDescription": "Reading Passage 1 has six paragraphs, A-F",
+    "sections": [
+      {
+        "label": "A",
+        "page": 19,
+        "starts": "A They play hard, they play often, and they play to win. Australian sports teams win more than",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 19,
+        "starts": "Inside the academies, science takes centre stage. The AIS employs more than 100 sports",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "C",
+        "page": 19,
+        "starts": "C A lot of their work comes down to measurement - everything from the exact angle of a",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 20,
+        "starts": "D Take a look, says Mason, pulling out a sheet of data. He points out the data on the swimmers in",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "E",
+        "page": 20,
+        "starts": "Using data is a complex business. Well before a championship, sports scientists and coaches",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "F",
+        "page": 20,
+        "starts": "F Of course, there's nothing to stop other countries copying - and many have tried. Some years",
+        "strip": true,
+        "method": "original OCR prefix"
+      }
+    ]
+  },
+  "c6-t1-p2": {
+    "end": "I",
+    "sourceDescription": "Reading Passage 2 has nine paragraphs, A-I",
+    "sections": [
+      {
+        "label": "A",
+        "page": 23,
+        "starts": "A International trade is growing at a startling pace. While the global economy has been expanding",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 23,
+        "starts": "B What lies behind this explosion in international commerce? The general worldwide decline in",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "C",
+        "page": 23,
+        "starts": "C At the turn of the 20th century, agriculture and manufacturing were the two most important",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 23,
+        "starts": "D Countries still trade disproportionately with their geographic neighbours. Over time, however,",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "E",
+        "page": 24,
+        "starts": "E To see how this influences trade, consider the business of making disk drives for computers.",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 24,
+        "starts": "This is even more true of the fast-growing information industries. Films and compact discs",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "G",
+        "page": 24,
+        "starts": "G In many countries deregulation has helped to drive the process along. But, behind the",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "H",
+        "page": 24,
+        "starts": "H The shipping container transformed ocean shipping into a highly efficient, intensely",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "I",
+        "page": 24,
+        "starts": "In America the period of huge productivity gains in transportation may be almost over, but in",
+        "strip": false,
+        "method": "standalone printed letter"
+      }
+    ]
+  },
+  "c6-t1-p3": {
+    "end": "G",
+    "sourceDescription": "Reading Passage 3 has seven paragraphs, A-G",
+    "sections": [
+      {
+        "label": "A",
+        "page": 28,
+        "starts": "A Unusual incidents are being reported across the Arctic. Inuit families going off on",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 28,
+        "starts": "B For the Inuit the problem is urgent. They live in precarious balance with one of the",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "C",
+        "page": 28,
+        "starts": "C The Canadian Arctic is a vast, treeless polar desert that's covered with snow for most of",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 28,
+        "starts": "D Life for the descendants of the Thule people is still harsh. Nunavut is 1.9 million square",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "E",
+        "page": 29,
+        "starts": "E While the Inuit may not actually starve if hunting and trapping are curtailed by climate",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 29,
+        "starts": "F With so much at stake, the Inuit are determined to play a key role in teasing out the",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "G",
+        "page": 29,
+        "starts": "G Some scientists doubt the value of traditional knowledge because the occupation of the",
+        "strip": true,
+        "method": "original OCR prefix"
+      }
+    ]
+  },
+  "c6-t2-p1": {
+    "end": "E",
+    "sourceDescription": "Reading Passage 1 has five marked paragraphs, A-E",
+    "sections": [
+      {
+        "label": "A",
+        "page": 42,
+        "starts": "A new study conducted for the World Bank by Murdoch University's Institute for Science and",
+        "strip": false,
+        "method": "PDF text prefix aligned to OCR"
+      },
+      {
+        "label": "B",
+        "page": 43,
+        "starts": "B In the UK, travel times to work had been stable for at least six centuries, with people avoiding",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "C",
+        "page": 43,
+        "starts": "There is a widespread belief that increasing wealth encourages people to live farther out where",
+        "strip": false,
+        "method": "standalone printed letter"
+      },
+      {
+        "label": "D",
+        "page": 43,
+        "starts": "Newman believes one of the best studies on how cities built for cars might be converted to rail",
+        "strip": false,
+        "method": "gutter OCR"
+      },
+      {
+        "label": "E",
+        "page": 43,
+        "starts": "It was once assumed that improvements in telecommunications would lead to more dispersal in",
+        "strip": false,
+        "method": "gutter OCR"
+      }
+    ]
+  },
+  "c6-t3-p1": {
+    "end": "J",
+    "sourceDescription": "Reading Passage 1 has ten paragraphs, A-J",
+    "sections": [
+      {
+        "label": "A",
+        "page": 64,
+        "starts": "A The Lumière Brothers opened their",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 64,
+        "starts": "B So ordinary and routine has this become to",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "C",
+        "page": 64,
+        "starts": "C One of the Lumière Brothers' earliest films",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 64,
+        "starts": "D Early cinema audiences often experienced",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "E",
+        "page": 64,
+        "starts": "E One effect of this realism was to educate the",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 64,
+        "starts": "F And, thanks to film, future generations will",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "G",
+        "page": 64,
+        "starts": "G The 'star' was another natural consequence",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "H",
+        "page": 65,
+        "starts": "H Cinema has also given a new lease of life to",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "I",
+        "page": 65,
+        "starts": "I Cinema might, for example, have become",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "J",
+        "page": 65,
+        "starts": "And it has all happened so quickly. Almost",
+        "strip": false,
+        "method": "standalone printed letter"
+      }
+    ]
+  },
+  "c6-t4-p1": {
+    "end": "G",
+    "sourceDescription": "Reading Passage 1 has seven paragraphs, A-G",
+    "sections": [
+      {
+        "label": "A",
+        "page": 87,
+        "starts": "A A few months ago Kim Schaefer, sales representative of a major global pharmaceutical",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 87,
+        "starts": "B What was on offer that day was a pair of tickets for a New York musical. But on any",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "C",
+        "page": 87,
+        "starts": "C Selling pharmaceuticals is a daily exercise in ethical judgement. Salespeople like",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 87,
+        "starts": "D The explosion in the sheer number of salespeople in the field - and the amount of",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "E",
+        "page": 87,
+        "starts": "E But the sales push rarely stops in the office. The flashy brochures and pamphlets left by",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 88,
+        "starts": "F Free samples of new and expensive drugs might be the single most effective way of",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "G",
+        "page": 88,
+        "starts": "G The bottom line is that pharmaceutical companies as a whole invest more in marketing",
+        "strip": true,
+        "method": "original OCR prefix"
+      }
+    ]
+  },
+  "c6-t4-p3": {
+    "end": "F",
+    "sourceDescription": "Reading Passage 3 has six sections, A-F",
+    "sections": [
+      {
+        "label": "A",
+        "page": 95,
+        "starts": "A Bullying can take a variety of forms, from the verbal - being taunted or called hurtful",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "B",
+        "page": 95,
+        "starts": "B Bullying is clearly unpleasant, and can make the child experiencing it feel unworthy",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "C",
+        "page": 95,
+        "starts": "C Until recently, not much was known about the topic, and little help was available to",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "D",
+        "page": 95,
+        "starts": "D Three factors are involved in this change. First is an awareness of the severity of the",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "E",
+        "page": 96,
+        "starts": "E Evidence suggests that a key step is to develop a policy on bullying, saying clearly",
+        "strip": true,
+        "method": "original OCR prefix"
+      },
+      {
+        "label": "F",
+        "page": 96,
+        "starts": "F With these developments, schools can expect that at least the most serious kinds of",
+        "strip": true,
+        "method": "original OCR prefix"
+      }
+    ]
+  }
+}

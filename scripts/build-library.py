@@ -9,12 +9,18 @@ key=lambda w:''.join(c for c in unicodedata.normalize('NFKD',w.lower().replace("
 basic=set('a an the and or but if as so nor yet for of to in on at by with from into onto upon over under through about before after between among than that this these those i you he she it we they me him her us them my your his its our their who whom whose which what whatever some any each every both either neither all no not do does did be am is are was were been being have has had will would shall should can could may might must also only very'.split())
 
 corrections=load(root/'scripts/ocr-corrections.json')['pages']
+section_specs=load(root/'scripts/paragraph-sections.json')
 
 def clean_rows(data,book):
     if book==20 and data.get('wholeLines'):
         data={**data,'lines':data['wholeLines'],'twoColumns':False}
     if book==20:data={**data,'singleColumn':True}
-    lines=[dict(x) for x in data['lines'] if not (re.fullmatch(r'(?:Test\s*[1-8Il]|Reading|READING|\d{1,3})',x['text'],re.I) and (x['y']<.12 or x['y']>.88))]
+    lines=[dict(x) for x in data['lines'] if not x['text'].lower().startswith('facebook.com/ieltsvn') and not (re.fullmatch(r'(?:Test\s*[1-8Il]|Reading|READING|\d{1,3})',x['text'],re.I) and (x['y']<.12 or x['y']>.88))]
+    # Book 16 is scanned with wide outer margins: its printed page numbers sit
+    # around y=.79, inside the usual footer threshold. Keep numerical article
+    # content, and remove only that book's matching isolated page number.
+    if book==16:
+        lines=[x for x in lines if not (x['text']==str(data['page']) and .75<x['y']<.83)]
     left=[x for x in lines if x['x']<.45 and x['width']<.55 and len(x['text'].split())>3]
     right=[x for x in lines if x['x']>.48 and len(x['text'].split())>3]
     if data.get('twoColumns'):
@@ -116,8 +122,12 @@ for info in inventory:
         def label_of(r):
             t=r['text']
             return re.fullmatch(r'([A-Z])(?:\s+[\dIl|]+)?',t) or re.match(r'^([A-Z])\s+\S',t)
-        labelled=len(set(m[1] for r in body if (m:=label_of(r)) and m[1] in 'BCDEFGH'))>=2
+        section_spec=section_specs.get(aid)
+        labelled=bool(section_spec) or len(set(m[1] for r in body if (m:=label_of(r)) and m[1] in 'BCDEFGH'))>=2
         first_label=next((i for i,r in enumerate(body) if (m:=label_of(r)) and m[1]=='A'),None) if labelled else None
+        if section_spec:
+            a_start=section_spec['sections'][0]
+            first_label=next((i for i,r in enumerate(body) if r['page']==a_start['page'] and r['text']==a_start['starts']),None)
         if first_label is not None and first_label<9:
             first=first_label
         else:
@@ -133,6 +143,22 @@ for info in inventory:
         title=join_rows(heading_rows)
         if not title:title=f'Reading Passage {passage}'
         body=body[first:]
+        # Vision can split one physical line into left/right fragments. Put those
+        # fragments in horizontal order, without changing any recognised words.
+        merged=[];remaining=list(body)
+        while remaining:
+            r=remaining.pop(0)
+            if remaining:
+                n=remaining[0]
+                same_line=r['page']==n['page'] and abs(r['y']-n['y'])<min(r['height'],n['height'])*.45
+                separated=r['x']+r['width']<=n['x']+.008 or n['x']+n['width']<=r['x']+.008
+                gutter=re.fullmatch(r'[A-Z](?:\s+[\dIl|]+)?',r['text']) or re.fullmatch(r'[A-Z](?:\s+[\dIl|]+)?',n['text'])
+                section_edge=section_spec and any(v['page']==line['page'] and line['text'].startswith(v['starts']) for v in section_spec['sections'] for line in [r,n])
+                if same_line and separated and not gutter and not section_edge:
+                    remaining.pop(0);left,right=sorted([r,n],key=lambda v:v['x'])
+                    r={**left,'text':left['text']+' '+right['text'],'width':max(v['x']+v['width'] for v in [r,n])-left['x'],'y':min(r['y'],n['y']),'height':max(r['height'],n['height'])}
+            merged.append(r)
+        body=merged
         paragraphs=[];current=[];label=None;prev=None
         height_steps=[b['y']-a['y'] for a,b in zip(body,body[1:]) if a['page']==b['page'] and 0<b['y']-a['y']<.06]
         step=statistics.median(height_steps) if height_steps else normal*1.5
@@ -143,18 +169,25 @@ for info in inventory:
                 pid=f'P{len(paragraphs)+1}'
                 paragraphs.append({'id':pid,'label':label or str(len(paragraphs)+1),'sentences':sentences(text,pid)})
                 current=[]
+        section_starts={(s['page'],s['starts']):s for s in section_spec['sections']} if section_spec else {}
+        matched=[]
         for r in body:
-            t=r['text'];m=re.match(r'^([A-Z])\s+\b',t) if labelled else None
-            single=re.fullmatch(r'([A-Z])(?:\s+[\dIl|]+)?',t) if labelled else None
-            candidate=(m or single)[1] if m or single else None
-            expected=chr(ord(label)+1) if label else 'A'
-            if candidate and candidate>=expected:
-                flush();label=(m or single)[1]
-                if single:prev=r;continue
-                r=dict(r);r['text']=t[m.end():]
-            elif not labelled and prev and prev['page']==r['page'] and r['y']>prev['y'] and r['y']-prev['y']>step*1.24:
+            t=r['text'];section=next((v for (page,prefix),v in section_starts.items() if r['page']==page and t.startswith(prefix)),None)
+            if section:
+                flush();label=section['label'];matched.append(label)
+                r=dict(r)
+                if section['strip']:r['text']=re.sub(r'^[A-Z•]\s+','',t,count=1)
+            elif section_spec and re.fullmatch(r'[A-Z](?:\s+[\dIl|]+)?',t):
+                # The first prose line is the recorded section anchor. Discard the
+                # separate printed gutter glyph, never a sentence initial.
+                prev=r;continue
+            elif not labelled and spec.get('paragraphStarts') and any(r['page']==v['page'] and t.startswith(v['starts']) for v in spec['paragraphStarts']):
+                flush();label=None
+            elif not labelled and not spec.get('paragraphStarts') and prev and prev['page']==r['page'] and r['y']>prev['y'] and r['y']-prev['y']>step*1.24:
                 flush();label=None
             current.append(r);prev=r
+        if section_spec and matched!=list('ABCDEFGHIJKLMNOPQRSTUVWXYZ'[:ord(section_spec['end'])-64]):
+            errors.append(f'{aid} section anchors did not match: {matched}')
         flush()
         # An existing fully checked passage retains its hand-verified sentences.
         curated=aid=='c13-t3-p3'
@@ -166,7 +199,7 @@ for info in inventory:
         all_source=title_rows+body
         used=sorted(set(r['page'] for r in all_source))
         source_parts=[{'page':p,'top':min(r['y'] for r in all_source if r['page']==p),'bottom':max(r['y']+r['height'] for r in all_source if r['page']==p)} for p in used]
-        a={'id':aid,'book':book,'test':actual_test,'passage':passage,'title':title,'subtitle':original.get('subtitle','') if curated else join_rows(subtitle_rows), 'paragraphs':paragraphs,'wordCount':count,'source':{'file':filename,'filePages':used,'sha256':info['sha256'],'method':'逐句核对' if curated else '扫描原书整理','image':f'content/originals/{aid}.jpg'},'notes':[]}
+        a={'id':aid,'book':book,'test':actual_test,'passage':passage,'title':title,'subtitle':original.get('subtitle','') if curated else join_rows(subtitle_rows), 'paragraphs':paragraphs,'wordCount':count,'source':{'file':filename,'filePages':used,'sha256':info['sha256'],'method':'逐句核对' if curated else '扫描原书整理','sectionLabels':list('ABCDEFGHIJKLMNOPQRSTUVWXYZ'[:ord(section_spec['end'])-64]) if section_spec else [],'image':f'content/originals/{aid}.jpg'},'notes':[]}
         articles.append(a)
         renders.append({'pdf':str(root.parent/'剑雅'/filename),'parts':source_parts,'output':str(root/'content/originals'/f'{aid}.jpg')})
 

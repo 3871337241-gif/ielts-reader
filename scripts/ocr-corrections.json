@@ -36,6 +36,14 @@
         "La",
         "vade"
       ]
+    },
+    "11:73": {
+      "replace": [
+        {
+          "starts": "G Aphysician wrote",
+          "text": "G A physician wrote, 'The discipline of analytical thought processes [in mathematics]"
+        }
+      ]
     }
   }
 }
