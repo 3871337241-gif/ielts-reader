@@ -1,0 +1,17 @@
+name: Reader checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  content-and-study:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --check src/reader.js
+      - run: node --test tests/core.test.mjs
+      - run: node scripts/validate-content.mjs
