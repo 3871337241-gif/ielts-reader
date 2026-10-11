@@ -16,9 +16,9 @@
 
 用户提供的 20 个 PDF 文件只读处理，SHA-256 核对均未改变；完整 PDF 未上传。网页每篇提供对应原书页面裁切图，方便逐句对照。
 
-204 篇由原书文本提取及 Apple Vision OCR 整理，修正了双栏顺序、标题/副标题、段落字母和发现的漏行。目录与篇数、来源图片、锚点和段落顺序均通过自动检查。**尚未对全部 204 篇进行人工逐字校对，可能仍有 OCR 标点、拼写或段落边界误差。** 原始 Cambridge IELTS 13 Test 3 Passage 3 的 A–H 正文继续使用此前逐页核对的数据。
+204 篇由原书文本提取及 Apple Vision OCR 整理，修正了双栏顺序、标题/副标题、段落字母和发现的漏行。目录与篇数、来源图片、唯一锚点及 87 篇的完整字母编号均通过自动检查；204 篇已逐篇在网页打开并核对英文点击数量。**尚未对全部 204 篇进行人工逐字校对，可能仍有 OCR 标点、拼写或段落边界误差。** 原始 Cambridge IELTS 13 Test 3 Passage 3 的 A–H 正文继续使用此前逐页核对的数据。
 
-新文章词卡常见中文义、词性与原形来自 [ECDICT](https://github.com/skywind3000/ECDICT)，MIT 许可见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。覆盖 15,124 / 16,095 种正文词形；专名及未收录词明确标为待核实。新文章显示“词典释义 · 请结合原句”，不声称已逐句审核语境义。原有首篇已审核的语境词义及长句讲解保留。
+新文章词卡常见中文义、词性与原形来自 [ECDICT](https://github.com/skywind3000/ECDICT)，MIT 许可见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。覆盖 15,121 / 16,090 种正文词形；专名及未收录词明确标为待核实。新文章显示“词典释义 · 请结合原句”，不声称已逐句审核语境义。原有首篇已审核的语境词义及长句讲解保留。
 
 不强行生成词根词缀或同义替换；无法确认的解释明确留空说明。中文注释不是原书译文。
 
@@ -26,7 +26,7 @@
 
 纯静态 HTML / CSS / ES modules，无后端。仓库根目录运行 `python3 -m http.server 8000`，访问 http://localhost:8000/ 。
 
-Node.js 22 或更新版本运行 `npm test`。8 项测试覆盖分词、跨文章进度、旧数据迁移、备份恢复和无效输入；内容检查覆盖 17 册、204 篇、175,173 个正文可点击词元、来源图片及唯一锚点。实测详情见 [TEST_RESULTS.md](TEST_RESULTS.md)。
+Node.js 22 或更新版本运行 `npm test`。9 项测试覆盖分词、跨文章进度、旧数据迁移、备份恢复和无效输入；内容检查覆盖 17 册、204 篇、175,133 个正文可点击词元、来源图片及唯一锚点。实测详情见 [TEST_RESULTS.md](TEST_RESULTS.md)。
 
 `content/library.json` 为目录索引，`content/book-*.json` 为原文，`content/lexicon.json` 为词典，`content/originals/` 为原书对照图。`verification/library-sources.json` 保存来源和哈希记录，`scripts/` 保留只读整理工具。原始 PDF 和临时 OCR 缓存不在仓库内。
 
