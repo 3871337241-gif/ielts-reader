@@ -1,4 +1,4 @@
-import {STORAGE_KEY,LEGACY_KEY,tokens,emptyState,validateState,migrateLegacy} from './core.js';
+import {STORAGE_KEY,LEGACY_KEY,tokens,emptyState,validateState,migrateLegacy} from './core.js?v=20261011-library3';
 const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let library,lexicon,legacyVocab,legacyAnalysis,state,article,sentenceMap={},occurrences=Object.create(null),trigger,selectedNote,selectedForm,selectedContext,toastTimer,scrollTimer,restoring=false,requestId=0,reviewList=[],reviewIndex=0,reveal=false,annotation=false;
 const books=new Map(),scrolls={library:0,vocab:0};
@@ -8,7 +8,7 @@ const reading=()=>state.readings[article?.id]??={progress:null,completed:false};
 function toast(t){$('#toast').textContent=t;$('#toast').hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').hidden=true,3000)}
 function save(){try{localStorage.setItem(STORAGE_KEY,JSON.stringify(state));$('#save-status').textContent='✓ 已保存到当前浏览器'}catch{$('#save-status').textContent='请导出备份保存';toast('浏览器存储空间不足或不可用，请导出学习记录')}}
 function hash(h){if(location.hash!==h)history.pushState(null,'',h)}
-async function fetchJSON(path){const r=await fetch(path);if(!r.ok)throw Error('无法载入 '+path);return r.json()}
+async function fetchJSON(path){const r=await fetch(path,{cache:'no-cache'});if(!r.ok)throw Error('无法载入 '+path);return r.json()}
 function noteFor(form,sid){
  const v=article?.id==='c13-t3-p3'?legacyVocab[form]:null;
  if(v)return {...v,contextZh:v.contexts[sid]||v.contextZh,verified:true};
@@ -58,12 +58,12 @@ async function openArticle(id,{route=true,anchor=null}={}){
   article=books.get(entry.book).articles[id];if(!article)throw Error('文章数据缺失');state.selectedArticleId=id;state.libraryBook=article.book;state.libraryTest=article.test;annotation=false;
   sentenceMap=Object.fromEntries(article.paragraphs.flatMap(p=>p.sentences).map(s=>[s.id,s]));sentenceMap.title={id:'title',text:article.title};sentenceMap.subtitle={id:'subtitle',text:article.subtitle};occurrences=Object.create(null);
   for(const p of article.paragraphs)for(const s of p.sentences)for(const t of tokens(s.text)){const n=noteFor(t.form,s.id);(occurrences[n.lemma]??=[]).push({sentenceId:s.id,form:t.text,tokenIndex:t.index,label:p.label||p.id})}
-  $('#title').innerHTML=textHTML(article.title,'title');$('#subtitle').innerHTML=textHTML(article.subtitle,'subtitle');$('#subtitle').hidden=!article.subtitle;
+  $('#title').innerHTML=textHTML(article.title,'title');$('#title').setAttribute('aria-label',article.title);$('#subtitle').innerHTML=textHTML(article.subtitle,'subtitle');$('#subtitle').hidden=!article.subtitle;
   $('#article').innerHTML=article.paragraphs.map(p=>`<p class="paragraph" id="paragraph-${p.id}"><span class="paragraph-label">${esc(p.label||p.id)}</span>${p.sentences.map(s=>`<span class="sentence" id="sentence-${s.id}" data-sentence-id="${s.id}">${textHTML(s.text,s.id)}</span>`).join(' ')}</p>`).join('');
   $('#paragraph-nav').innerHTML=article.paragraphs.map(p=>`<button data-jump="${p.sentences[0].id}" aria-label="跳到 ${esc(p.label||p.id)} 段">${esc(p.label||p.id)}</button>`).join('');
   $('#article-meta').textContent=`${article.wordCount} 词 · 约 20 分钟`;
   $('#rail-source').textContent=`剑雅 ${article.book} · Test ${article.test}\nPassage ${article.passage}\nPDF 第 ${article.source.filePages.join('、')} 页`;
-  $('#original').open=false;$('#source-notes').textContent=(article.notes||[]).join(' ');$('#source-notes').hidden=!article.notes?.length;$('#original-content').innerHTML=`<a href="${article.source.image}" target="_blank" rel="noopener"><img loading="lazy" src="${article.source.image}" alt="${esc(articleLabel(id))} 原书对照"></a>`;
+  $('#original').open=false;const sourceNotes=[...(article.source.method==='逐句核对'?[]:['扫描整理文本，尚未逐字人工审校；可对照原书核对。']),...(article.notes||[])];$('#source-notes').textContent=sourceNotes.join(' ');$('#source-notes').hidden=!sourceNotes.length;$('#original-content').innerHTML=`<a href="${article.source.image}" target="_blank" rel="noopener"><img loading="lazy" src="${article.source.image}" alt="${esc(articleLabel(id))} 原书对照"></a>`;
   const index=library.articles.findIndex(a=>a.id===id);$('#previous').disabled=index===0;$('#next').disabled=index===library.articles.length-1;
   settings();changeTab('read',{capture:false,route});if(anchor)jump(anchor);document.title=`剑雅 ${article.book} · Test ${article.test} · Passage ${article.passage} | IELTS Reader`;
  }catch(e){toast(e.message);$('#save-status').textContent='载入失败，可再次打开重试'}

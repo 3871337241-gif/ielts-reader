@@ -5,7 +5,7 @@ export const formKey=word=>word.toLowerCase().replaceAll("'",'’').normalize('N
 export const tokens=text=>[...text.matchAll(WORD_RE)].map((m,index)=>({text:m[0],form:formKey(m[0]),index,start:m.index}));
 export const emptyState=()=>({version:3,bookmarks:{},readings:{},selectedArticleId:null,tab:'library',libraryBook:null,libraryTest:null,fontSize:20,showAll:false});
 const str=(x,max=2000)=>typeof x==='string'?x.slice(0,max):'';
-const safeKey=x=>typeof x==='string'&&/^[a-z]+(?:[-’][a-z]+)*$/.test(x);
+const safeKey=x=>typeof x==='string'&&x===x.toLowerCase()&&/^\p{Script=Latin}+(?:[-’]\p{Script=Latin}+)*$/u.test(x);
 const count=x=>Number.isSafeInteger(x)?Math.max(0,Math.min(x,1000000)):0;
 export function validateState(input,articleIds){
  if(!input||input.version!==3||Array.isArray(input)||typeof input!=='object')throw Error('不是有效的阅读书库备份');
