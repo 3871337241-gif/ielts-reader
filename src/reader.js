@@ -1,4 +1,4 @@
-import {STORAGE_KEY,LEGACY_KEY,tokens,emptyState,validateState,migrateLegacy} from './core.js?v=20261011-library3';
+import {STORAGE_KEY,LEGACY_KEY,tokens,emptyState,validateState,migrateLegacy} from './core.js?v=20261011-library3.1';
 const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let library,lexicon,legacyVocab,legacyAnalysis,state,article,sentenceMap={},occurrences=Object.create(null),trigger,selectedNote,selectedForm,selectedContext,toastTimer,scrollTimer,restoring=false,requestId=0,reviewList=[],reviewIndex=0,reveal=false,annotation=false;
 const books=new Map(),scrolls={library:0,vocab:0};
@@ -68,11 +68,12 @@ async function openArticle(id,{route=true,anchor=null}={}){
   settings();changeTab('read',{capture:false,route});if(anchor)jump(anchor);document.title=`剑雅 ${article.book} · Test ${article.test} · Passage ${article.passage} | IELTS Reader`;
  }catch(e){toast(e.message);$('#save-status').textContent='载入失败，可再次打开重试'}
 }
-function captureProgress(){if(!article||state.tab!=='read'||restoring||!$('#word-card').hidden)return;const header=$('.header').getBoundingClientRect().height+12;const ss=[...document.querySelectorAll('#article .sentence')];const chosen=ss.find(s=>s.getBoundingClientRect().bottom>header)||ss.at(-1);if(!chosen)return;const start=$('#article').getBoundingClientRect().top+scrollY,end=$('#article').getBoundingClientRect().bottom+scrollY-innerHeight;reading().progress={sentenceId:chosen.dataset.sentenceId,offset:scrollY-(chosen.getBoundingClientRect().top+scrollY),percent:Math.max(0,Math.min(100,(scrollY-start)/Math.max(1,end-start)*100))};save();counts()}
+function captureProgress(){if(!article||state.tab!=='read'||restoring)return;const header=$('.header').getBoundingClientRect().height+12;const ss=[...document.querySelectorAll('#article .sentence')];const chosen=ss.find(s=>s.getBoundingClientRect().bottom>header)||ss.at(-1);if(!chosen)return;const start=$('#article').getBoundingClientRect().top+scrollY,end=$('#article').getBoundingClientRect().bottom+scrollY-innerHeight;reading().progress={sentenceId:chosen.dataset.sentenceId,offset:scrollY-(chosen.getBoundingClientRect().top+scrollY),percent:Math.max(0,Math.min(100,(scrollY-start)/Math.max(1,end-start)*100))};save();counts()}
 function restoreRead(){const p=reading().progress,el=p?$('#sentence-'+p.sentenceId):null;restoring=true;window.scrollTo({top:el?el.getBoundingClientRect().top+scrollY+p.offset:0,behavior:'instant'});requestAnimationFrame(()=>restoring=false)}
 function jump(sid){closeCard();const el=$('#sentence-'+sid);if(!el){toast('此原句位置无法恢复，请从文章继续阅读');return}changeTab('read',{capture:false,restore:false});document.querySelectorAll('.evidence-highlight').forEach(e=>e.classList.remove('evidence-highlight'));el.classList.add('evidence-highlight');el.scrollIntoView({block:'center',behavior:'instant'});captureProgress()}
 function closeCard(){if($('#word-card').hidden)return;$('#word-card').hidden=true;$('#overlay').hidden=true;$('#workspace').inert=false;$('.header').inert=false;trigger?.isConnected&&trigger.focus({preventScroll:true});if('speechSynthesis'in window)speechSynthesis.cancel()}
 function showCard(note,form,context,el){
+ captureProgress();
  selectedNote=note;selectedForm=form;selectedContext=context;trigger=el;
  const saved=Object.hasOwn(state.bookmarks,note.lemma),others=context.articleId===article?.id?(occurrences[note.lemma]||[]).filter(o=>o.sentenceId!==context.sentenceId||String(o.tokenIndex)!==el?.dataset.token):[];
  const stored=state.bookmarks[note.lemma]?.contexts||[];
